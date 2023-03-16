@@ -1,0 +1,29 @@
+
+
+.hero-container {
+height: 106.2rem;
+display: flex;
+padding: 47.2rem 0 30rem 11.9rem;
+align-items: flex-end;
+justify-content: flex-start;
+background-color: #212529;
+border: 8px solid var(--gold);
+}
+
+.headline {
+display: flex;
+flex-direction: column;
+gap: 0.33em;
+}
+
+h1 {
+font-weight: 700;
+font-size: 9.9rem;
+color: var(--white);
+}
+
+.subtitle {
+font-weight: 400;
+font-size: 3.3rem;
+color: var(--white);
+}
