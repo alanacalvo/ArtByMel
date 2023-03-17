@@ -1,5 +1,4 @@
 
-
 .hero-container {
 height: 106.2rem;
 display: flex;
@@ -8,6 +7,22 @@ align-items: flex-end;
 justify-content: flex-start;
 background-color: #212529;
 border: 8px solid var(--gold);
+background-image: url('abm-hero.png');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.book {
+// flex-direction: column;
+display: flex;
+font-family: 'Playfair Display';
+font-weight: 600;
+font-size: 23px;
+position:relative;
+left:20%;
+right:20%;
+bottom:5%;
+top:60%;
 }
 
 .headline {
