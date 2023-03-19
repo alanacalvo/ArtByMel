@@ -1,0 +1,61 @@
+// * {
+//     border:red 1px solid;
+// }
+
+.about-container {
+height: 106.2rem;
+display: flex;
+padding: 47.2rem 0 30rem 11.9rem;
+align-items: center;
+background-color: #3A3C46;
+background-size: cover;
+border: 8px solid var(--gold);
+}
+
+
+// About me img
+
+.about-pic {
+background-image: url(./AboutPic.png);
+display: flex;
+flex-direction: column;
+position: absolute;
+width: 590px;
+height: 800px;
+align-items: flex-start;
+margin-bottom: 15%;
+}
+
+// Textbox
+
+.text {
+display: flex;
+flex-direction: column;
+text-align: start;
+position: absolute;
+width: 623px;
+height: 711px;
+font-weight: 500;
+font-size: 19px;
+line-height: 40px;
+z-index: 1;
+color: var(--white); 
+margin-left: 39%;
+margin-bottom: 20%;
+}
+
+// Signature 
+
+.sign {
+display: flex;
+flex-direction: column;
+background-image: url(./sign.png);
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+width: 400px;
+height: 250px;
+margin: 60% 0 36% 30%;
+}
+
+
