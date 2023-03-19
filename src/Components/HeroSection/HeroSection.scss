@@ -3,41 +3,33 @@
 // }
 
 .hero-container {
+position: relative;
 height: 106.2rem;
 display: flex;
 // padding: 47.2rem 0 30rem 11.9rem;
 align-items: flex-end;
-justify-content: flex-start;
+// justify-content: flex-start;
 background-color: #212529;
 border: 8px solid var(--gold);
 }
 
 .background-image {
+position: absolute;
 height: 106.2rem;
 background-image: url('abm-hero.png');
 background-repeat: no-repeat;
 background-size: cover;
-opacity: 30%;
+opacity: 40%;
 // height: 400px;
 width: 100%;
 }
 
-.book {
-display: flex;
-font-family: 'Playfair Display';
-font-weight: 600;
-font-size: 23px;
-position:relative;
-left:20%;
-right:20%;
-bottom:5%;
-top:60%;
-}
-
 .headline {
+position: relative;
 display: flex;
 flex-direction: column;
-gap: 0.33em;
+gap: 0em;
+margin: 25% 10% 25% 10%;
 }
 
 h1 {
@@ -50,4 +42,21 @@ color: var(--white);
 font-weight: 400;
 font-size: 3.3rem;
 color: var(--white);
+}
+
+.book {
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+position: absolute;
+align-items: center;
+justify-content: center;
+font-family: 'Playfair Display';
+font-weight: 600;
+font-size: 23px;
+gap: 10px;
+width: 263px;
+height: 60px;
+left: 5px;
+top: 280px;
 }
