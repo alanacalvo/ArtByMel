@@ -5,16 +5,22 @@
 .hero-container {
 height: 106.2rem;
 display: flex;
-padding: 47.2rem 0 30rem 11.9rem;
+// padding: 47.2rem 0 30rem 11.9rem;
 align-items: flex-end;
 justify-content: flex-start;
 background-color: #212529;
-background-image: url('abm-hero.png');
-background-repeat: no-repeat;
-background-size: cover;
 border: 8px solid var(--gold);
 }
 
+.background-image {
+height: 106.2rem;
+background-image: url('abm-hero.png');
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 30%;
+// height: 400px;
+width: 100%;
+}
 
 .book {
 display: flex;
