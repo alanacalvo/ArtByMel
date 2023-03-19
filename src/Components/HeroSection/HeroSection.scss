@@ -6,12 +6,9 @@
 position: relative;
 height: 106.2rem;
 display: flex;
-// padding: 47.2rem 0 30rem 11.9rem;
 align-items: flex-end;
-// justify-content: flex-start;
 background-color: #212529;
 border: 8px solid var(--gold);  
-object-fit: cover;
 }
 
 .background-image {
@@ -21,9 +18,7 @@ background-image: url('abm-hero.png');
 background-repeat: no-repeat;
 background-size: cover;
 opacity: 40%;
-// height: 400px;
 width: 100%;
-object-fit: cover;
 }
 
 .headline {
@@ -63,12 +58,3 @@ left: 5px;
 top: 280px;
 }
 
-// .divider {
-// position: relative;
-// width: 1440px;
-// height: 205.7px;
-// left: 1435px;
-// top: 3811.7px;
-// background: #2E3038;
-// transform: rotate(180deg);
-// }
