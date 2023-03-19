@@ -10,9 +10,9 @@ display: flex;
 align-items: flex-end;
 // justify-content: flex-start;
 background-color: #212529;
-border: 8px solid var(--gold);
+border: 8px solid var(--gold);  
+object-fit: cover;
 }
-
 
 .background-image {
 position: absolute;
@@ -23,6 +23,7 @@ background-size: cover;
 opacity: 40%;
 // height: 400px;
 width: 100%;
+object-fit: cover;
 }
 
 .headline {
@@ -62,8 +63,12 @@ left: 5px;
 top: 280px;
 }
 
-// div 
-//  {
-//     height: 90px;
-//     background-image: linear-gradient(to bottom right, var(--gold));
-//  }
+// .divider {
+// position: relative;
+// width: 1440px;
+// height: 205.7px;
+// left: 1435px;
+// top: 3811.7px;
+// background: #2E3038;
+// transform: rotate(180deg);
+// }
