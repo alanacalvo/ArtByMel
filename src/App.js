@@ -8,6 +8,8 @@ function App() {
   return (
     <div className="App">
       <HeroSection />
+      <div className="section-divider hero-divider"></div>
+      <div className="section-divider about-divider"></div>
       <AboutSection />
     </div>
   );
