@@ -1,0 +1,47 @@
+.about-section {
+  border: 8px solid var(--gold);
+  height: 131.6rem;
+  background-color: #3a3c46;
+  padding: 24.7rem 12rem;
+}
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+// About me img
+
+.about-pic {
+  display: flex;
+  flex-direction: column;
+  width: 59rem;
+  height: 80rem;
+  align-items: flex-start;
+  margin-bottom: 15%;
+}
+
+// Textbox
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.bio {
+  width: 62.3rem;
+  height: 67.8rem;
+  font-weight: 500;
+  font-size: 1.9rem;
+  line-height: 211%;
+  z-index: 1;
+  color: var(--white);
+  margin-left: -2rem;
+}
+
+// Signature
+.signature {
+  width: 50%;
+  margin: -1rem 0 0 -8rem;
+}
