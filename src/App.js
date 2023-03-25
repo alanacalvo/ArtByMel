@@ -1,9 +1,10 @@
 import './App.scss';
+import HomePage from './Views/HomePage/HomePage';
 
 function App() {
   return (
     <div className="App">
-        <h1>Art By Mel</h1>
+        <HomePage/>
     </div>
   );
 }
