@@ -1,22 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;300&family=Playfair+Display&display=swap');
 
-// * {
-//   border: pink 1px solid;
-// }
-.servicesContainer {
+.testimonialsContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
+  // padding: 50px;
+
 
   .copy {
     font-family: 'Playfair Display';
-    width:876px;
+    width: 876px;
     text-align: center;
     color: #FFFCF2;
     font-style: normal;
     padding-bottom: 50px;
-    
+
     p {
       font-weight: 700;
       font-size: 28px;
@@ -36,20 +34,40 @@
       font-size: 33px;
       line-height: 50px;
     }
-
-
   }
 
-  .cardHolder {
+  .testimonials {
     display: flex;
-    justify-content: space-between;
-    margin: 20px;
-    width: 73vw;
-    height: 492px;
+    align-items: center;
+    color: #FFFCF2;
+    padding: 100px;
     
-    .cards {
-      background-color: white;
-      text-align: center;
+        .border {
+          display: flex;
+          // border: 5px solid blue;
+    
+        }
+
+    .testimonialsCopy {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      h1 {
+        font-weight: 700;
+        font-size: 40px;
+        padding-bottom: 50px;
+      }
+
+      p {
+        font-size: 28px;
+      }
+    }
+
+    .sliderContainer {
+      display: flex;
+
     }
   }
+
 }

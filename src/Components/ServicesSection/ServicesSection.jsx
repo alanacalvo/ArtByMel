@@ -8,17 +8,16 @@ function ServicesSection() {
 
 
   return (
-    <div className='servicessection'>
+    <section className='services-section'>
+    <div className='servicesContainer'>
       <div className='copy'>
         <p>Services Offered</p>
         <h2>Your Makeup Needs, Met.</h2>
         <h3>Specializing in a variety of makeup and art services, so you can enjoy your special event.</h3>
       </div>
-      <div className='cards'>
         <ServicesCards/>
-      </div>
-
     </div>
+    </section>
   )
 }
 
