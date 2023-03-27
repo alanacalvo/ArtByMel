@@ -1,0 +1,69 @@
+footer {
+  width: 118rem;
+  height: 35.2rem;
+  margin: 24.7rem 13rem 6.4rem 13rem;
+  border-top: 1px solid #1c1d22;
+  padding: 0 26.7rem;
+}
+
+.firstCol ul,
+.secondCol ul,
+.thirdCol ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-top: 2.4rem;
+}
+
+.firstCol {
+  margin-top: -3.1rem;
+}
+
+.firstCol p {
+  color: var(--white);
+  font-size: 1.9rem;
+  width: 15.5rem;
+}
+
+footer ion-icon {
+  font-size: 4rem;
+  color: var(--white);
+  transition: all ease-in-out 150ms;
+}
+
+footer ion-icon:hover,
+footer ion-icon:active {
+  color: var(--gold);
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 3.2rem;
+}
+
+.cols {
+  display: flex;
+  gap: 20rem;
+  margin-top: 6.4rem;
+  align-items: flex-start;
+}
+
+.col-heading {
+  color: var(--gold);
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+.col-link {
+  color: var(--white);
+  font-size: 1.9rem;
+  transition: all ease-in-out 150ms;
+}
+
+.col-link:hover,
+.col-link:active {
+  text-decoration: underline;
+}
