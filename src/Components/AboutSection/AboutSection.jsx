@@ -33,6 +33,7 @@ function AboutSection() {
       </div>
     </section>
   );
+
 }
 
 export default AboutSection;
