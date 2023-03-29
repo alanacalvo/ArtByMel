@@ -6,13 +6,15 @@ import "./MakeupPage.scss"
 function MakeupPage() {
  return (
     <>
-        <Header />
-         <div className="makeup-container">
-            
-            <div className="headliner">
+        <Header /> 
+        <div className="makeup-container">
+        <div className="section-title">
                 <h3>gallery</h3>
-
-            </div>
+        </div>
+        <div className="headline">
+            <h2>A gallery of stunning looks</h2>
+        </div>
+         
         </div>
     <Footer />
     </>
