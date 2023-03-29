@@ -13,9 +13,9 @@ function MakeupPage() {
             <div className="headline"><h2>A gallery of stunning looks</h2></div>
                 <div className="subtitle"><subheading>Created by Melvin Lozado</subheading></div>
 
-                <div class="parent">
-<div class="div1"><img src="./Photos/photo1.jpg" /></div>
-<div class="div2"> </div>
+                <div class="gallery">
+<div class="div1"><img src="./Photos/photo1.jpg"/></div>
+<div class="div2"><img src="./Photos/photo2.jpg"/></div>
 <div class="div3"> </div>
 <div class="div4"> </div>
 <div class="div5"> </div>

@@ -46,7 +46,8 @@ color: #FFFCF2;
 }
 
 // Gallery
-.parent {
+.gallery {
+    padding: 10.4rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(6, 1fr);
