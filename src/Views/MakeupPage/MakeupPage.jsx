@@ -12,6 +12,12 @@ import photo7 from "./Photos/photo7.png";
 import photo8 from "./Photos/photo8.png";
 import photo9 from "./Photos/photo9.png";
 import photo10 from "./Photos/photo10.png";
+import photo11 from "./Photos/photo11.png";
+import photo12 from "./Photos/photo12.png";
+import photo13 from "./Photos/photo13.png";
+import photo14 from "./Photos/photo14.png";
+import photo15 from "./Photos/photo15.png";
+import photo16 from "./Photos/photo16.png";
 
 function MakeupPage() {
  return (
@@ -33,12 +39,12 @@ function MakeupPage() {
 <div className="look-img div8"><img src={photo8} alt="makeup design"/> </div>
 <div className="look-img div9"><img src={photo9} alt="makeup design"/> </div>
 <div className="look-img div10"><img src={photo10} alt="makeup design"/> </div>
-<div className="look-img div11"><img src={photo1} alt="makeup design"/> </div>
-<div className="look-img div12"><img src={photo1} alt="makeup design"/> </div>
-<div className="look-img div13"><img src={photo1} alt="makeup design"/> </div>
-<div className="look-img div14"><img src={photo1} alt="makeup design"/> </div>
-<div className="look-img div15"><img src={photo1} alt="makeup design"/> </div>
-<div className="look-img div16"><img src={photo1} alt="makeup design"/> </div>
+<div className="look-img div11"><img src={photo11} alt="makeup design"/> </div>
+<div className="look-img div12"><img src={photo12} alt="makeup design"/> </div>
+<div className="look-img div13"><img src={photo13} alt="makeup design"/> </div>
+<div className="look-img div14"><img src={photo14} alt="makeup design"/> </div>
+<div className="look-img div15"><img src={photo15} alt="makeup design"/> </div>
+<div className="look-img div16"><img src={photo16} alt="makeup design"/> </div>
 </div>
 
 
