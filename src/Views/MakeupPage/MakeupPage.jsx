@@ -47,9 +47,7 @@ function MakeupPage() {
 <div className="look-img div16"><img src={photo16} alt="makeup design"/> </div>
 </div>
 
-
-         
-        </div>
+</div>
     <Footer />
     </>
  );
