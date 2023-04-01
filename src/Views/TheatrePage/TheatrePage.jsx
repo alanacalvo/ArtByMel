@@ -23,12 +23,6 @@ function TheatrePage() {
                 <div className="look-img div8"><img src={photo8} alt="makeup design"/> </div>
                 <div className="look-img div9"><img src={photo9} alt="makeup design"/> </div>
                 <div className="look-img div10"><img src={photo10} alt="makeup design"/> </div>
-                <div className="look-img div11"><img src={photo16} alt="makeup design"/> </div>
-                <div className="look-img div12"><img src={photo12} alt="makeup design"/> </div>
-                <div className="look-img div13"><img src={photo13} alt="makeup design"/> </div>
-                <div className="look-img div14"><img src={photo14} alt="makeup design"/> </div>
-                <div className="look-img div15"><img src={photo15} alt="makeup design"/> </div>
-                <div className="look-img div16"><img src={photo5} alt="makeup design"/> </div>
             </div> */}
 
 
