@@ -25,10 +25,10 @@ function MakeupPage() {
     <Header /> 
         <div className="makeup-container">
             <div className="section-title"><h3>gallery</h3></div>
-            <div className="headline"><h2>A gallery of stunning looks</h2></div>
+            <div className="headline"><h2>A Gallery of Stunning Looks</h2></div>
                 <div className="subtitle">Created by Melvin Lozado</div>
                
-        <div className="gallery">
+        <div className="sfx-gallery">
             <div className="look-img div1"><img src={photo1} alt="makeup design"/></div>
             <div className="look-img div2"><img src={photo2} alt="makeup design"/></div>
             <div className="look-img div3"><img src={photo3} alt="makeup design"/> </div>
