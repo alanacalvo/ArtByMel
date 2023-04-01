@@ -25,7 +25,7 @@ function MakeupPage() {
     <Header /> 
         <div className="makeup-container">
             <div className="section-title"><h3>gallery</h3></div>
-            <div className="headline"><h2>A Gallery Of Stunning Looks</h2></div>
+            <div className="headline"><h2>A Gallery of Stunning Looks</h2></div>
                 <div className="subtitle">Created by Melvin Lozado</div>
                
         <div className="sfx-gallery">

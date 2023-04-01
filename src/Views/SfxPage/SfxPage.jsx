@@ -24,7 +24,7 @@ return (
     <Header />
     <div className="sfx-container">
             <div className="section-title"><h3>gallery</h3></div>
-            <div className="headline"><h2>A gallery of stunning looks</h2></div>
+            <div className="headline"><h2>A gallery of Stunning Looks</h2></div>
                 <div className="subtitle">Created by Melvin Lozado</div>
                
         <div className="gallery">
