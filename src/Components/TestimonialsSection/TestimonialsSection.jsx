@@ -23,7 +23,11 @@ function TestimonialsSection() {
   ]
 
   // map through data in object using hooks, on click
-
+  const handleClick = (way) => {
+    way === 'left'
+      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
+      : setCurrentSlide(currentSlide < testimonials.length - 1 ? currentSlide + 1 : 0);
+  }
 
   return (
     <section className='testimonials-section'>
@@ -38,21 +42,23 @@ function TestimonialsSection() {
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
       >
         {/* <div className='border'> */}
-        {testimonials ? testimonials.map((testimonial, i) => {
+        {testimonials.map((i) => {
           return (
 
-            <div key={i} className='testimonialContainer'>
-              <div className="left">
-                <h1>{testimonial.name}</h1>
-                <h3>{testimonial.testimonial}</h3>
-              </div>
-              <div className="right">
-                <img src={testimonial.image} alt="" />
+            <div className='testimonialContainer'>
+              <div className="testimonial">
+                <div className="left">
+                  <h1>{i.name}</h1>
+                  <h3>{i.testimonial}</h3>
+                </div>
+                <div className="right">
+                  <img src={i.image} alt="" />
+                </div>
               </div>
             </div>
           )
         })
-          : <h1>NULL</h1>
+        
         }
         {/* <div className='sliderContainer'>
               <img 
@@ -68,6 +74,13 @@ function TestimonialsSection() {
 
           </div> */}
       </div>
+      <img src="assets/left-arrow.png"
+        className='arrow left' alt=""
+        onClick={() => handleClick('left')} />
+
+      <img src="assets/right-arrow.png"
+        className='arrow right' alt=""
+        onClick={() => handleClick('right')} />
       {/* </div> */}
       {/* </div> */}
     </section>

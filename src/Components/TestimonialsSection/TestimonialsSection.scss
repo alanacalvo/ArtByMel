@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;300&family=Playfair+Display&display=swap');
+
 * {
   border: gold 1px solid;
 }
@@ -7,6 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 
   .titleBlurb {
     font-family: 'Playfair Display';
@@ -15,6 +17,7 @@
     color: #FFFCF2;
     font-style: normal;
     padding-bottom: 50px;
+    position: absolute;
 
     p {
       font-weight: 700;
@@ -37,38 +40,76 @@
     }
   }
 
-  .testimonialContainer {
+  .slider {
+    height: 450px;
     display: flex;
-    align-items: center;
-    color: #FFFCF2;
-    padding: 100px;
-    
-        .border {
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-out;
+
+    .testimonialContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #FFFCF2;
+      // padding: 100px;
+
+      .testimonial {
+        width: 800px;
+        height: 100%;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .left {
+          height: 100%;
           display: flex;
-          // border: 5px solid blue;
-    
+          align-items: center;
+          justify-content: center;
+          // flex: 6;
+          flex-direction: column;
         }
 
-    .testimonialsCopy {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+        .right {
+          // flex: 3;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-right: 20px;
 
-      h1 {
-        font-weight: 700;
-        font-size: 40px;
-        padding-bottom: 50px;
-      }
-
-      p {
-        font-size: 28px;
+          img {}
+        }
       }
     }
 
-    .sliderContainer {
-      display: flex;
+    // .border {
+    //   display: flex;
+    //   // border: 5px solid blue;
 
-    }
+    // }
+
+    // .testimonialsCopy {
+    //   display: flex;
+    //   flex-direction: column;
+    //   justify-content: space-between;
+
+    //   h1 {
+    //     font-weight: 700;
+    //     font-size: 40px;
+    //     padding-bottom: 50px;
+    //   }
+
+    //   p {
+    //     font-size: 28px;
+    //   }
+    // }
+
+    // .sliderContainer {
+    //   display: flex;
+
+    // }
   }
 
 }
