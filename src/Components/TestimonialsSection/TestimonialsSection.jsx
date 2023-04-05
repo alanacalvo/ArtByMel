@@ -1,33 +1,75 @@
 import React from 'react'
 import './TestimonialsSection.scss'
+import { useState } from 'react';
 
 function TestimonialsSection() {
 
+  // hooks
+  const [currentSlide, setCurrentSlide] = useState(0)
+
+  // data object
+  const testimonials = [
+    {
+      id: '1',
+      name: 'Jane Smith',
+      testimonial: "lorem25",
+      image: 'assets/testimonial.png'
+    },
+    {
+      id: '2',
+      name: 'Alana Keeton',
+      testimonial: 'lorem25'
+    }
+  ]
+
+  // map through data in object using hooks, on click
+
+
   return (
     <section className='testimonials-section'>
-      <div className='testimonialsContainer'>
-        <div className='copy'>
-          <p>TESTIMONIALS</p>
-          <h2>See What My Satisfied Clients Have To Say</h2>
-          <h3>I value my clients’ feedback and I am proud to showcase their kind words.</h3>
-        </div>
-        <div className='testimonials'>
-          <div className='border'>
-
-          <div className='testimonialsCopy'>
-            <h1>Jane Smith</h1>
-            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut beatae dignissimos aperiam ullam esse laudantium soluta reiciendis non cum nihil impedit, velit a cupiditate nam vero tempore necessitatibus ipsum? Voluptas sunt velit sit veritatis, eos quia doloremque iusto enim accusantium veniam possimus voluptatum nostrum, libero ratione delectus eligendi, a mollitia."</p>
-            <div className='sliderContainer'>
-              <img src="Vector (1).png" alt="" />
-              <p>1 / 5</p>
-              <img src="Vector.png" alt="" />
-
-            </div>
-          </div>
-          <img src="Rectangle 27.png" alt="testimonials" />
-        </div>
-          </div>
+      {/* <div className='testimonialsContainer'> */}
+      <div className='titleBlurb'>
+        <p>TESTIMONIALS</p>
+        <h2>See What My Satisfied Clients Have To Say</h2>
+        <h3>I value my clients’ feedback and I am proud to showcase their kind words.</h3>
       </div>
+
+      <div className='slider'
+        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
+      >
+        {/* <div className='border'> */}
+        {testimonials ? testimonials.map((testimonial, i) => {
+          return (
+
+            <div key={i} className='testimonialContainer'>
+              <div className="left">
+                <h1>{testimonial.name}</h1>
+                <h3>{testimonial.testimonial}</h3>
+              </div>
+              <div className="right">
+                <img src={testimonial.image} alt="" />
+              </div>
+            </div>
+          )
+        })
+          : <h1>NULL</h1>
+        }
+        {/* <div className='sliderContainer'>
+              <img 
+              src="Vector (1).png" 
+              alt="" 
+              // onClick={}
+              />
+              <p>1 / 5</p>
+              <img 
+              src="Vector.png" 
+              alt="" 
+              />
+
+          </div> */}
+      </div>
+      {/* </div> */}
+      {/* </div> */}
     </section>
   )
 }

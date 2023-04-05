@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;300&family=Playfair+Display&display=swap');
+* {
+  border: gold 1px solid;
+}
 
-.testimonialsContainer {
+.testimonials-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  // padding: 50px;
 
-
-  .copy {
+  .titleBlurb {
     font-family: 'Playfair Display';
     width: 876px;
     text-align: center;
@@ -36,7 +37,7 @@
     }
   }
 
-  .testimonials {
+  .testimonialContainer {
     display: flex;
     align-items: center;
     color: #FFFCF2;
