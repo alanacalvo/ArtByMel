@@ -12,7 +12,7 @@ function TestimonialsSection() {
     {
       id: '1',
       name: 'Jane Smith',
-      testimonial: "lorem25",
+      testimonial: "lorem25asdlkkhalskdeiuhfalsdjkfhna;eiwoeihfsdkjfnh.l",
       image: 'assets/testimonial.png'
     },
     {
@@ -31,7 +31,6 @@ function TestimonialsSection() {
 
   return (
     <section className='testimonials-section'>
-      {/* <div className='testimonialsContainer'> */}
       <div className='titleBlurb'>
         <p>TESTIMONIALS</p>
         <h2>See What My Satisfied Clients Have To Say</h2>
@@ -41,48 +40,31 @@ function TestimonialsSection() {
       <div className='slider'
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
       >
-        {/* <div className='border'> */}
-        {testimonials.map((i) => {
-          return (
+        {testimonials.map((i) => (
 
-            <div className='testimonialContainer'>
-              <div className="testimonial">
-                <div className="left">
+          <div className='testimonialContainer'>
+            <div className="testimonial">
+              <div className="left">
+                <div className="leftContainer">
                   <h1>{i.name}</h1>
                   <h3>{i.testimonial}</h3>
                 </div>
-                <div className="right">
-                  <img src={i.image} alt="" />
-                </div>
+              </div>
+              <div className="right">
+                <img src={i.image} alt="" />
               </div>
             </div>
-          )
-        })
-        
+          </div>
+        )
+        )
         }
-        {/* <div className='sliderContainer'>
-              <img 
-              src="Vector (1).png" 
-              alt="" 
-              // onClick={}
-              />
-              <p>1 / 5</p>
-              <img 
-              src="Vector.png" 
-              alt="" 
-              />
-
-          </div> */}
       </div>
       <img src="assets/left-arrow.png"
         className='arrow left' alt=""
         onClick={() => handleClick('left')} />
-
       <img src="assets/right-arrow.png"
         className='arrow right' alt=""
         onClick={() => handleClick('right')} />
-      {/* </div> */}
-      {/* </div> */}
     </section>
   )
 }
