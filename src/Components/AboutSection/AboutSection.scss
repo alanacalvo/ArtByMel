@@ -1,9 +1,9 @@
+
 .about-section {
   border: 8px solid var(--gold);
-  border-top: none;
   height: 131.6rem;
   background-color: #3a3c46;
-  padding: 30.8rem 0 24.7rem 12rem;
+  padding: 24.7rem 12rem;
 }
 
 .about-container {
@@ -21,6 +21,7 @@
   align-items: flex-start;
   margin-bottom: 15%;
 }
+
 // Textbox
 
 .text-box {
@@ -44,35 +45,4 @@
 .signature {
   width: 50%;
   margin: -1rem 0 0 -8rem;
-}
-
-
-.text {
-display: flex;
-flex-direction: column;
-text-align: start;
-position: absolute;
-width: 623px;
-height: 711px;
-font-weight: 500;
-font-size: 19px;
-line-height: 40px;
-z-index: 1;
-color: var(--white); 
-margin-left: 39%;
-margin-bottom: 20%;
-}
-
-// Signature 
-
-.sign {
-display: flex;
-flex-direction: column;
-background-image: url(./sign.png);
-background-repeat: no-repeat;
-background-size: cover;
-position: absolute;
-width: 400px;
-height: 250px;
-margin: 60% 0 36% 30%;
 }

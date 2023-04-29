@@ -4,6 +4,7 @@
   --white: #fffcf2;
   --gold: #b6984f;
   --bg-color: #212529;
+  --bg-light: #3a3c46;
 }
 
 html {
@@ -33,21 +34,3 @@ body {
 
 }
 
-.section-divider {
-  width: 100.8%;
-  height: 20.6rem;
-  background-color: var(--bg-color);
-  position: relative;
-}
-
-.hero-divider {
-  transform: rotate(-5deg);
-  border-top: 8px solid var(--gold);
-  top: -7rem;
-}
-
-.about-divider {
-  transform: rotate(5deg);
-  border-bottom: 8px solid var(--gold);
-  top: 9rem;
-}
