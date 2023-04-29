@@ -12,7 +12,7 @@ function TestimonialsSection() {
     {
       id: '1',
       name: 'Jane Smith',
-      testimonial: "lorem25asdlkkhalskdeiuhfalsdjkfhna;eiwoeihfsdkjfnh.l",
+      testimonial: "lorem25asdlkkhalskdeisdfgsdfhgsfhdfgdshsfghfdgnsfgndfgnuhfalsdjkfhna;eiwoeihfsdkjfnh.l",
       image: 'assets/testimonial.png'
     },
     {
@@ -37,6 +37,9 @@ function TestimonialsSection() {
         <h3>I value my clients’ feedback and I am proud to showcase their kind words.</h3>
       </div>
 
+      <div className="border">
+        
+      </div>
       <div className='slider'
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
       >
@@ -44,13 +47,23 @@ function TestimonialsSection() {
 
           <div className='testimonialContainer'>
             <div className="testimonial">
-              <div className="left">
-                <div className="leftContainer">
+
+                <div className="left">
+                  {/* <div className="leftContainer"> */}
                   <h1>{i.name}</h1>
                   <h3>{i.testimonial}</h3>
-                </div>
+                  <div className="arrows">
+                    <img src="assets/left-arrow.png"
+                      className='arrow left' alt=""
+                      onClick={() => handleClick('left')} />
+                    <h1>{i.id}</h1>
+                    <img src="assets/right-arrow.png"
+                      className='arrow right' alt=""
+                      onClick={() => handleClick('right')} />
+                    {/* </div> */}
+                  </div>
               </div>
-              <div className="right">
+              <div className="rightContainer">
                 <img src={i.image} alt="" />
               </div>
             </div>
@@ -59,12 +72,6 @@ function TestimonialsSection() {
         )
         }
       </div>
-      <img src="assets/left-arrow.png"
-        className='arrow left' alt=""
-        onClick={() => handleClick('left')} />
-      <img src="assets/right-arrow.png"
-        className='arrow right' alt=""
-        onClick={() => handleClick('right')} />
     </section>
   )
 }
