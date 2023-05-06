@@ -21,3 +21,5 @@ import Footer from "../../Components/Footer/Footer.js";
     </div>
   )
 }
+
+export default HomePage
