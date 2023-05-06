@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import Dropdown from "./Dropdown";
 import "./Header.scss";
 
@@ -15,7 +16,9 @@ const Nav = () => {
       <ul>
         <li className="nav-link">
           <div className="border">
-            <a href="/">Home</a>
+            <Link to={'/'} className="link">
+              <h2>Home</h2>
+            </Link>
           </div>
         </li>
         <li className="nav-link">
@@ -32,7 +35,9 @@ const Nav = () => {
         </li>
         <li className="nav-link">
           <div className="border">
-            <a href="/">Book</a>
+            <Link to={'/book'} className="link">
+              <h2>Book</h2>
+            </Link>
           </div>
         </li>
       </ul>
