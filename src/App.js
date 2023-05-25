@@ -1,9 +1,13 @@
 import "./App.scss";
-import ArtPage from "./Views/ArtPage/ArtPage";
 import HomePage from "./Views/HomePage/HomePage";
 import MakeupPage from "./Views/MakeupPage/MakeupPage";
 import SfxPage from "./Views/SfxPage/SfxPage";
 import TheatrePage from "./Views/TheatrePage/TheatrePage";
+import "./Components/HeroSection/HeroSection.jsx";
+import "./Components/AboutSection/AboutSection.jsx";
+import "./App.scss";
+import HomePage from "./Views/HomePage/HomePage";
+import SchedulePage from "./Views/SchedulePage/SchedulePage";
 
 function App() {
   return (
@@ -12,7 +16,6 @@ function App() {
       <MakeupPage />
       <SfxPage />
       <TheatrePage />
-      <ArtPage />
     </div>
   );
 }
