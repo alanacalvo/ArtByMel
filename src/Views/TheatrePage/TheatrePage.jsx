@@ -14,32 +14,52 @@ import rec9 from "./TP photos/Rectangle 9.png";
 import rec10 from "./TP photos/Rectangle 10.png";
 
 function TheatrePage() {
-    return (
-        <>
-        <Header />
-        <div className="theatre-container">
-            <div className="section-title"><h3>gallery</h3></div>
-            <div className="headline"><h2>A Showcase of Spectacular Costume Creations</h2></div>
-                <div className="subtitle">Created by Melvin Lozado</div>
+  return (
+    <>
+      <Header />
+      <div className="theatre-container">
+        <h4 className="section-title">gallery</h4>
+        <h2 className="headline">
+          A Showcase of Spectacular Costume Creations
+        </h2>
+        <h3 className="subtitle">Created by Melvin Lozado</h3>
 
-            <div className="sfx-gallery">
-                <div className="TP-img div1"><img src={rec1} alt="makeup design"/></div>
-                <div className="TP-img div2"><img src={rec2} alt="makeup design"/></div>
-                <div className="TP-img div3"><img src={rec3} alt="makeup design"/> </div>
-                <div className="TP-img div4"><img src={rec4} alt="makeup design"/> </div>
-                <div className="TP-img div5"><img src={rec5} alt="makeup design"/> </div>
-                <div className="TP-img div6"><img src={rec6} alt="makeup design"/> </div>
-                <div className="TP-img div7"><img src={rec7} alt="makeup design"/> </div>
-                <div className="TP-img div8"><img src={rec8} alt="makeup design"/> </div>
-                <div className="TP-img div9"><img src={rec9} alt="makeup design"/> </div>
-                <div className="TP-img div10"><img src={rec10} alt="makeup design"/> </div>
-            </div>
-
-
-        </div>      
-        <Footer />
-        </>
-    )
+        <div className="sfx-gallery">
+          <div className="TP-img div1">
+            <img src={rec1} alt="makeup design" />
+          </div>
+          <div className="TP-img div2">
+            <img src={rec2} alt="makeup design" />
+          </div>
+          <div className="TP-img div3">
+            <img src={rec3} alt="makeup design" />{" "}
+          </div>
+          <div className="TP-img div4">
+            <img src={rec4} alt="makeup design" />{" "}
+          </div>
+          <div className="TP-img div5">
+            <img src={rec5} alt="makeup design" />{" "}
+          </div>
+          <div className="TP-img div6">
+            <img src={rec6} alt="makeup design" />{" "}
+          </div>
+          <div className="TP-img div7">
+            <img src={rec7} alt="makeup design" />{" "}
+          </div>
+          <div className="TP-img div8">
+            <img src={rec8} alt="makeup design" />{" "}
+          </div>
+          <div className="TP-img div9">
+            <img src={rec9} alt="makeup design" />{" "}
+          </div>
+          <div className="TP-img div10">
+            <img src={rec10} alt="makeup design" />{" "}
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </>
+  );
 }
 
 export default TheatrePage;

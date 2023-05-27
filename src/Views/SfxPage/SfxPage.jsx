@@ -17,37 +17,67 @@ import sfx12 from "./sfx photos/sfx12.png";
 import sfx13 from "./sfx photos/sfx13.png";
 import sfx14 from "./sfx photos/sfx14.png";
 
-
 function SfxPage() {
-return (
+  return (
     <>
-    <Header />
-    <div className="sfx-container">
-            <div className="section-title"><h3>gallery</h3></div>
-            <div className="headline"><h2>A gallery of Stunning Looks</h2></div>
-                <div className="subtitle">Created by Melvin Lozado</div>
-               
-        <div className="gallery">
-            <div className="sfx-img div1"><img src={sfx1} alt="sfx makeup"/></div>
-            <div className="sfx-img div2"><img src={sfx2} alt="sfx makeup"/></div>
-            <div className="sfx-img div3"><img src={sfx3} alt="sfx makeup"/> </div>
-            <div className="sfx-img div4"><img src={sfx4} alt="sfx makeup"/> </div>
-            <div className="sfx-img div5"><img src={sfx5} alt="sfx makeup"/> </div>
-            <div className="sfx-img div6"><img src={sfx6} alt="sfx makeup"/> </div>
-            <div className="sfx-img div7"><img src={sfx7} alt="sfx makeup"/> </div>
-            <div className="sfx-img div8"><img src={sfx8} alt="sfx makeup"/> </div>
-            <div className="sfx-img div9"><img src={sfx9} alt="sfx makeup"/> </div>
-            <div className="sfx-img div10"><img src={sfx10} alt="sfx makeup"/> </div>
-            <div className="sfx-img div11"><img src={sfx11} alt="sfx makeup"/> </div>
-            <div className="sfx-img div12"><img src={sfx12} alt="sfx makeup"/> </div>
-            <div className="sfx-img div13"><img src={sfx13} alt="sfx makeup"/> </div>
-            <div className="sfx-img div14"><img src={sfx14} alt="sfx makeup"/> </div>
-            <div className="sfx-img div15"><img src={sfx1} alt="sfx makeup"/> </div>
-            <div className="sfx-img div16"><img src={sfx11} alt="sfx makeup"/> </div>
-        </div>
+      <Header />
+      <div className="sfx-container">
+        <h4 className="section-title">gallery</h4>
+        <h2 className="headline">A gallery of Stunning Looks</h2>
+        <h3 className="subtitle">Created by Melvin Lozado</h3>
 
-</div>
-    <Footer />
+        <div className="gallery">
+          <div className="sfx-img div1">
+            <img src={sfx1} alt="sfx makeup" />
+          </div>
+          <div className="sfx-img div2">
+            <img src={sfx2} alt="sfx makeup" />
+          </div>
+          <div className="sfx-img div3">
+            <img src={sfx3} alt="sfx makeup" />{" "}
+          </div>
+          <div className="sfx-img div4">
+            <img src={sfx4} alt="sfx makeup" />{" "}
+          </div>
+          <div className="sfx-img div5">
+            <img src={sfx5} alt="sfx makeup" />{" "}
+          </div>
+          <div className="sfx-img div6">
+            <img src={sfx6} alt="sfx makeup" />{" "}
+          </div>
+          <div className="sfx-img div7">
+            <img src={sfx7} alt="sfx makeup" />{" "}
+          </div>
+          <div className="sfx-img div8">
+            <img src={sfx8} alt="sfx makeup" />{" "}
+          </div>
+          <div className="sfx-img div9">
+            <img src={sfx9} alt="sfx makeup" />{" "}
+          </div>
+          <div className="sfx-img div10">
+            <img src={sfx10} alt="sfx makeup" />{" "}
+          </div>
+          <div className="sfx-img div11">
+            <img src={sfx11} alt="sfx makeup" />{" "}
+          </div>
+          <div className="sfx-img div12">
+            <img src={sfx12} alt="sfx makeup" />{" "}
+          </div>
+          <div className="sfx-img div13">
+            <img src={sfx13} alt="sfx makeup" />{" "}
+          </div>
+          <div className="sfx-img div14">
+            <img src={sfx14} alt="sfx makeup" />{" "}
+          </div>
+          <div className="sfx-img div15">
+            <img src={sfx1} alt="sfx makeup" />{" "}
+          </div>
+          <div className="sfx-img div16">
+            <img src={sfx11} alt="sfx makeup" />{" "}
+          </div>
+        </div>
+      </div>
+      <Footer />
     </>
   );
 }

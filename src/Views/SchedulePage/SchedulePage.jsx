@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function SchedulePage() {
-  return (
-    <div>SchedulePage</div>
-  )
+  return <div>SchedulePage</div>;
 }
 
-export default SchedulePage
+export default SchedulePage;

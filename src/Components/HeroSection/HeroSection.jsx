@@ -6,9 +6,9 @@ function HeroSection() {
     <section className="hero-section">
       <div className="overlay"></div>
       <div className="hero-container">
-        <div className="headline">
+        <div className="heading">
           <h1>Melvin Lozada</h1>
-          <div className="subtitle">Get flawless Looks for any Occasion</div>
+          <div className="subheading">Get flawless Looks for any Occasion</div>
           <button className="book">Book With Melvin</button>
         </div>
       </div>

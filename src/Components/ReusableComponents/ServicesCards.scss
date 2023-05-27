@@ -1,0 +1,32 @@
+.cardHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.cards {
+  width: 38em;
+  height: 49.2em;
+}
+
+.card-img {
+  width: 100%;
+  height: 85%;
+  margin-bottom: -3px;
+}
+
+.label {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+}
+
+.label p {
+  color: #17181c;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
