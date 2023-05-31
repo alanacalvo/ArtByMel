@@ -1,0 +1,47 @@
+.contact-form {
+  padding: 7.2rem;
+  background-color: var(--bg-light);
+  height: 120;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5.6em;
+  margin-top: 8em;
+}
+
+.right-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10em;
+}
+
+.all-inputs {
+  display: flex;
+  gap: 10.4em;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6em;
+}
+
+.form-label {
+  text-align: left;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 1.9rem;
+}
+
+.input-name,
+.input-email,
+.input-phone {
+  background-color: var(--bg-color);
+  width: 46.5em;
+  height: 5.6em;
+  box-shadow: none;
+}

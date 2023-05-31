@@ -10,13 +10,21 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "flatpickr": "^4.6.13",
+<<<<<<< HEAD
     "mongodb": "^5.5.0",
     "nodemon": "^2.0.22",
+=======
+    "nodemon": "^2.0.20",
+>>>>>>> 3c3e9700d1d14d69540de38a4412c8855a7b7a23
     "react": "^18.2.0",
     "react-calendly": "^4.1.1",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-flatpickr": "^3.10.13",
     "react-router-dom": "^6.11.1",
+=======
+    "react-router-dom": "^6.11.2",
+>>>>>>> 3c3e9700d1d14d69540de38a4412c8855a7b7a23
     "react-scripts": "5.0.1",
     "sass": "^1.58.3",
     "web-vitals": "^2.1.4"
