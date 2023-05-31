@@ -18,6 +18,7 @@ function TestimonialsSection() {
       id: "2",
       name: "Alana Keeton",
       text: "lorem25",
+      image: "assets/testimonial.png",
     },
   ];
 
