@@ -6,7 +6,7 @@ import TheatrePage from "./Views/TheatrePage/TheatrePage";
 import "./Components/HeroSection/HeroSection.jsx";
 import "./Components/AboutSection/AboutSection.jsx";
 import "./App.scss";
-import HomePage from "./Views/HomePage/HomePage";
+import HomePage from "./Views/HomePage/HomePage.jsx";
 import SchedulePage from "./Views/SchedulePage/SchedulePage";
 import ArtPage from "./Views/ArtPage/ArtPage";
 
