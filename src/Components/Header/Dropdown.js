@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.scss";
 
 const Dropdown = () => {
@@ -8,33 +9,36 @@ const Dropdown = () => {
         <ul>
           <li>
             <div className="dd-link">
-              <a href="/" className="menu-link">
+              {/* <a href="/" className="menu-link">
                 Makeup
-              </a>
+              </a> */}
+              <Link to={"/"} className="menu-link">
+                Makeup
+              </Link>
               <ion-icon name="chevron-forward-outline"></ion-icon>
             </div>
           </li>
           <li>
             <div className="dd-link">
-              <a href="/" className="menu-link">
+              <Link to={"/sfx"} className="menu-link">
                 SFX
-              </a>
+              </Link>
               <ion-icon name="chevron-forward-outline"></ion-icon>
             </div>
           </li>
           <li>
             <div className="dd-link">
-              <a href="/" className="menu-link">
+              <Link to={"/art"} className="menu-link">
                 Art
-              </a>
+              </Link>
               <ion-icon name="chevron-forward-outline"></ion-icon>
             </div>
           </li>
           <li>
             <div className="dd-link">
-              <a href="/" className="menu-link">
-                Theater
-              </a>
+              <Link to={"/theatre"} className="menu-link">
+                Theatre
+              </Link>
               <ion-icon name="chevron-forward-outline"></ion-icon>
             </div>
           </li>

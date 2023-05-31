@@ -22,11 +22,11 @@ const ArtPage = () => {
           </p>
           <p className="quote-arthur">- Walt Disney</p>
         </div>
-        <h4>Gallery</h4>
-        <h2>
+        <h4 className="section-title">Gallery</h4>
+        <h2 className="headline">
           A journey through colors and brushstrokes in captivating paintings
         </h2>
-        <h3>Created by Melvin Lozada</h3>
+        <h3 className="subtitle">Created by Melvin Lozada</h3>
         <div className="art-gallery">
           <img
             src={painting1}
