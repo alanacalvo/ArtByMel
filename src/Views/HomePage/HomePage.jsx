@@ -10,7 +10,9 @@ import Footer from "../../Components/Footer/Footer.js";
 function HomePage() {
   return (
     <div className="homePage">
-      <Header />
+      <div className="hero-header">
+        <Header />
+      </div>
       <HeroSection />
       <div className="section-divider hero-divider"></div>
       <ServicesSection />
