@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
+import PageHeading from "../../Components/ReusableComponents/PageHeading.jsx";
+
 import "./SfxPage.scss";
 import sfx1 from "./sfx photos/sfx1.png";
 import sfx2 from "./sfx photos/sfx2.png";
@@ -22,10 +24,7 @@ function SfxPage() {
     <>
       <Header />
       <div className="sfx-container">
-        <h4 className="section-title">gallery</h4>
-        <h2 className="headline">A gallery of Stunning Looks</h2>
-        <h3 className="subtitle">Created by Melvin Lozado</h3>
-
+        <PageHeading headline={"A gallery of Special effects"} />
         <div className="gallery">
           <div className="sfx-img div1">
             <img src={sfx1} alt="sfx makeup" />

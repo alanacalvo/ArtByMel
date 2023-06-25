@@ -10,8 +10,9 @@ import painting4 from "./Photos/painting4.png";
 import painting5 from "./Photos/painting5.png";
 import painting6 from "./Photos/painting6.png";
 import ContactForm from "../../Components/ReusableComponents/ContactForm";
+import PageHeading from "../../Components/ReusableComponents/PageHeading";
 
-const ArtPage = () => {
+const ArtPage = (props) => {
   return (
     <>
       <Header />
@@ -23,11 +24,11 @@ const ArtPage = () => {
           </p>
           <p className="quote-arthur">- Walt Disney</p>
         </div>
-        <h4 className="section-title">Gallery</h4>
-        <h2 className="headline">
-          A journey through colors and brushstrokes in captivating paintings
-        </h2>
-        <h3 className="subtitle">Created by Melvin Lozada</h3>
+        <PageHeading
+          headline={
+            "A journey through colors and brushstrokes in captivating paintings"
+          }
+        />
         <div className="art-gallery">
           <img
             src={painting1}
