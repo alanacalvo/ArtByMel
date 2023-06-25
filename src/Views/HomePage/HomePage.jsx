@@ -7,10 +7,12 @@ import TestimonialsSection from '../../Components/TestimonialsSection/Testimonia
 import AboutSection from "../../Components/AboutSection/AboutSection.jsx";
 import Footer from "../../Components/Footer/Footer.js";
 
-  function HomePage() {
-    return (
-      <div className='homePage'>
-      <Header />
+function HomePage() {
+  return (
+    <div className="homePage">
+      <div className="hero-header">
+        <Header />
+      </div>
       <HeroSection />
       <div className="section-divider hero-divider"></div>
       <ServicesSection />

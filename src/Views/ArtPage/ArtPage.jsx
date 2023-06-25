@@ -9,6 +9,7 @@ import painting3 from "./Photos/painting3.png";
 import painting4 from "./Photos/painting4.png";
 import painting5 from "./Photos/painting5.png";
 import painting6 from "./Photos/painting6.png";
+import ContactForm from "../../Components/ReusableComponents/ContactForm";
 
 const ArtPage = () => {
   return (
@@ -43,6 +44,7 @@ const ArtPage = () => {
           <img src={painting5} alt="painting" className="art-pic" />
           <img src={painting6} alt="painting" className="art-pic" />
         </div>
+        <ContactForm />
       </div>
       <Footer />
     </>
