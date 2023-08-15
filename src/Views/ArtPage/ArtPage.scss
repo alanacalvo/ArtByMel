@@ -6,7 +6,7 @@
   padding: 20.8rem 13rem 0;
 }
 
-.Art .quote {
+.Art .quote-container {
   color: var(--bg-lightest);
   font-weight: bold;
   display: flex;
@@ -19,11 +19,13 @@
 .Art .positive-quote {
   font-size: 4.8rem;
   line-height: 7.2rem;
+  transition: opacity 1500ms ease-in-out;
 }
 
-.Art .quote-arthur {
+.Art .quote-author {
   font-size: 2.4rem;
   line-height: 3.2rem;
+  transition: opacity 1500ms ease-in-out;
 }
 
 .Art h4 {
