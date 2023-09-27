@@ -1,6 +1,6 @@
 .header {
-  position: absolute;
-  z-index: 2;
+  // position: absolute;
+  z-index: 3;
   width: 100vw;
 }
 
@@ -35,7 +35,8 @@ nav ul {
   border-bottom: 3px solid var(--white);
 }
 
-.nav-link h2, .link,
+.nav-link h2,
+.link,
 .border {
   color: var(--white);
   font-size: 2.3rem;
