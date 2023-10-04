@@ -12,8 +12,20 @@ const Footer = () => {
           <img src={logo} alt="Artistry by Mel logo" className="footer-logo" />
           <p>Copyright © {currentYear}</p>
           <div className="social-icons">
-            <ion-icon name="logo-instagram" className="instagram"></ion-icon>
-            <ion-icon name="logo-facebook" className="facebook"></ion-icon>
+            <a
+              href="https://www.instagram.com/makeupbymelvinn/?igshid=MzRlODBiNWFlZA%3D%3D"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ion-icon name="logo-instagram" className="instagram" />
+            </a>
+            <a
+              href="https://www.facebook.com/melvin.abraham.5"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <ion-icon name="logo-facebook" className="facebook" />
+            </a>
           </div>
         </div>
         <div className="secondCol">
