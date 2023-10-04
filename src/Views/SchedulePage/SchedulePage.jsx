@@ -3,10 +3,11 @@ import "./SchedulePage.scss";
 import { InlineWidget, PopupWidget } from "react-calendly";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer.js";
+import CustomRequestForm from "../../Components/CustomRequestForm/CustomRequestForm";
 
 function SchedulePage() {
   return (
-    <>
+    <div className="container">
       <Header
       // style={{
       //   position: "static",
@@ -33,9 +34,9 @@ function SchedulePage() {
         {/* </div> */}
         <div className="background"></div>
       </div>
-
+      <CustomRequestForm />
       <Footer />
-    </>
+    </div>
   );
 }
 
