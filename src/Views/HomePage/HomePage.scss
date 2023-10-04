@@ -1,26 +1,29 @@
 .section-divider {
-    width: 100.8%;
-    height: 20.6rem;
-    background-color: var(--bg-color);
-    position: relative;
-  }
-  
-  .hero-divider {
-    transform: rotate(-5deg);
-    border-top: 8px solid var(--gold);
-    top: -8rem;
-  }
-  
-  .about-divider {
-    transform: rotate(5deg);
-    border-bottom: 8px solid var(--gold);
-    top: 9rem;
-  }
-  
+  width: 100.8%;
+  height: 20.6rem;
+  background-color: var(--bg-color);
+  position: relative;
+}
+
+.hero-divider {
+  transform: rotate(-5deg);
+  border-top: 8px solid var(--gold);
+  top: -7rem;
+}
+
+.about-divider {
+  transform: rotate(5deg);
+  border-bottom: 8px solid var(--gold);
+  top: 9rem;
+}
+
 .homePage {
   width: 100%;
-  position: relative ;
+  position: relative;
   // overflow-x: none;
+}
 
-
+.hero-header {
+  position: absolute;
+  z-index: 2;
 }

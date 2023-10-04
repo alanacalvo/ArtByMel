@@ -12,17 +12,14 @@ import rec7 from "./TP photos/Rectangle 7.png";
 import rec8 from "./TP photos/Rectangle 8.png";
 import rec9 from "./TP photos/Rectangle 9.png";
 import rec10 from "./TP photos/Rectangle 10.png";
+import PageHeading from "../../Components/ReusableComponents/PageHeading";
 
 function TheatrePage() {
   return (
     <>
       <Header />
       <div className="theatre-container">
-        <h4 className="section-title">gallery</h4>
-        <h2 className="headline">
-          A Showcase of Spectacular Costume Creations
-        </h2>
-        <h3 className="subtitle">Created by Melvin Lozado</h3>
+        <PageHeading headline={"A gallery of beautiful bridal looks"} />
 
         <div className="sfx-gallery">
           <div className="TP-img div1">

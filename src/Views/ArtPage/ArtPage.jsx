@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ArtPage.scss";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
@@ -9,24 +9,90 @@ import painting3 from "./Photos/painting3.png";
 import painting4 from "./Photos/painting4.png";
 import painting5 from "./Photos/painting5.png";
 import painting6 from "./Photos/painting6.png";
+import ContactForm from "../../Components/ReusableComponents/ContactForm";
+import PageHeading from "../../Components/ReusableComponents/PageHeading";
+
+const positiveQuotes = [
+  {
+    id: 1,
+    quoteText: `"All our dreams can come true, if we have the courage to pursue them."`,
+    author: "Walt Disney",
+  },
+  {
+    id: 2,
+    quoteText: `“In order to carry a positive action we must develop here a positive vision.”`,
+    author: "Dalai Lama",
+  },
+  {
+    id: 3,
+    quoteText: `“Extraordinary things are always hiding in places people never think to look.”`,
+    author: "Jodi Picoul",
+  },
+];
 
 const ArtPage = () => {
+  const [opacity, setOpacity] = useState({ opacity: "100%" });
+  const [quote, setQuote] = useState(positiveQuotes[0].quoteText);
+  const [author, setAuthor] = useState(positiveQuotes[0].author);
+  // const [index, setIndex] = useState(positiveQuotes[0].id);
+
+  setInterval(() => {
+    setOpacity({ opacity: "0%" });
+  }, 10000);
+
+  setInterval(() => {
+    setOpacity({ opacity: "100%" });
+  }, 13000);
+
+  // let quotes = [];
+  // let authors = [];
+  // let currentQuote = document.getElementById("positive-quote").textContent;
+  // let currentAuthor = author;
+  // console.log(currentQuote);
+
+  // const displayQuotes = () => {
+  //   if (
+  //     currentQuote === positiveQuotes[0].quoteText &&
+  //     currentAuthor === positiveQuotes[0].author
+  //   ) {
+  //     setQuote(positiveQuotes[1].quoteText);
+  //     setAuthor(positiveQuotes[1].author);
+  //   } else if (
+  //     currentQuote === positiveQuotes[1].quoteText &&
+  //     currentAuthor === positiveQuotes[1].author
+  //   ) {
+  //     setQuote(positiveQuotes[2].quoteText);
+  //     setAuthor(positiveQuotes[2].author);
+  //   } else if (
+  //     currentQuote === positiveQuotes[2].quoteText &&
+  //     currentAuthor === positiveQuotes[2].author
+  //   ) {
+  //     setQuote(positiveQuotes[0].quoteText);
+  //     setAuthor(positiveQuotes[0].author);
+  //   }
+  // };
+
+  // setInterval(() => {
+  //   displayQuotes();
+  // }, 13000);
+
   return (
     <>
       <Header />
       <div className="Art">
-        <div className="quote">
-          <p className="positive-quote">
-            "All our dreams can come true, if we have the courage to pursue
-            them."
+        <div className="quote-container">
+          <p className="positive-quote" style={opacity} id="positive-quote">
+            {quote}
           </p>
-          <p className="quote-arthur">- Walt Disney</p>
+          <p className="quote-author" style={opacity}>
+            - {author}
+          </p>
         </div>
-        <h4 className="section-title">Gallery</h4>
-        <h2 className="headline">
-          A journey through colors and brushstrokes in captivating paintings
-        </h2>
-        <h3 className="subtitle">Created by Melvin Lozada</h3>
+        <PageHeading
+          headline={
+            "A journey through colors and brushstrokes in captivating paintings"
+          }
+        />
         <div className="art-gallery">
           <img
             src={painting1}
@@ -43,6 +109,7 @@ const ArtPage = () => {
           <img src={painting5} alt="painting" className="art-pic" />
           <img src={painting6} alt="painting" className="art-pic" />
         </div>
+        <ContactForm />
       </div>
       <Footer />
     </>

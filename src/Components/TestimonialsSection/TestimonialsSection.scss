@@ -8,15 +8,15 @@
   overflow-x: hidden;
 }
 
+.testimonial-container {
+  margin-top: 20.8em;
+}
+
 .heading {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.testimonial-container {
-  margin-top: 20.8em;
 }
 
 .testimonial {
@@ -60,8 +60,8 @@
 
 .img-side {
   display: flex;
-  align-items: start;
-  justify-content: end;
+  align-items: flex-start;
+  justify-content: flex-end;
 }
 
 .testimonial-img {

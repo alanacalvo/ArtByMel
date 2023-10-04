@@ -1,10 +1,11 @@
-import React from "react";
-import "./TestimonialsSection.scss";
-import { useState } from "react";
+import React from 'react'
+import './TestimonialsSection.scss'
+import { useState } from 'react';
 
 function TestimonialsSection() {
+
   // hooks
-  const [currentSlide, setCurrentSlide] = useState(0);
+  const [currentSlide, setCurrentSlide] = useState(0)
 
   // data object
   const testimonials = [

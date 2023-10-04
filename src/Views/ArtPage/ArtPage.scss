@@ -1,64 +1,69 @@
+// .header {
+//   position: unset;
+// }
+
 .Art {
-  padding: 40rem 13rem 0;
+  padding: 20.8rem 13rem 0;
 }
 
-.Art .quote {
+.Art .quote-container {
   color: var(--bg-lightest);
   font-weight: bold;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1.6em;
-  margin: 0 19rem;
   text-align: center;
 }
 
 .Art .positive-quote {
   font-size: 4.8rem;
   line-height: 7.2rem;
+  transition: opacity 1500ms ease-in-out;
 }
 
-.Art .quote-arthur {
+.Art .quote-author {
   font-size: 2.4rem;
   line-height: 3.2rem;
+  transition: opacity 1500ms ease-in-out;
 }
 
-// .Art h4 {
-//   color: var(--bg-lightest);
-//   font-size: 2.8rem;
-//   line-height: 5.5rem;
-//   margin: 20.8rem 0 3.2rem 0;
-//   text-transform: uppercase;
-// }
+.Art h4 {
+  color: var(--bg-lightest);
+  font-size: 2.8rem;
+  line-height: 5.5rem;
+  margin: 20.8rem 0 3.2rem 0;
+  text-transform: uppercase;
+}
 
-// .Art h2 {
-//   font-size: 4.8rem;
-//   line-height: 6rem;
-//   margin-bottom: 1.6rem;
-// }
+.Art .headline {
+  font-size: 4.8rem;
+  line-height: 6rem;
+  margin-bottom: 1.6rem;
+}
 
-// .Art h3 {
-//   font-size: 3.3rem;
-//   margin-bottom: 10.4rem;
-//   text-transform: none;
-//   font-weight: 400;
-// }
+.Art h3 {
+  font-size: 3.3rem;
+  margin-bottom: 10.4rem;
+  text-transform: none;
+  font-weight: 400;
+}
 
-// .Art h4,
-// .Art h2 {
-//   font-weight: 700;
-// }
+.Art h4,
+.Art .headline {
+  font-weight: 700;
+}
 
-// .Art h2,
-// .Art h3 {
-//   color: var(--white);
-// }
+.Art .headline,
+.Art h3 {
+  color: var(--white);
+}
 
-// .Art h4,
-// .Art h3,
-// .Art h2 {
-//   text-align: left;
-// }
+.Art h4,
+.Art h3,
+.Art .headline {
+  text-align: left;
+}
 
 .Art .art-gallery {
   display: grid;
