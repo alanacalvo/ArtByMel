@@ -14,66 +14,34 @@ import PageHeading from "../../Components/ReusableComponents/PageHeading";
 
 const positiveQuotes = [
   {
-    id: 1,
+    id: 0,
     quoteText: `"All our dreams can come true, if we have the courage to pursue them."`,
     author: "Walt Disney",
   },
   {
-    id: 2,
+    id: 1,
     quoteText: `“In order to carry a positive action we must develop here a positive vision.”`,
     author: "Dalai Lama",
   },
   {
-    id: 3,
+    id: 2,
     quoteText: `“Extraordinary things are always hiding in places people never think to look.”`,
     author: "Jodi Picoul",
   },
 ];
 
 const ArtPage = () => {
-  const [opacity, setOpacity] = useState({ opacity: "100%" });
+  // const [opacity, setOpacity] = useState({ opacity: "100%" });
+  // const [id, setID] = useState(positiveQuotes[0].id);
   const [quote, setQuote] = useState(positiveQuotes[0].quoteText);
   const [author, setAuthor] = useState(positiveQuotes[0].author);
-  // const [index, setIndex] = useState(positiveQuotes[0].id);
-
-  setInterval(() => {
-    setOpacity({ opacity: "0%" });
-  }, 10000);
-
-  setInterval(() => {
-    setOpacity({ opacity: "100%" });
-  }, 13000);
-
-  // let quotes = [];
-  // let authors = [];
-  // let currentQuote = document.getElementById("positive-quote").textContent;
-  // let currentAuthor = author;
-  // console.log(currentQuote);
-
-  // const displayQuotes = () => {
-  //   if (
-  //     currentQuote === positiveQuotes[0].quoteText &&
-  //     currentAuthor === positiveQuotes[0].author
-  //   ) {
-  //     setQuote(positiveQuotes[1].quoteText);
-  //     setAuthor(positiveQuotes[1].author);
-  //   } else if (
-  //     currentQuote === positiveQuotes[1].quoteText &&
-  //     currentAuthor === positiveQuotes[1].author
-  //   ) {
-  //     setQuote(positiveQuotes[2].quoteText);
-  //     setAuthor(positiveQuotes[2].author);
-  //   } else if (
-  //     currentQuote === positiveQuotes[2].quoteText &&
-  //     currentAuthor === positiveQuotes[2].author
-  //   ) {
-  //     setQuote(positiveQuotes[0].quoteText);
-  //     setAuthor(positiveQuotes[0].author);
-  //   }
-  // };
 
   // setInterval(() => {
-  //   displayQuotes();
+  //   setOpacity({ opacity: "0%" });
+  // }, 10000);
+
+  // setInterval(() => {
+  //   setOpacity({ opacity: "100%" });
   // }, 13000);
 
   return (
@@ -81,12 +49,10 @@ const ArtPage = () => {
       <Header />
       <div className="Art">
         <div className="quote-container">
-          <p className="positive-quote" style={opacity} id="positive-quote">
+          <p className="positive-quote" id="positive-quote">
             {quote}
           </p>
-          <p className="quote-author" style={opacity}>
-            - {author}
-          </p>
+          <p className="quote-author">- {author}</p>
         </div>
         <PageHeading
           headline={

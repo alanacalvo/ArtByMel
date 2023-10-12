@@ -14,6 +14,15 @@
   width: 100%;
   height: 85%;
   margin-bottom: -3px;
+  object-fit: cover;
+}
+
+.bridal-img {
+  object-position: center -1rem;
+}
+
+.sfx-img {
+  object-position: center -5rem;
 }
 
 .label {
