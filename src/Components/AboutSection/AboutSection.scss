@@ -1,13 +1,14 @@
 .about-section {
   border: 8px solid var(--gold);
-  height: 131.6rem;
+  // height: 131.6rem;
   background-color: #3a3c46;
-  padding: 24.7rem 12rem;
+  padding: 27rem 10.4rem 4rem;
 }
 
 .about-container {
   display: flex;
   align-items: flex-start;
+  justify-content: center;
 }
 
 // About me img
@@ -28,21 +29,23 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  transform: translateY(-2rem);
 }
 
 .bio {
-  width: 62.3rem;
+  width: 70rem;
   height: 67.8rem;
   font-weight: 500;
-  font-size: 1.9rem;
-  line-height: 211%;
+  font-size: 1.7rem;
+  line-height: 205%;
   z-index: 1;
   color: var(--white);
-  margin-left: -2rem;
+  margin-left: -1rem;
 }
 
 // Signature
 .signature {
   width: 50%;
-  margin: -1rem 0 0 -8rem;
+  margin: 2rem 0 0 -10rem;
+  transform: rotate(-10deg);
 }
