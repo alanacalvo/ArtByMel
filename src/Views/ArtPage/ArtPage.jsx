@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./ArtPage.scss";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
@@ -12,47 +12,35 @@ import painting6 from "./Photos/painting6.png";
 import ContactForm from "../../Components/ReusableComponents/ContactForm";
 import PageHeading from "../../Components/ReusableComponents/PageHeading";
 
-const positiveQuotes = [
-  {
-    id: 0,
-    quoteText: `"All our dreams can come true, if we have the courage to pursue them."`,
-    author: "Walt Disney",
-  },
-  {
-    id: 1,
-    quoteText: `“In order to carry a positive action we must develop here a positive vision.”`,
-    author: "Dalai Lama",
-  },
-  {
-    id: 2,
-    quoteText: `“Extraordinary things are always hiding in places people never think to look.”`,
-    author: "Jodi Picoul",
-  },
-];
+// const positiveQuotes = [
+//   {
+//     id: 0,
+//     quoteText: `"All our dreams can come true, if we have the courage to pursue them."`,
+//     author: "Walt Disney",
+//   },
+//   {
+//     id: 1,
+//     quoteText: `“In order to carry a positive action we must develop here a positive vision.”`,
+//     author: "Dalai Lama",
+//   },
+//   {
+//     id: 2,
+//     quoteText: `“Extraordinary things are always hiding in places people never think to look.”`,
+//     author: "Jodi Picoul",
+//   },
+// ];
 
 const ArtPage = () => {
-  // const [opacity, setOpacity] = useState({ opacity: "100%" });
-  // const [id, setID] = useState(positiveQuotes[0].id);
-  const [quote, setQuote] = useState(positiveQuotes[0].quoteText);
-  const [author, setAuthor] = useState(positiveQuotes[0].author);
-
-  // setInterval(() => {
-  //   setOpacity({ opacity: "0%" });
-  // }, 10000);
-
-  // setInterval(() => {
-  //   setOpacity({ opacity: "100%" });
-  // }, 13000);
-
   return (
     <>
       <Header />
       <div className="Art">
         <div className="quote-container">
           <p className="positive-quote" id="positive-quote">
-            {quote}
+            "All our dreams can come true, if we have the courage to pursue
+            them."
           </p>
-          <p className="quote-author">- {author}</p>
+          <p className="quote-author">- Walt Disney</p>
         </div>
         <PageHeading
           headline={
