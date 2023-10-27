@@ -1,0 +1,56 @@
+.gallery-container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 2.4rem;
+  margin-top: 10.4rem;
+}
+
+.gallery-container img {
+  width: 28rem;
+  height: 25rem;
+  object-fit: cover;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.third-img {
+  grid-area: 1 / 3 / 3 / 4;
+}
+
+.sfx-third {
+  object-position: -13.5rem center;
+}
+
+.fifth-img {
+  grid-area: 2 / 1 / 3 / 3;
+}
+
+.sfx-fifth {
+  object-position: center -21rem;
+}
+
+.eleventh-img {
+  grid-area: 4 / 1 / 6 / 2;
+}
+
+.top-img {
+  object-position: center top;
+}
+
+.sixteenth-img {
+  grid-area: 5 / 3 / 6 / 5;
+}
+
+.sfx-sixteenth {
+  object-position: center -12rem;
+}
+
+.long-img {
+  height: 52.5rem !important;
+}
+
+.wide-img {
+  width: 58.5rem !important;
+}
