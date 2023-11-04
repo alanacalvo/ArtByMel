@@ -2,15 +2,8 @@ import React from "react";
 import "./ArtPage.scss";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
-
-import painting1 from "./Photos/painting1.png";
-import painting2 from "./Photos/painting2.png";
-import painting3 from "./Photos/painting3.png";
-import painting4 from "./Photos/painting4.png";
-import painting5 from "./Photos/painting5.png";
-import painting6 from "./Photos/painting6.png";
-import ContactForm from "../../Components/ReusableComponents/ContactForm";
 import PageHeading from "../../Components/ReusableComponents/PageHeading";
+import ContactForm from "../../Components/ReusableComponents/ContactForm";
 
 // const positiveQuotes = [
 //   {
@@ -49,19 +42,35 @@ const ArtPage = () => {
         />
         <div className="art-gallery">
           <img
-            src={painting1}
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/908/original/painting1.png?1699064683"
             alt="painting of a man holding a rose in one hand and a letter in the other"
             className="art-pic"
           />
           <img
-            src={painting2}
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/909/original/painting2.png?1699064691"
             alt="painting of a man sitting and crying into his hands with a tree growing from his back"
             className="art-pic"
           />
-          <img src={painting3} alt="painting" className="art-pic" />
-          <img src={painting4} alt="painting" className="art-pic" />
-          <img src={painting5} alt="painting" className="art-pic" />
-          <img src={painting6} alt="painting" className="art-pic" />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/915/original/painting-3.jpeg?1699066532"
+            alt="painting of an African American woman with blue clothing and a blue headwrap on and gold earrings"
+            className="art-pic"
+          />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/916/original/painting-4.jpg?1699066556"
+            alt="painting of a bunch of coconuts on a coconut tree"
+            className="art-pic"
+          />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/908/original/painting1.png?1699064683"
+            alt="painting"
+            className="art-pic"
+          />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/909/original/painting2.png?1699064691"
+            alt="painting"
+            className="art-pic"
+          />
         </div>
         <ContactForm />
       </div>

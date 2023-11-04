@@ -1,7 +1,19 @@
 .sfx-container {
   padding: 24.7rem 13rem 0;
-}
 
-.sfx-gallery img {
-  border-color: var(--red);
+  img {
+    border-color: var(--red);
+  }
+
+  img:nth-child(3) {
+    object-position: -13.5rem center;
+  }
+
+  img:nth-child(5) {
+    object-position: center -21rem;
+  }
+
+  img:nth-child(16) {
+    object-position: center -12rem;
+  }
 }

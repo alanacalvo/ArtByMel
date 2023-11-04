@@ -9,11 +9,16 @@ const Dropdown = () => {
         <ul>
           <li>
             <div className="dd-link">
-              {/* <a href="/" className="menu-link">
+              <Link to={"/makeup"} className="menu-link">
                 Makeup
-              </a> */}
-              <Link to={"/"} className="menu-link">
-                Makeup
+              </Link>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </div>
+          </li>
+          <li>
+            <div className="dd-link">
+              <Link to={"/bridal"} className="menu-link">
+                Bridal
               </Link>
               <ion-icon name="chevron-forward-outline"></ion-icon>
             </div>
@@ -30,14 +35,6 @@ const Dropdown = () => {
             <div className="dd-link">
               <Link to={"/art"} className="menu-link">
                 Art
-              </Link>
-              <ion-icon name="chevron-forward-outline"></ion-icon>
-            </div>
-          </li>
-          <li>
-            <div className="dd-link">
-              <Link to={"/theatre"} className="menu-link">
-                Theatre
               </Link>
               <ion-icon name="chevron-forward-outline"></ion-icon>
             </div>

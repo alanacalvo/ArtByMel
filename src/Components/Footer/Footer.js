@@ -41,7 +41,7 @@ const Footer = () => {
             <li className="col-link">Makeup</li>
             <li className="col-link">SFX</li>
             <li className="col-link">Art</li>
-            <li className="col-link">Theater</li>
+            <li className="col-link">Bridal</li>
           </ul>
         </div>
       </div>
