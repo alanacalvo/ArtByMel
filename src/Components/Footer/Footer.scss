@@ -1,9 +1,8 @@
 footer {
-  width: 118rem;
   height: 35.2rem;
-  margin: 24.7rem 13rem 6.4rem 13rem;
+  margin: 24.7rem 13rem 6.4rem;
   border-top: 1px solid #1c1d22;
-  padding: 0 26.7rem;
+  padding: 0 25rem;
 }
 
 .firstCol ul,
@@ -57,13 +56,15 @@ footer ion-icon:active {
   font-weight: 500;
 }
 
-.col-link {
+.col-link a:link,
+.col-link a:visited {
   color: var(--white);
   font-size: 1.9rem;
   transition: all ease-in-out 150ms;
+  text-decoration: none;
 }
 
-.col-link:hover,
-.col-link:active {
+.col-link a:hover,
+.col-link a:active {
   text-decoration: underline;
 }

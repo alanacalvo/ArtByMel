@@ -1,6 +1,7 @@
-import React from "react";
-import "./Footer.scss";
 import logo from "../Header/abm-logo.svg";
+import { Link } from "react-router-dom";
+
+import "./Footer.scss";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -31,17 +32,29 @@ const Footer = () => {
         <div className="secondCol">
           <span className="col-heading">Main</span>
           <ul>
-            <li className="col-link">Home</li>
-            <li className="col-link">Book</li>
+            <li className="col-link">
+              <Link to={"/"}>Home</Link>
+            </li>
+            <li className="col-link">
+              <Link to={"/book"}>Book</Link>
+            </li>
           </ul>
         </div>
         <div className="thirdCol">
           <span className="col-heading">Services</span>
           <ul>
-            <li className="col-link">Makeup</li>
-            <li className="col-link">SFX</li>
-            <li className="col-link">Art</li>
-            <li className="col-link">Bridal</li>
+            <li className="col-link">
+              <Link to={"/makeup"}>Makeup</Link>
+            </li>
+            <li className="col-link">
+              <Link to={"/bridal"}>Bridal</Link>
+            </li>
+            <li className="col-link">
+              <Link to={"/sfx"}>SFX</Link>
+            </li>
+            <li className="col-link">
+              <Link to={"/art"}>Art</Link>
+            </li>
           </ul>
         </div>
       </div>
