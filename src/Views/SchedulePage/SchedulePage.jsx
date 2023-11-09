@@ -7,25 +7,27 @@ import CustomRequestForm from "../../Components/CustomRequestForm/CustomRequestF
 
 function SchedulePage() {
   return (
-    <div className="container">
-      <Header />
-      <div className="calendar">
-        <h1>Book An Appointment</h1>
-        <div className="background">
-          <InlineWidget
-            rootElement={document.getElementById("root")}
-            text="Click here to schedule!"
-            url="https://calendly.com/melvinjr329"
-            styles={{
-              height: "1000px",
-              width: "60vw",
-            }}
-          />
+    <>
+      <div className="container">
+        <Header />
+        <div className="calendar">
+          <h1>Book An Appointment</h1>
+          <div className="background">
+            <InlineWidget
+              rootElement={document.getElementById("root")}
+              text="Click here to schedule!"
+              url="https://calendly.com/melvinjr329"
+              styles={{
+                height: "1000px",
+                width: "60vw",
+              }}
+            />
+          </div>
         </div>
+        <CustomRequestForm />
+        <Footer />
       </div>
-      <CustomRequestForm />
-      <Footer />
-    </div>
+    </>
   );
 }
 
