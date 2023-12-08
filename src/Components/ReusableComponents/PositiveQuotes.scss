@@ -1,0 +1,28 @@
+// .positive-quotes-container {
+//   margin-bottom: -24rem;
+// }
+
+.positive-quotes-container {
+  .quote-container {
+    color: var(--bg-lightest);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6em;
+    text-align: center;
+  }
+
+  .positive-quote {
+    font-size: 4.8rem;
+    line-height: 7.2rem;
+    transition: opacity 1500ms ease-in-out;
+  }
+
+  .quote-author {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    transition: opacity 1500ms ease-in-out;
+  }
+}

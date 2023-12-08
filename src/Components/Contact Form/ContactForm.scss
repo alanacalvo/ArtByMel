@@ -1,7 +1,7 @@
 .contact-form {
   padding: 7.2rem;
   background-color: var(--bg-light);
-  height: 120;
+  height: 120rem;
   display: flex;
   flex-direction: column;
 }
@@ -9,25 +9,25 @@
 .left-input {
   display: flex;
   flex-direction: column;
-  gap: 5.6em;
-  margin-top: 8em;
+  gap: 5.6rem;
+  margin-top: 8rem;
 }
 
 .right-input {
   display: flex;
   flex-direction: column;
-  gap: 10em;
+  gap: 10rem;
 }
 
 .all-inputs {
   display: flex;
-  gap: 10.4em;
+  gap: 10.4rem;
 }
 
 .input-box {
   display: flex;
   flex-direction: column;
-  gap: 1.6em;
+  gap: 1.6rem;
 }
 
 .form-label {
@@ -41,7 +41,7 @@
 .input-email,
 .input-phone {
   background-color: var(--bg-color);
-  width: 46.5em;
-  height: 5.6em;
+  width: 46.5rem;
+  height: 5.6rem;
   box-shadow: none;
 }

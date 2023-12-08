@@ -1,35 +1,33 @@
-import React from 'react'
-import './TestimonialsSection.scss'
-import { useState } from 'react';
+import "./TestimonialsSection.scss";
+// import { useState } from "react";
 
 function TestimonialsSection() {
-
   // hooks
-  const [currentSlide, setCurrentSlide] = useState(0)
+  // const [currentSlide, setCurrentSlide] = useState(0);
 
   // data object
-  const testimonials = [
-    {
-      id: "1",
-      name: "Jane Smith",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-      image: "assets/testimonial.png",
-    },
-    {
-      id: "2",
-      name: "Alana Keeton",
-      text: "lorem25",
-    },
-  ];
+  // const testimonials = [
+  //   {
+  //     id: "1",
+  //     name: "Jane Smith",
+  //     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+  //     image: "assets/testimonial.png",
+  //   },
+  //   {
+  //     id: "2",
+  //     name: "Alana Keeton",
+  //     text: "lorem25",
+  //   },
+  // ];
 
   // map through data in object using hooks, on click
-  const handleClick = (direction) => {
-    direction === "left"
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
-      : setCurrentSlide(
-          currentSlide < testimonials.length - 1 ? currentSlide + 1 : 0
-        );
-  };
+  // const handleClick = (direction) => {
+  //   direction === "left"
+  //     ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
+  //     : setCurrentSlide(
+  //         currentSlide < testimonials.length - 1 ? currentSlide + 1 : 0
+  //       );
+  // };
 
   return (
     <section className="testimonials-section">
@@ -42,7 +40,7 @@ function TestimonialsSection() {
         </h3>
       </div>
       <div className="border-breaker"></div>
-      <div
+      {/* <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
       >
@@ -92,7 +90,7 @@ function TestimonialsSection() {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
     </section>
   );
 }

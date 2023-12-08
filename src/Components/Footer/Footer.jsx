@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 
 import "./Footer.scss";
 
+const handleClick = () => {
+  window.scrollTo(0);
+};
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -33,10 +37,14 @@ const Footer = () => {
           <span className="col-heading">Main</span>
           <ul>
             <li className="col-link">
-              <Link to={"/"}>Home</Link>
+              <Link to={"/"} onClick={handleClick}>
+                Home
+              </Link>
             </li>
             <li className="col-link">
-              <Link to={"/book"}>Book</Link>
+              <Link to={"/book"} onClick={handleClick}>
+                Book
+              </Link>
             </li>
           </ul>
         </div>
@@ -44,16 +52,24 @@ const Footer = () => {
           <span className="col-heading">Services</span>
           <ul>
             <li className="col-link">
-              <Link to={"/makeup"}>Makeup</Link>
+              <Link to={"/makeup"} onClick={handleClick}>
+                Makeup
+              </Link>
             </li>
             <li className="col-link">
-              <Link to={"/bridal"}>Bridal</Link>
+              <Link to={"/bridal"} onClick={handleClick}>
+                Bridal
+              </Link>
             </li>
             <li className="col-link">
-              <Link to={"/sfx"}>SFX</Link>
+              <Link to={"/sfx"} onClick={handleClick}>
+                SFX
+              </Link>
             </li>
             <li className="col-link">
-              <Link to={"/art"}>Art</Link>
+              <Link to={"/art"} onClick={handleClick}>
+                Art
+              </Link>
             </li>
           </ul>
         </div>
