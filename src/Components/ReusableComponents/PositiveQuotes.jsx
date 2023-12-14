@@ -37,11 +37,8 @@ const PositiveQuotes = () => {
   return (
     <div className="positive-quotes-container">
       <div className="quote-container" style={{ opacity: opacity }}>
-        <blockquote className="positive-quote">
-          {quote ||
-            "All our dreams can come true, if we have the courage to pursue them."}
-        </blockquote>
-        <p className="quote-author">{author || "- Walt Disney"}</p>
+        <blockquote className="positive-quote">{quote}</blockquote>
+        <p className="quote-author">{author}</p>
       </div>
     </div>
   );
