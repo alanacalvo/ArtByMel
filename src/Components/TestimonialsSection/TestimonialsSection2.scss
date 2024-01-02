@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@700&display=swap");
+
+.testimonials-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  height: 100vw;
+  width: 100vw;
+
+  .heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    width: 57%;
+    text-align: center;
+  }
+  .border-breaker {
+    width: 70.2em;
+    height: 1.6em;
+    background-color: var(--bg-color);
+    position: absolute;
+    top: 286em;
+    left: 60em;
+    z-index: 5;
+  }
+  .slider {
+    height: 450px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-out;
+
+    // @include mobile {
+    //   height: 100vh;
+    //   flex-direction: column;
+    //   justify-content: center;
+    // }
+
+    .testimonial-container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      margin-top: 35.8em;
+
+      .testimonial {
+        display: grid;
+        grid-template-columns: 0.55fr 0.45fr;
+        gap: 8.8em;
+        color: var(--white);
+        width: 90vw;
+        height: 80em;
+        border: 8px solid var(--bg-lightest);
+        border-right: none;
+        border-top: none;
+        position: relative;
+
+        .border {
+          position: absolute;
+          background: var(--bg-lightest);
+          left: 0;
+          top: 0;
+          width: 600px;
+          height: 8px;
+        }
+
+        .text-side {
+          flex: 4;
+          height: 90%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          gap: 15em;
+          width: 95em;
+
+          .quote {
+            width: 90%;
+            height: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-left: 20px;
+            // gap: 8.8em;
+
+            .testimonial-author {
+              font-size: 4rem;
+              font-weight: 700;
+            }
+            .underline {
+              height: 0;
+              border-top: 4px solid var(--white);
+              margin-top: 2.4rem;
+            }
+            .testimonial-text {
+              font-size: 2.8rem;
+              line-height: 154%;
+              text-align: left;
+              padding-left: 1.2em;
+            }
+            .left-par,
+            .right-par {
+              font-family: "Catamaran", sans-serif;
+              color: var(--white);
+              font-size: 6.9rem;
+              // font-weight: bold;
+              position: absolute;
+            }
+
+            .left-par {
+              top: 2.3em;
+              left: 1em;
+              transform: rotate(180deg);
+            }
+
+            .right-par {
+              top: 6.1em;
+              left: 9.5em;
+            }
+          }
+          .slide-controls {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 0.4em;
+            position: relative;
+            top: 9em;
+            left: -19em;
+
+            .slidenumber {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              gap: 0.8em;
+              margin-top: -1.2em;
+
+              .current-pg,
+              .total-pgs {
+                font-size: 3.3rem;
+              }
+            }
+            svg {
+              width: 5.6em;
+              height: 5.6em;
+            }
+            .next-arrow {
+              fill: var(--white);
+            }
+
+            .prev-arrow {
+              fill: var(--bg-lightest);
+            }
+          }
+        }
+      }
+
+      .img-side {
+        flex: 7;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 20px;
+
+        // @include mobile {
+        //   padding-right: 0;
+        //   padding-left: 0;
+        //   margin-left: 0;
+        //   flex: 6;
+        // }
+
+        img {
+          display: block;
+
+          // @include mobile {
+          //   height: 125px;
+          //   width: 175px;
+          //   padding-right: 0;
+          // }
+        }
+      }
+    }
+  }
+}

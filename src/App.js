@@ -9,6 +9,7 @@ import "./App.scss";
 import HomePage from "./Views/HomePage/HomePage.jsx";
 import SchedulePage from "./Views/SchedulePage/SchedulePage";
 import ArtPage from "./Views/ArtPage/ArtPage";
+import ScheduleForm from "./Components/ScheduleForm/ScheduleForm";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
+          <Route path="/book" element={<ScheduleForm />}></Route>
           <Route path="/sfx" element={<SfxPage />}></Route>
           <Route path="/makeup" element={<MakeupPage />}></Route>
           <Route path="/art" element={<ArtPage />}></Route>

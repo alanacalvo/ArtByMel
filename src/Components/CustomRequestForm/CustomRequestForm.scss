@@ -1,0 +1,69 @@
+.requestContainer {
+  background-color: #3a3c46;
+  width: 90vw;
+  max-height: 689px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  padding: 74px;
+
+  // margin: 130px;
+  // padding: 73px;
+
+  h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 55px;
+  }
+  h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+
+  form {
+    height: 480px;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      margin-left: 100px;
+    }
+
+    label {
+      font-size: 19px;
+      padding-bottom: 10px;
+    }
+
+    input {
+      // height: 56px;
+      width: 469px;
+      // margin-top: 20px;
+      margin-bottom: 45px;
+      // margin-right: 100px;
+      background-color: #2e3038;
+    }
+
+    #message {
+      background-color: #2e3038;
+      resize: none;
+      margin-bottom: 50px;
+    }
+
+    button {
+      color: #2e3038;
+      width: 265px;
+      height: 63px;
+      font-size: 23px;
+      font-family: Playfair Display;
+      font-weight: 600;
+    }
+  }
+}

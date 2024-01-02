@@ -33,7 +33,7 @@ const Dropdown = () => {
           </li>
           <li>
             <div className="dd-link">
-              <Link to={"/art"} className="menu-link">
+              <Link to={"/"} className="menu-link">
                 Art
               </Link>
               <ion-icon name="chevron-forward-outline"></ion-icon>

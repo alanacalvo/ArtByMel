@@ -9,9 +9,7 @@ import "./HomePage.scss";
 const HomePage = () => {
   return (
     <div className="homePage">
-      <div className="hero-header">
-        <Header />
-      </div>
+      <Header />
       <HeroSection />
       <div className="section-divider hero-divider"></div>
       <ServicesSection />
