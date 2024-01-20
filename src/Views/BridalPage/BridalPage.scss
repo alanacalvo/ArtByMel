@@ -1,0 +1,30 @@
+.bridal-container {
+  padding: 24.7rem 13rem 0;
+  margin-bottom: -35rem;
+
+  img {
+    border-color: var(--white);
+  }
+
+  img:nth-child(3) {
+    object-position: center !important;
+  }
+
+  img:nth-child(5) {
+    object-position: center;
+  }
+
+  img:nth-child(7),
+  img:nth-child(8) {
+    object-position: center top;
+  }
+
+  img:nth-child(11),
+  img:nth-child(12),
+  img:nth-child(13),
+  img:nth-child(14),
+  img:nth-child(15),
+  img:nth-child(16) {
+    display: none;
+  }
+}

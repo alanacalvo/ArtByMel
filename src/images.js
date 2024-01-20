@@ -1,0 +1,55 @@
+const images = [
+  // SFX images
+  {
+    1: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/135/original/sfx1.png?1697590476",
+    2: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/136/original/sfx2.png?1697590485",
+    3: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/137/original/sfx3.png?1697590492",
+    4: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/138/original/sfx4.png?1697590500",
+    5: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/140/original/sfx5.jpeg?1697590527",
+    6: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/141/original/sfx6.png?1697590538",
+    7: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/142/original/sfx7.jpeg?1697590549",
+    8: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/143/original/sfx8.jpeg?1697590556",
+    9: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/144/original/sfx9.jpeg?1697590836",
+    10: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/145/original/sfx10.jpeg?1697590846",
+    11: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/146/original/sfx11.jpeg?1697590852",
+    12: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/147/original/sfx12.png?1697590862",
+    13: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/148/original/sfx13.png?1697590908",
+    14: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/149/original/sfx14.png?1697590915",
+    15: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/150/original/sfx15.jpeg?1697590925",
+    16: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/101/151/original/sfx16.png?1697590936",
+  },
+  // Bridal images
+  {
+    1: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/746/original/2.jpeg?1698965693",
+    2: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/748/original/4.jpeg?1698965709",
+    3: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/745/original/1.jpeg?1698965686",
+    4: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/747/original/3.jpeg?1698965702",
+    5: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/754/original/10.jpeg?1698965760",
+    6: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/749/original/5.jpeg?1698965720",
+    7: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/752/original/8.jpeg?1698965744",
+    8: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/753/original/9.jpeg?1698965751",
+    9: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/751/original/7.jpeg?1698965737",
+    10: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/750/original/6.jpeg?1698965729",
+  },
+  // Makeup images
+  {
+    1: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/888/original/photo2.png?1699060648",
+    2: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/891/original/photo6.png?1699060674",
+    3: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/895/original/photo12.png?1699060709",
+    4: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/887/original/photo1.png?1699060641",
+    5: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/890/original/photo5.png?1699060666",
+    6: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/894/original/photo9.png?1699060697",
+    7: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/896/original/photo14.png?1699060718",
+    8: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/900/original/makeup-3.jpeg?1699060945",
+    9: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/901/original/makeup-4.jpeg?1699060975",
+    10: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/902/original/makeup-5.jpeg?1699060982",
+    11: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/899/original/makeup-2.jpeg?1699060831",
+    12: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/903/original/makeup-6.jpeg?1699061083",
+    13: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/893/original/photo8.png?1699060688",
+    14: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/892/original/photo7.png?1699060680",
+    15: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/904/original/makeup-7.jpeg?1699061092",
+    16: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/898/original/makeup-1.jpeg?1699060821",
+  },
+];
+
+export default images;

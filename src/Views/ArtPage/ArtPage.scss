@@ -2,33 +2,11 @@
 //   position: unset;
 // }
 
-.Art {
+.art-container {
   padding: 20.8rem 13rem 0;
 }
 
-.Art .quote-container {
-  color: var(--bg-lightest);
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.6em;
-  text-align: center;
-}
-
-.Art .positive-quote {
-  font-size: 4.8rem;
-  line-height: 7.2rem;
-  transition: opacity 1500ms ease-in-out;
-}
-
-.Art .quote-author {
-  font-size: 2.4rem;
-  line-height: 3.2rem;
-  transition: opacity 1500ms ease-in-out;
-}
-
-.Art h4 {
+.art-container h4:not(.contact-form .section-title) {
   color: var(--bg-lightest);
   font-size: 2.8rem;
   line-height: 5.5rem;
@@ -36,43 +14,43 @@
   text-transform: uppercase;
 }
 
-.Art .headline {
+.art-container .headline {
   font-size: 4.8rem;
   line-height: 6rem;
   margin-bottom: 1.6rem;
 }
 
-.Art h3 {
+.art-container h3 {
   font-size: 3.3rem;
   margin-bottom: 10.4rem;
   text-transform: none;
   font-weight: 400;
 }
 
-.Art h4,
-.Art .headline {
+.art-container h4,
+.art-container .headline {
   font-weight: 700;
 }
 
-.Art .headline,
-.Art h3 {
+.art-container .headline,
+.art-container h3 {
   color: var(--white);
 }
 
-.Art h4,
-.Art h3,
-.Art .headline {
+.art-container h4,
+.art-container h3,
+.art-container .headline {
   text-align: left;
 }
 
-.Art .art-gallery {
+.art-container .art-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 8rem;
   margin-bottom: 24.7rem;
 }
 
-.Art .art-pic {
+.art-container .art-pic {
   border: 2px solid var(--cyan);
   width: 55em;
   height: 60em;
