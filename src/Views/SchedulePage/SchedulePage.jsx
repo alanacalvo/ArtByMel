@@ -1,8 +1,8 @@
 import React from "react";
 import "./SchedulePage.scss";
-import { InlineWidget } from "react-calendly";
+import { InlineWidget, PopupWidget } from "react-calendly";
 import Header from "../../Components/Header/Header";
-import Footer from "../../Components/Footer/Footer";
+import Footer from "../../Components/Footer/Footer.js";
 import CustomRequestForm from "../../Components/CustomRequestForm/CustomRequestForm";
 
 function SchedulePage() {

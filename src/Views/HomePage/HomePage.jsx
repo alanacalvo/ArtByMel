@@ -19,6 +19,10 @@ const HomePage = () => {
       <Footer />
     </div>
   );
+<<<<<<< HEAD
 };
+=======
+}
+>>>>>>> 69b0997bab5546dc66b9cc5ca08b6734b586e000
 
 export default HomePage;
