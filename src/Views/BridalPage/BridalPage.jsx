@@ -12,7 +12,7 @@ const BridalPage = () => {
   const bridalAlt = altText[1];
 
   return (
-    <>
+    <div className="bridalPage">
       <Header />
       <div className="bridal-container">
         <PageHeading headline={"A gallery of beautiful bridal looks"} />
@@ -40,7 +40,7 @@ const BridalPage = () => {
         />
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
