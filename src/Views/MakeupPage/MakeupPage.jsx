@@ -13,7 +13,7 @@ const MakeupPage = () => {
   const makeupAlt = altText[2];
 
   return (
-    <>
+    <div className="makeupPage">
       <Header />
       <div className="makeup-container">
         <PageHeading headline={"A gallery of stunning looks"} />
@@ -53,7 +53,7 @@ const MakeupPage = () => {
         />
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

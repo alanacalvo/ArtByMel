@@ -1,14 +1,14 @@
 import "./App.scss";
 import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
-import MakeupPage from "./Views/MakeupPage/MakeupPage";
-import SfxPage from "./Views/SfxPage/SfxPage";
-import BridalPage from "./Views/BridalPage/BridalPage";
+import MakeupPage from "./Views/MakeupPage/MakeupPage.jsx";
+import SfxPage from "./Views/SfxPage/SfxPage.jsx";
+import BridalPage from "./Views/BridalPage/BridalPage.jsx";
 import "./Components/HeroSection/HeroSection.jsx";
 import "./Components/AboutSection/AboutSection.jsx";
 import "./App.scss";
 import HomePage from "./Views/HomePage/HomePage.jsx";
-import SchedulePage from "./Views/SchedulePage/SchedulePage";
-import ArtPage from "./Views/ArtPage/ArtPage";
+import SchedulePage from "./Views/SchedulePage/SchedulePage.jsx";
+import ArtPage from "./Views/ArtPage/ArtPage.jsx";
 // import ScheduleForm from "./Components/ScheduleForm/ScheduleForm";
 
 function App() {
