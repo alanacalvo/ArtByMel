@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.18cf2aec.css",
+    "main.js": "/static/js/main.e570ded2.js",
+    "static/js/787.681ce71e.chunk.js": "/static/js/787.681ce71e.chunk.js",
+    "static/media/melvin-bio.JPEG": "/static/media/melvin-bio.c7253a641c278d061fca.JPEG",
+    "static/media/abm-hero.png": "/static/media/abm-hero.e8a3a6744a382361b0d1.png",
+    "static/media/glam-makeup.jpeg": "/static/media/glam-makeup.e32db05ff7cd7a457539.jpeg",
+    "static/media/sfx-makeup.jpeg": "/static/media/sfx-makeup.144d895d60e013ee27ad.jpeg",
+    "static/media/abm-logo.svg": "/static/media/abm-logo.a407269a6621f3c2e4fc7c318433ce65.svg",
+    "static/media/bridal-makeup.jpeg": "/static/media/bridal-makeup.98f0159a210f77681924.jpeg",
+    "static/media/Signature.svg": "/static/media/Signature.50b19030ed06480dd49c6df421d72070.svg",
+    "index.html": "/index.html",
+    "main.18cf2aec.css.map": "/static/css/main.18cf2aec.css.map",
+    "main.e570ded2.js.map": "/static/js/main.e570ded2.js.map",
+    "787.681ce71e.chunk.js.map": "/static/js/787.681ce71e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18cf2aec.css",
+    "static/js/main.e570ded2.js"
+  ]
+}
