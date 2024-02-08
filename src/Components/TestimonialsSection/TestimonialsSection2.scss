@@ -16,16 +16,16 @@
     align-items: center;
     position: absolute;
     top: 10%;
-    width: 57%;
+    width: 69%;
     text-align: center;
   }
   .border-breaker {
-    width: 70.2em;
-    height: 1.6em;
+    width: 70.2rem;
+    height: 1.6rem;
     background-color: var(--bg-color);
     position: absolute;
-    top: 286em;
-    left: 60em;
+    top: 286rem;
+    left: 60rem;
     z-index: 5;
   }
   .slider {
@@ -47,15 +47,15 @@
       align-items: center;
       justify-content: center;
       position: relative;
-      margin-top: 35.8em;
+      margin-top: 35.8rem;
 
       .testimonial {
         display: grid;
         grid-template-columns: 0.55fr 0.45fr;
-        gap: 8.8em;
+        gap: 8.8rem;
         color: var(--white);
         width: 90vw;
-        height: 80em;
+        height: 80rem;
         border: 8px solid var(--bg-lightest);
         border-right: none;
         border-top: none;
@@ -77,8 +77,8 @@
           align-items: center;
           justify-content: center;
           flex-direction: column;
-          gap: 15em;
-          width: 95em;
+          gap: 12rem;
+          width: 69rem;
 
           .quote {
             width: 90%;
@@ -97,12 +97,12 @@
               height: 0;
               border-top: 4px solid var(--white);
               margin-top: 2.4rem;
+              margin-bottom: 6.4rem;
             }
             .testimonial-text {
-              font-size: 2.8rem;
+              font-size: 2.3rem;
               line-height: 154%;
               text-align: left;
-              padding-left: 1.2em;
             }
             .left-par,
             .right-par {
@@ -114,31 +114,31 @@
             }
 
             .left-par {
-              top: 2.3em;
-              left: 1em;
+              top: 2.3rem;
+              left: 1rem;
               transform: rotate(180deg);
             }
 
             .right-par {
-              top: 6.1em;
-              left: 9.5em;
+              top: 6.1rem;
+              left: 9.5rem;
             }
           }
           .slide-controls {
             display: flex;
             justify-content: space-evenly;
             align-items: center;
-            gap: 0.4em;
+            gap: 0.4rem;
             position: relative;
-            top: 9em;
-            left: -19em;
+            top: 9rem;
+            left: -22rem;
 
             .slidenumber {
               display: flex;
               justify-content: space-between;
               align-items: center;
-              gap: 0.8em;
-              margin-top: -1.2em;
+              gap: 0.8rem;
+              margin-top: -1.2rem;
 
               .current-pg,
               .total-pgs {
@@ -166,7 +166,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-right: 20px;
 
         // @include mobile {
         //   padding-right: 0;
