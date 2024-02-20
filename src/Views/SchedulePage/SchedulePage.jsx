@@ -8,7 +8,7 @@ import CustomRequestForm from "../../Components/CustomRequestForm/CustomRequestF
 function SchedulePage() {
   return (
     <>
-      <div className="container">
+      <div className="book-container">
         <Header />
         <div className="calendar">
           <h1>Book An Appointment</h1>
