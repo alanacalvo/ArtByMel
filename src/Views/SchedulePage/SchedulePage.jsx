@@ -17,7 +17,6 @@ function SchedulePage() {
           {!isSmallScreen ? (
             <>
               <h1>Book An Appointment</h1>
-              {/* <div className="background"> */}
               <InlineWidget
                 rootElement={document.getElementById("root")}
                 text="Click here to schedule!"
@@ -27,13 +26,10 @@ function SchedulePage() {
                   width: "90vw",
                 }}
               />
-              {/* </div> */}
             </>
           ) : (
             <>
-              {/* <div className="background"> */}
               <h1>Book An Appointment</h1>
-
               <InlineWidget
                 rootElement={document.getElementById("root")}
                 text="Click here to schedule!"
@@ -45,7 +41,6 @@ function SchedulePage() {
                   padding: "0",
                 }}
               />
-              {/* </div> */}
             </>
           )}
         </div>
