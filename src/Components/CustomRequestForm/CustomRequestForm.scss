@@ -8,9 +8,14 @@
   flex-direction: column;
   text-align: left;
   padding: 74px;
+  margin-top: 200px;
 
-  // margin: 130px;
-  // padding: 73px;
+  @media (max-width: 1110px) {
+    margin-top: 0;
+  }
+  @media (max-width: 650px) {
+    margin-top: -200px;
+  }
 
   h2 {
     font-size: 28px;
@@ -25,21 +30,15 @@
 
   form {
     height: 480px;
-
-    .left {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .right {
-      display: flex;
-      flex-direction: column;
-      margin-left: 100px;
-    }
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    flex-wrap: wrap;
 
     label {
       font-size: 19px;
-      padding-bottom: 10px;
+      // padding-bottom: 10px;
+      height: 10px;
     }
 
     input {
