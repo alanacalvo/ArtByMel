@@ -20,7 +20,10 @@
 .homePage {
   width: 100%;
   position: relative;
-  // overflow-x: none;
+
+  .header {
+    position: absolute !important;
+  }
 }
 
 .hero-header {

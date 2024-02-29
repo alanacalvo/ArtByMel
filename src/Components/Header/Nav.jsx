@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Dropdown from "./Dropdown.jsx";
-import "./Header.scss";
+import "./Nav.scss";
 
 const Nav = () => {
   const [open, setOpen] = useState(false);
@@ -12,7 +12,7 @@ const Nav = () => {
   };
 
   return (
-    <nav>
+    <nav id="standard">
       <ul>
         <li className="nav-link">
           <div className="border">
