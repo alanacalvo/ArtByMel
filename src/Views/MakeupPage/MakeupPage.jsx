@@ -8,13 +8,15 @@ import "./MakeupPage.scss";
 
 const MakeupPage = () => {
   return (
-    <div className="makeupPage">
+    <div>
       <Header />
-      <div className="makeup-container">
-        <PageHeading headline={"A gallery of stunning looks"} />
-        <Gallery array={makeupImages} />
+      <div className="makeupPage">
+        <div className="makeup-container">
+          <PageHeading headline={"A gallery of stunning looks"} />
+          <Gallery array={makeupImages} />
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 };

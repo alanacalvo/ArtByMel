@@ -4,105 +4,49 @@ header {
   align-items: center;
   padding: 0 8rem 0 4rem;
   width: 100vw;
-  position: absolute;
+  position: relative;
+
+  .logo {
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .menu-icon {
+    height: 3rem;
+    width: 3.2rem;
+  }
 }
 
-nav ul {
-  display: flex;
-  gap: 4.8rem;
-  list-style: none;
-  align-items: center;
+/* Media Queries */
+
+@media only screen and (max-width: 999px) {
+  #standard {
+    display: none;
+  }
+
+  .menu-icon,
+  #responsive,
+  .responsive-container,
+  .menu-container {
+    display: block;
+  }
 }
 
-.nav-link {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+@media only screen and (min-width: 1000px) {
+  #standard {
+    display: block;
+  }
+
+  #responsive,
+  .responsive-container,
+  .menu-icon,
+  .menu-container {
+    display: none;
+  }
 }
 
-.nav-link .border {
-  border-bottom: 3px solid transparent;
-  transition: all ease-in-out 150ms;
-  padding-bottom: 4px;
-}
-
-.nav-link .border:hover,
-.nav-link .border:active {
-  border-bottom: 3px solid var(--white);
-}
-
-.nav-link h2,
-.link,
-.border {
-  color: var(--white);
-  font-size: 2.3rem;
-  font-weight: 500;
-  transition: all ease-in-out 150ms;
-  text-decoration: none;
-}
-
-.work-link {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.work-link ion-icon {
-  color: var(--white);
-  transition: ease-in-out 150ms;
-}
-
-.dropdown {
-  width: 20.1rem;
-  height: 24.4rem;
-  background-color: var(--white);
-  position: absolute;
-  top: 11rem;
-  right: 14rem;
-  transition: all ease-in-out 150ms;
-}
-
-.dropdown-content ul {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  gap: 2.4rem;
-  padding: 2.4rem;
-}
-
-.dd-link {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 15.3rem;
-}
-
-.dropdown-content ul li .menu-link {
-  text-decoration: none;
-  font-size: 2.3rem;
-  font-weight: 700;
-  color: var(--bg-light);
-  transition: all ease-in-out 150ms;
-  display: block;
-}
-
-.dropdown-content ul li .menu-link:hover,
-.dropdown-content ul li .menu-link:active {
-  color: #17181c;
-}
-
-.dd-link ion-icon {
-  font-size: 2.3rem;
-  color: var(--bg-light);
-}
-
-.dd-btn {
-  border: none;
-  background-color: transparent;
-  display: inline-block;
-  font-family: "Playfair Display", serif;
-}
-
-.reverse {
-  transform: rotate(180deg);
+@media only screen and (max-width: 1049px) {
+  header {
+    padding: 0 6rem 0 2rem;
+  }
 }
