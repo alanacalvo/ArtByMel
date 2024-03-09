@@ -1,9 +1,11 @@
 .sfxPage {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sfx-container {
-  padding: 24.7rem 13rem 0;
+  padding-top: 24.7rem;
 
   img {
     border-color: var(--red);

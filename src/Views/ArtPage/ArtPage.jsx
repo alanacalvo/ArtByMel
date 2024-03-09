@@ -8,7 +8,7 @@ import PositiveQuotes from "../../Components/ReusableComponents/PositiveQuotes";
 
 const ArtPage = () => {
   return (
-    <div className="artPage">
+    <div>
       <Header />
       <div className="art-container">
         <PositiveQuotes />

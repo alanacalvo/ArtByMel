@@ -21,7 +21,7 @@ const Header = () => {
           <img src={logo} alt="Artistry by Mel logo" className="logo" />
         </Link>
         <Nav />
-        <div onClick={handleOpen}>
+        <div className="menu-container" onClick={handleOpen}>
           <img src={menu} alt="Icon of a menu" className="menu-icon" />
           {open ? <ResponsiveNav /> : null}
         </div>

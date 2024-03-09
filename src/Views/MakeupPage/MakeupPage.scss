@@ -23,29 +23,3 @@
 .makeup-container img {
   border-color: var(--white);
 }
-
-/* Media Queries */
-
-@media only screen and (min-width: 900px) and (max-width: 999px) {
-  html {
-    font-size: 45%;
-  }
-}
-
-@media only screen and (min-width: 1000px) and (max-width: 1099px) {
-  html {
-    font-size: 50%;
-  }
-}
-
-@media only screen and (min-width: 1100px) and (max-width: 1199px) {
-  html {
-    font-size: 55%;
-  }
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1299px) {
-  html {
-    font-size: 60%;
-  }
-}

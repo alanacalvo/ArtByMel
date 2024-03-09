@@ -5,6 +5,16 @@ header {
   padding: 0 8rem 0 4rem;
   width: 100vw;
   position: relative;
+
+  .logo {
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .menu-icon {
+    height: 3rem;
+    width: 3.2rem;
+  }
 }
 
 /* Media Queries */
@@ -16,7 +26,8 @@ header {
 
   .menu-icon,
   #responsive,
-  .responsive-container {
+  .responsive-container,
+  .menu-container {
     display: block;
   }
 }
@@ -28,7 +39,8 @@ header {
 
   #responsive,
   .responsive-container,
-  .menu-icon {
+  .menu-icon,
+  .menu-container {
     display: none;
   }
 }

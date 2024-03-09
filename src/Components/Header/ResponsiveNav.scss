@@ -2,7 +2,7 @@
   #responsive {
     width: 100vw;
     background-color: var(--bg-color);
-    height: 50vw;
+    height: 60vw;
     position: absolute;
     top: 0;
     left: 0;
@@ -37,9 +37,22 @@
     .close-btn {
       color: var(--white);
       z-index: 5;
-      width: 2.8rem;
-      height: 2.8rem;
-      transform: translateX(1.6rem);
+      width: 4rem;
+      height: 4rem;
+      transform: translateX(2.3rem);
+    }
+  }
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 999px) {
+  .responsive-container {
+    #responsive {
+      .close-btn {
+        width: 3%;
+        height: 4%;
+      }
     }
   }
 }

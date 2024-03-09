@@ -1,9 +1,12 @@
-.artPage {
-  position: relative;
-}
+// .artPage {
+
+// }
 
 .art-container {
-  padding: 20.8rem 13rem 0;
+  padding: 10.4rem 3.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .art-container h4:not(.contact-form .section-title) {
@@ -52,6 +55,6 @@
 
 .art-container .art-pic {
   border: 2px solid var(--cyan);
-  width: 55em;
-  height: 60em;
+  width: 55rem;
+  height: 60rem;
 }
