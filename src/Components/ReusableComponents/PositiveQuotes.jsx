@@ -12,7 +12,6 @@ const allAuthors = ["- Walt Disney", "- Dalai Lama", "- Jodi Picoul"];
 const PositiveQuotes = () => {
   const [quote, setQuote] = useState(allQuotes[0].quote);
   const [author, setAuthor] = useState(allQuotes[0].author);
-  const [opacity, setOpacity] = useState(1);
 
   // utilizing the useCallback hook here to store the shuffle function between re-renders
   const shuffle = useCallback(() => {
@@ -26,17 +25,9 @@ const PositiveQuotes = () => {
     return () => clearInterval(int);
   }, [shuffle]);
 
-  useEffect(() => {
-    const fadeOut = () => setOpacity(0);
-    const fadeIn = () => setOpacity(1);
-
-    setInterval(fadeOut, 10000);
-    setInterval(fadeIn, 13000);
-  }, []);
-
   return (
     <div className="positive-quotes-container">
-      <div className="quote-container" style={{ opacity: opacity }}>
+      <div className="quote-container">
         <blockquote className="positive-quote">{quote}</blockquote>
         <p className="quote-author">{author}</p>
       </div>
