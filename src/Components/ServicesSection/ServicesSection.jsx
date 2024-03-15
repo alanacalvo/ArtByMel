@@ -6,7 +6,7 @@ import "./ServicesSection.scss";
 function ServicesSection() {
   return (
     <section className="services-section">
-      <div className="servicesContainer">
+      <div className="services-container">
         <div className="copy">
           <h4 className="section-title">Services Offered</h4>
           <h2 className="headline">Your Makeup Needs, Met.</h2>

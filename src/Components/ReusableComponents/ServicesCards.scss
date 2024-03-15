@@ -3,11 +3,19 @@
   justify-content: center;
   align-items: center;
   gap: 2em;
+  @media (max-width: 598px) {
+    flex-direction: column;
+    gap: 4em;
+  }
 }
 
 .cards {
   width: 38em;
   height: 49.2em;
+  @media (max-width: 598px) {
+    width: 80em;
+    height: 100em;
+  }
 }
 
 .card-img {
