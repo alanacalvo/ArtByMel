@@ -46,31 +46,41 @@ body {
 
 @media only screen and (max-width: 299px) {
   html:not(.homePage) {
-    font-size: 10%;
+    font-size: 25%;
   }
 }
 
 @media only screen and (min-width: 300px) and (max-width: 399px) {
   html:not(.homePage) {
-    font-size: 15%;
+    font-size: 18%;
   }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 499px) {
   html:not(.homePage) {
+    font-size: 23%;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px) {
+  html:not(.homePage) {
+    font-size: 25%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 699px) {
+  html:not(.homePage) {
     font-size: 30%;
   }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 599px),
-  (min-width: 700px) and (max-width: 799px) {
+@media only screen and (min-width: 700px) and (max-width: 799px) {
   html:not(.homePage) {
     font-size: 35%;
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 699px),
-  (min-width: 800px) and (max-width: 899px) {
+@media only screen and (min-width: 800px) and (max-width: 899px) {
   html:not(.homePage) {
     font-size: 40%;
   }

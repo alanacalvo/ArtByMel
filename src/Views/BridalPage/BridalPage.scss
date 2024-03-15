@@ -45,3 +45,26 @@
     }
   }
 }
+
+@media only screen and (min-width: 500px) and (max-width: 699px) {
+  .bridal-container {
+    .gallery-container {
+      img {
+        width: 34rem;
+        height: 35rem;
+      }
+
+      :nth-child(3) {
+        height: 72.5rem !important;
+      }
+
+      :nth-child(5) {
+        width: 70.5rem !important;
+      }
+
+      :nth-child(11) {
+        height: 72.5rem !important;
+      }
+    }
+  }
+}
