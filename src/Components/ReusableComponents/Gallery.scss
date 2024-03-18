@@ -54,25 +54,25 @@
     grid-template-columns: 1fr 1fr;
 
     img {
-      height: 46rem;
-      width: 48rem;
+      height: 33rem;
+      width: 34rem;
     }
 
     :nth-child(3) {
-      height: 96rem !important;
+      height: 68rem !important;
       grid-area: 4 / 1 / 6 / 2;
     }
 
     :nth-child(5) {
-      width: 98rem !important;
+      width: 70rem !important;
     }
 
     :nth-child(11) {
-      height: 96rem !important;
+      height: 68rem !important;
     }
 
     :nth-child(16) {
-      width: 98rem !important;
+      width: 70rem !important;
       grid-area: 9 / 1 / 10 / 3;
     }
   }

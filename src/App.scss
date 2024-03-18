@@ -50,9 +50,15 @@ body {
   }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 399px) {
+@media only screen and (min-width: 300px) and (max-width: 359px) {
   html:not(.homePage) {
-    font-size: 18%;
+    font-size: 25%;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 399px) {
+  html:not(.homePage) {
+    font-size: 30%;
   }
 }
 
