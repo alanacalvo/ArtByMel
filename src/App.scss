@@ -44,12 +44,13 @@ body {
 
 /* Media Queries */
 
-@media only screen and (max-width: 299px) {
+@media only screen and (max-width: 399px) {
   html:not(.homePage) {
     font-size: 25%;
   }
 }
 
+<<<<<<< Updated upstream
 @media only screen and (min-width: 300px) and (max-width: 359px) {
   html:not(.homePage) {
     font-size: 25%;
@@ -62,6 +63,8 @@ body {
   }
 }
 
+=======
+>>>>>>> Stashed changes
 @media only screen and (min-width: 400px) and (max-width: 499px) {
   html:not(.homePage) {
     font-size: 23%;
