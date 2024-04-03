@@ -3,8 +3,8 @@
 .testimonials-section {
   display: flex;
   align-items: center;
-  justify-content: center;
-  position: relative;
+  // justify-content: center;
+  // position: relative;
   flex-direction: column;
   height: 100vw;
   width: 100vw;
@@ -12,28 +12,34 @@
   .heading {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 10%;
+    // justify-content: center;
+    // align-items: center;
+    // position: absolute;
+    // top: 10%;
     width: 69%;
     text-align: center;
   }
-  .border-breaker {
-    width: 70.2rem;
-    height: 1.6rem;
-    background-color: var(--bg-color);
-    position: absolute;
-    top: 286rem;
-    left: 60rem;
-    z-index: 5;
-  }
+  // .border-breaker {
+  //   width: 70.2rem;
+  //   height: 1.6rem;
+  //   background-color: var(--bg-color);
+  //   position: absolute;
+  //   top: 286rem;
+  //   left: 60rem;
+  //   z-index: 5;
+  // }
   .slider {
+    margin-top: 300px;
     height: 450px;
     display: flex;
     position: absolute;
     left: 0;
     transition: all 1s ease-out;
+
+    @media (max-width: 1000px) {
+      margin-top: 200px;
+      margin-bottom: 200px;
+    }
 
     // @include mobile {
     //   height: 100vh;
@@ -60,32 +66,41 @@
         border-right: none;
         border-top: none;
         position: relative;
-
+        max-width: 1440px;
+        padding-top: 50px;
+        @media (max-width: 1000px) {
+          margin-top: 200px;
+          margin-bottom: 200px;
+        }
         .border {
           position: absolute;
           background: var(--bg-lightest);
           left: 0;
           top: 0;
-          width: 600px;
+          width: 55%;
           height: 8px;
         }
 
         .text-side {
           flex: 4;
-          height: 90%;
+          height: 100%;
           display: flex;
           align-items: center;
-          justify-content: center;
+          // justify-content: space-between;
           flex-direction: column;
           gap: 12rem;
           width: 69rem;
+          position: relative;
+          @media (max-width: 1200px) {
+            width: 100%;
+          }
 
           .quote {
             width: 90%;
-            height: 60%;
+            height: 80%;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            // justify-content: space-between;
             padding-left: 20px;
             // gap: 8.8em;
 
@@ -103,36 +118,42 @@
               font-size: 2.3rem;
               line-height: 154%;
               text-align: left;
+              @media (max-width: 1200px) {
+                width: 70vw;
+              }
             }
-            .left-par,
-            .right-par {
-              font-family: "Catamaran", sans-serif;
-              color: var(--white);
-              font-size: 6.9rem;
-              // font-weight: bold;
-              position: absolute;
-            }
+            // .left-par,
+            // .right-par {
+            //   font-family: "Catamaran", sans-serif;
+            //   color: var(--white);
+            //   font-size: 6.9rem;
+            //   // font-weight: bold;
+            //   position: absolute;
+            // }
 
-            .left-par {
-              top: 2.3rem;
-              left: 1rem;
-              transform: rotate(180deg);
-            }
+            // .left-par {
+            //   top: 2.3rem;
+            //   left: 1rem;
+            //   transform: rotate(180deg);
+            // }
 
-            .right-par {
-              top: 6.1rem;
-              left: 9.5rem;
-            }
+            // .right-par {
+            //   top: 6.1rem;
+            //   left: 9.5rem;
+            // }
           }
           .slide-controls {
             display: flex;
             justify-content: space-evenly;
             align-items: center;
             gap: 0.4rem;
-            position: relative;
-            top: 9rem;
-            left: -22rem;
-
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            // padding-left: 30px;
+            // padding-bottom: 20px;
+            padding: 20px;
+            width: 20vw;
             .slidenumber {
               display: flex;
               justify-content: space-between;
@@ -161,11 +182,18 @@
       }
 
       .img-side {
-        flex: 7;
-        height: 100%;
+        // flex: 7;
+        height: 90%;
+        width: 76%;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
+        position: absolute;
+        right: 0;
+
+        @media (max-width: 1200px) {
+          display: none;
+        }
 
         // @include mobile {
         //   padding-right: 0;
@@ -175,8 +203,8 @@
         // }
 
         img {
-          display: block;
-
+          // display: block;
+          // height: 100%;
           // @include mobile {
           //   height: 125px;
           //   width: 175px;
