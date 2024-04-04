@@ -100,6 +100,11 @@
       img {
         height: 32rem;
         width: 38rem;
+
+        .safari_only {
+          height: 14rem;
+          width: 15rem;
+        }
       }
 
       :nth-child(3) {
@@ -118,15 +123,6 @@
       :nth-child(16) {
         width: 79rem !important;
         grid-area: 5 / 2 / 6 / 4;
-      }
-
-      .safari_only {
-        .gallery-container {
-          img {
-            height: 14rem;
-            width: 15rem;
-          }
-        }
       }
     }
   }
