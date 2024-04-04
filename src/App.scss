@@ -38,8 +38,6 @@ body {
   height: 100vh;
   width: 100vw;
   overflow-x: hidden;
-  // overflow-y: hidden;
-  // overflow-y:scroll;
 }
 
 /* Media Queries */
@@ -50,21 +48,6 @@ body {
   }
 }
 
-<<<<<<< Updated upstream
-@media only screen and (min-width: 300px) and (max-width: 359px) {
-  html:not(.homePage) {
-    font-size: 25%;
-  }
-}
-
-@media only screen and (min-width: 360px) and (max-width: 399px) {
-  html:not(.homePage) {
-    font-size: 30%;
-  }
-}
-
-=======
->>>>>>> Stashed changes
 @media only screen and (min-width: 400px) and (max-width: 499px) {
   html:not(.homePage) {
     font-size: 23%;
