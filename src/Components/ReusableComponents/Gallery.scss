@@ -35,7 +35,136 @@
   }
 }
 
-@media only screen and (max-width: 1299px) {
+@media only screen and (max-width: 299px) {
+  .gallery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 60rem;
+      height: 45rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 499px) {
+  .gallery-container {
+    grid-template-columns: 1fr 1fr;
+
+    img {
+      height: 33rem;
+      width: 34rem;
+    }
+
+    :nth-child(3) {
+      height: 68rem !important;
+      grid-area: 4 / 1 / 6 / 2;
+    }
+
+    :nth-child(5) {
+      width: 70rem !important;
+    }
+
+    :nth-child(11) {
+      height: 68rem !important;
+    }
+
+    :nth-child(16) {
+      width: 70rem !important;
+      grid-area: 9 / 1 / 10 / 3;
+    }
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .makeup-container,
+  .sfx-container {
+    .gallery-container {
+      grid-template-rows: repeat(7, 1fr);
+    }
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px) {
+  .makeup-container,
+  .sfx-container {
+    .gallery-container {
+      img {
+        height: 32rem;
+        width: 180px;
+      }
+
+      :nth-child(3) {
+        height: 67rem !important;
+      }
+
+      :nth-child(5) {
+        width: 282px !important;
+      }
+
+      :nth-child(11) {
+        height: 67rem !important;
+      }
+
+      :nth-child(16) {
+        width: 282px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 699px) {
+  .gallery-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .makeup-container,
+  .sfx-container {
+    .gallery-container {
+      grid-template-rows: repeat(6, 1fr);
+
+      :nth-child(3) {
+        grid-area: 4 / 1 / 6 / 2;
+      }
+
+      :nth-child(16) {
+        grid-area: 5 / 2 / 6 / 4;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 699px) {
+  .makeup-container,
+  .sfx-container {
+    .gallery-container {
+      img {
+        height: 154px;
+        width: 180px;
+      }
+
+      :nth-child(3) {
+        height: 320px !important;
+      }
+
+      :nth-child(5) {
+        width: 371px !important;
+      }
+
+      :nth-child(11) {
+        height: 320px !important;
+      }
+
+      :nth-child(16) {
+        width: 371px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1299px) {
   .gallery-container {
     img {
       height: 23rem;

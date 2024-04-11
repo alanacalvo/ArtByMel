@@ -38,27 +38,19 @@ body {
   height: 100vh;
   width: 100vw;
   overflow-x: hidden;
-  // overflow-y: hidden;
-  // overflow-y:scroll;
 }
 
 /* Media Queries */
 
-@media only screen and (max-width: 299px) {
+@media only screen and (max-width: 399px) {
   html:not(.homePage) {
-    font-size: 10%;
-  }
-}
-
-@media only screen and (min-width: 300px) and (max-width: 399px) {
-  html:not(.homePage) {
-    font-size: 15%;
+    font-size: 25%;
   }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 499px) {
   html:not(.homePage) {
-    font-size: 20%;
+    font-size: 23%;
   }
 }
 
@@ -107,5 +99,53 @@ body {
 @media only screen and (min-width: 1200px) and (max-width: 1299px) {
   html:not(.homePage) {
     font-size: 60%;
+  }
+}
+
+@media only screen and (min-width: 2000px) and (max-width: 2999px) {
+  html:not(.homePage) {
+    font-size: 85%;
+  }
+}
+
+@media only screen and (min-width: 3000px) and (max-width: 3999px) {
+  html:not(.homePage) {
+    font-size: 120%;
+  }
+}
+
+@media only screen and (min-width: 4000px) and (max-width: 4999px) {
+  html:not(.homePage) {
+    font-size: 170%;
+  }
+}
+
+@media only screen and (min-width: 5000px) and (max-width: 5999px) {
+  html:not(.homePage) {
+    font-size: 180%;
+  }
+}
+
+@media only screen and (min-width: 6000px) and (max-width: 6999px) {
+  html:not(.homePage) {
+    font-size: 190%;
+  }
+}
+
+@media only screen and (min-width: 7000px) and (max-width: 7999px) {
+  html:not(.homePage) {
+    font-size: 200%;
+  }
+}
+
+@media only screen and (min-width: 8000px) and (max-width: 8999px) {
+  html:not(.homePage) {
+    font-size: 210%;
+  }
+}
+
+@media only screen and (min-width: 9000px) and (max-width: 9999px) {
+  html:not(.homePage) {
+    font-size: 220%;
   }
 }
