@@ -92,24 +92,30 @@
   .sfx-container {
     .gallery-container {
       img {
-        height: 128px;
-        width: 155px;
+        min-height: 128px;
+        max-height: 140px;
+        min-width: 155px;
+        max-height: 175px;
       }
 
       :nth-child(3) {
-        height: 268px !important;
+        min-height: 268px !important;
+        max-height: 304px !important;
       }
 
       :nth-child(5) {
-        width: 319px !important;
+        min-width: 319px !important;
+        max-width: 374px !important;
       }
 
       :nth-child(11) {
-        height: 268px !important;
+        min-height: 268px !important;
+        max-height: 304px !important;
       }
 
       :nth-child(16) {
-        width: 319px !important;
+        min-width: 319px !important;
+        max-width: 374px !important;
       }
     }
   }
