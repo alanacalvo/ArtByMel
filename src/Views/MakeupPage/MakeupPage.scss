@@ -18,6 +18,14 @@
   img:nth-child(16) {
     object-position: center -2rem;
   }
+
+  @media only screen and (max-width: 499px) {
+    .gallery-container {
+      :nth-child(16) {
+        object-position: center;
+      }
+    }
+  }
 }
 
 .makeup-container img {
