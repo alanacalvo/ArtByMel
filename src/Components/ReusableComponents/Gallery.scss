@@ -1,50 +1,32 @@
 .gallery-container {
   display: grid;
   place-items: center;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, 1fr);
   gap: 2.4rem;
   margin-top: 10.4rem;
-
-  img {
-    width: 28rem;
-    height: 25rem;
-    object-fit: cover;
-    border-width: 2px;
-    border-style: solid;
-  }
-
-  :nth-child(3) {
-    grid-area: 1 / 3 / 3 / 4;
-    height: 52.5rem !important;
-  }
-
-  :nth-child(5) {
-    grid-area: 2 / 1 / 3 / 3;
-    width: 58.5rem !important;
-  }
-
-  :nth-child(11) {
-    grid-area: 4 / 1 / 6 / 2;
-    height: 52.5rem !important;
-  }
-
-  :nth-child(16) {
-    grid-area: 5 / 3 / 6 / 5;
-    width: 58.5rem !important;
-  }
 }
 
 @media only screen and (max-width: 299px) {
-  .gallery-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  .makeup-container,
+  .sfx-container {
+    .gallery-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
 
-    img {
-      width: 60rem;
-      height: 45rem;
+      img {
+        max-width: 230px;
+        max-height: 180px;
+      }
+
+      :nth-child(5) {
+        width: 230px !important;
+      }
+
+      :nth-child(16) {
+        width: 230px !important;
+        object-position: center;
+      }
     }
   }
 }
@@ -54,24 +36,24 @@
   .sfx-container {
     .gallery-container {
       img {
-        max-height: 130px;
-        max-width: 132px;
+        max-height: 120px;
+        max-width: 125px;
       }
 
       :nth-child(3) {
-        max-height: 281px !important;
+        max-height: 270px !important;
       }
 
       :nth-child(5) {
-        max-width: 295px !important;
+        max-width: 283px !important;
       }
 
       :nth-child(11) {
-        max-height: 281px !important;
+        max-height: 270px !important;
       }
 
       :nth-child(16) {
-        max-width: 295px !important;
+        max-width: 283px !important;
       }
     }
   }
@@ -236,6 +218,41 @@
 
     :nth-child(16) {
       width: 55rem !important;
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .gallery-container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
+    img {
+      width: 28rem;
+      height: 25rem;
+      object-fit: cover;
+      border-width: 2px;
+      border-style: solid;
+    }
+
+    :nth-child(3) {
+      grid-area: 1 / 3 / 3 / 4;
+      height: 52.5rem !important;
+    }
+
+    :nth-child(5) {
+      grid-area: 2 / 1 / 3 / 3;
+      width: 58.5rem !important;
+    }
+
+    :nth-child(11) {
+      grid-area: 4 / 1 / 6 / 2;
+      height: 52.5rem !important;
+    }
+
+    :nth-child(16) {
+      grid-area: 5 / 3 / 6 / 5;
+      width: 58.5rem !important;
     }
   }
 }
