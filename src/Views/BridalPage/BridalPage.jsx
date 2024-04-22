@@ -7,11 +7,13 @@ import "./BridalPage.scss";
 
 const BridalPage = () => {
   return (
-    <div className="bridalPage">
+    <div>
       <Header />
-      <div className="bridal-container">
-        <PageHeading headline={"A gallery of beautiful bridal looks"} />
-        <Gallery array={bridalImages} />
+      <div className="bridalPage">
+        <div className="bridal-container">
+          <PageHeading headline={"A gallery of beautiful bridal looks"} />
+          <Gallery array={bridalImages} />
+        </div>
       </div>
       <Footer />
     </div>
