@@ -6,7 +6,6 @@
 
 .bridal-container {
   padding-top: 24.7rem;
-  // margin-bottom: -35rem;
 
   img {
     border-color: var(--white);
@@ -23,42 +22,5 @@
   img:nth-child(7),
   img:nth-child(8) {
     object-position: center top;
-  }
-
-  .gallery-container {
-    grid-template-rows: repeat(3, 1fr);
-  }
-}
-
-@media only screen and (max-width: 499px) {
-  .bridal-container {
-    .gallery-container {
-      grid-template-rows: repeat(5, 1fr);
-    }
-  }
-}
-
-@media only screen and (min-width: 500px) and (max-width: 699px) {
-  .bridal-container {
-    .gallery-container {
-      grid-template-rows: repeat(4, 1fr);
-
-      img {
-        width: 34rem;
-        height: 35rem;
-      }
-
-      :nth-child(3) {
-        height: 72.5rem !important;
-      }
-
-      :nth-child(5) {
-        width: 70.5rem !important;
-      }
-
-      :nth-child(11) {
-        height: 72.5rem !important;
-      }
-    }
   }
 }
