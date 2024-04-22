@@ -7,6 +7,10 @@
 .makeup-container {
   padding-top: 24.7rem;
 
+  img {
+    border-color: var(--white);
+  }
+
   img:nth-child(8) {
     object-position: center top;
   }
@@ -26,8 +30,4 @@
       }
     }
   }
-}
-
-.makeup-container img {
-  border-color: var(--white);
 }

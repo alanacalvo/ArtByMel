@@ -30,8 +30,7 @@
 
 @media only screen and (min-width: 300px) and (max-width: 399px) {
   .makeup-container,
-  .sfx-container,
-  .bridal-container {
+  .sfx-container {
     .gallery-container {
       img {
         height: 120px;
@@ -55,13 +54,26 @@
       }
     }
   }
+
+  .bridal-container {
+    .gallery-container {
+      img {
+        height: 120px;
+        width: 125px;
+      }
+
+      :nth-child(3) {
+        height: 250px !important;
+      }
+
+      :nth-child(5) {
+        width: 272px !important;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 300px) and (max-width: 499px) {
-  .gallery-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .makeup-container,
   .sfx-container,
   .bridal-container {
@@ -79,6 +91,7 @@
   .makeup-container,
   .sfx-container {
     .gallery-container {
+      grid-template-columns: 1fr 1fr;
       grid-template-rows: repeat(10, 1fr);
 
       :nth-child(11) {
@@ -93,6 +106,7 @@
 
   .bridal-container {
     .gallery-container {
+      grid-template-columns: 130px 130px;
       grid-template-rows: repeat(6, 1fr);
     }
   }
