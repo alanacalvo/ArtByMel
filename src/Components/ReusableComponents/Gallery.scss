@@ -12,7 +12,8 @@
 
 @media only screen and (max-width: 299px) {
   .makeup-container,
-  .sfx-container {
+  .sfx-container,
+  .bridal-container {
     .gallery-container {
       display: flex;
       flex-direction: column;
@@ -29,7 +30,8 @@
 
 @media only screen and (min-width: 300px) and (max-width: 399px) {
   .makeup-container,
-  .sfx-container {
+  .sfx-container,
+  .bridal-container {
     .gallery-container {
       img {
         height: 120px;
@@ -61,10 +63,9 @@
   }
 
   .makeup-container,
-  .sfx-container {
+  .sfx-container,
+  .bridal-container {
     .gallery-container {
-      grid-template-rows: repeat(10, 1fr);
-
       :nth-child(3) {
         grid-area: 2 / 1 / 4 / 2;
       }
@@ -72,6 +73,13 @@
       :nth-child(5) {
         grid-area: 5 / 1 / 6 / 3;
       }
+    }
+  }
+
+  .makeup-container,
+  .sfx-container {
+    .gallery-container {
+      grid-template-rows: repeat(10, 1fr);
 
       :nth-child(11) {
         grid-area: 7 / 2 / 9 / 3;
@@ -82,11 +90,18 @@
       }
     }
   }
+
+  .bridal-container {
+    .gallery-container {
+      grid-template-rows: repeat(6, 1fr);
+    }
+  }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 499px) {
   .makeup-container,
-  .sfx-container {
+  .sfx-container,
+  .bridal-container {
     .gallery-container {
       img {
         height: 145px;
@@ -113,25 +128,22 @@
 }
 
 @media only screen and (min-width: 500px) and (max-width: 599px) {
-  .makeup-container,
-  .sfx-container {
-    .gallery-container {
-      img {
-        max-height: 130px;
-        max-width: 140px;
-      }
+  .gallery-container {
+    img {
+      height: 130px;
+      width: 140px;
+    }
 
-      :nth-child(3) {
-        max-height: 285px !important;
-      }
+    :nth-child(3) {
+      height: 282px !important;
+    }
 
-      :nth-child(5) {
-        max-width: 302px !important;
-      }
+    :nth-child(5) {
+      width: 298px !important;
+    }
 
-      :nth-child(11) {
-        max-height: 285px !important;
-      }
+    :nth-child(11) {
+      height: 282px !important;
     }
   }
 }
@@ -142,7 +154,8 @@
   }
 
   .makeup-container,
-  .sfx-container {
+  .sfx-container,
+  .bridal-container {
     .gallery-container {
       grid-template-rows: repeat(6, 1fr);
 
@@ -167,7 +180,8 @@
 
 @media only screen and (min-width: 600px) and (max-width: 699px) {
   .makeup-container,
-  .sfx-container {
+  .sfx-container,
+  .bridal-container {
     .gallery-container {
       img {
         height: 154px;
