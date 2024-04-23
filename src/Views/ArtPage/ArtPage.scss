@@ -91,13 +91,31 @@
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 699px) {
+@media only screen and (min-width: 600px) {
   .artPage {
     .art-gallery {
       gap: 38px;
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 699px) {
+  .artPage {
+    .art-gallery {
       img {
         width: 265px;
         height: 289px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 799px) {
+  .artPage {
+    .art-gallery {
+      img {
+        width: 308px;
+        height: 336px;
       }
     }
   }
