@@ -32,16 +32,19 @@
 
 /* Media Queries */
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 449px) {
   .artPage {
-    .art-pic {
-      width: 48rem;
-      height: 54rem;
+    .art-gallery {
+      grid-template-columns: 160px 160px;
+      img {
+        height: 180px;
+        width: 160px;
+      }
     }
   }
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (min-width: 450px) and (max-width: 599px) {
   .artPage {
     .art-gallery {
       grid-template-columns: 180px 180px;
