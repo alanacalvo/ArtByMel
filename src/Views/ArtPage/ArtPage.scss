@@ -4,10 +4,6 @@
   flex-direction: column;
   align-items: center;
 
-  .art-container {
-    padding: 0 10.4rem;
-  }
-
   h4:not(.contact-form .section-title) {
     margin-top: 20.8rem;
   }
@@ -34,25 +30,11 @@
 
 @media only screen and (max-width: 299px) {
   .artPage {
+    padding: 10.4rem 8rem;
     .art-gallery {
-      grid-template-columns: 100px 100px;
-      gap: 2.4rem;
-
       img {
-        height: 120px;
-        width: 100px;
-      }
-    }
-  }
-}
-
-@media only screen and (min-width: 300px) and (max-width: 349px) {
-  .artPage {
-    .art-gallery {
-      grid-template-columns: 120px 120px;
-      img {
-        height: 140px;
-        width: 120px;
+        height: 240px;
+        width: 220px;
       }
     }
   }
@@ -60,38 +42,45 @@
 
 @media only screen and (min-width: 300px) and (max-width: 399px) {
   .artPage {
-    .art-gallery {
-      gap: 4.8rem;
+    .art-container {
+      padding: 0 16rem;
     }
-  }
-}
-
-@media only screen and (min-width: 350px) and (max-width: 399px) {
-  .artPage {
     .art-gallery {
-      grid-template-columns: 140px 140px;
       img {
-        height: 160px;
-        width: 140px;
+        height: 280px;
+        width: 260px;
       }
     }
   }
 }
 
-@media only screen and (min-width: 400px) and (max-width: 449px) {
+@media only screen and (min-width: 400px) and (max-width: 499px) {
   .artPage {
     .art-gallery {
-      grid-template-columns: 160px 160px;
       img {
-        height: 180px;
-        width: 160px;
+        height: 320px;
+        width: 300px;
       }
     }
   }
 }
 
-@media only screen and (min-width: 450px) and (max-width: 599px) {
+@media only screen and (max-width: 499px) {
   .artPage {
+    .art-gallery {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 8rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px) {
+  .artPage {
+    .art-container {
+      padding: 0 10.4rem;
+    }
     .art-gallery {
       grid-template-columns: 180px 180px;
       img {
