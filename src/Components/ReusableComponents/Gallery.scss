@@ -57,6 +57,7 @@
 
   .bridal-container {
     .gallery-container {
+      grid-template-columns: 125px 125px;
       img {
         height: 120px;
         width: 125px;
@@ -67,7 +68,7 @@
       }
 
       :nth-child(5) {
-        width: 272px !important;
+        width: 260px !important;
       }
     }
   }
@@ -106,7 +107,6 @@
 
   .bridal-container {
     .gallery-container {
-      grid-template-columns: 130px 130px;
       grid-template-rows: repeat(6, 1fr);
     }
   }

@@ -24,3 +24,9 @@
     object-position: center top;
   }
 }
+
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+  .bridal-container {
+    padding: 24.7rem 16rem 0;
+  }
+}
