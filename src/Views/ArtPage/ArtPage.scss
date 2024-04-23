@@ -32,16 +32,65 @@
 
 /* Media Queries */
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 299px) {
   .artPage {
-    .art-pic {
-      width: 48rem;
-      height: 54rem;
+    .art-gallery {
+      grid-template-columns: 100px 100px;
+      gap: 2.4rem;
+
+      img {
+        height: 120px;
+        width: 100px;
+      }
     }
   }
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (min-width: 300px) and (max-width: 349px) {
+  .artPage {
+    .art-gallery {
+      grid-template-columns: 120px 120px;
+      img {
+        height: 140px;
+        width: 120px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+  .artPage {
+    .art-gallery {
+      gap: 4.8rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 399px) {
+  .artPage {
+    .art-gallery {
+      grid-template-columns: 140px 140px;
+      img {
+        height: 160px;
+        width: 140px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 449px) {
+  .artPage {
+    .art-gallery {
+      grid-template-columns: 160px 160px;
+      img {
+        height: 180px;
+        width: 160px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 599px) {
   .artPage {
     .art-gallery {
       grid-template-columns: 180px 180px;
