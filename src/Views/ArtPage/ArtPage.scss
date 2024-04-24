@@ -142,3 +142,50 @@
     }
   }
 }
+
+@media only screen and (min-width: 1400px) and (max-width: 1699px) {
+  .artPage {
+    padding: 16rem;
+    .art-container {
+      padding: 0 10.4rem;
+      .art-gallery {
+        grid-template-columns: 55rem 55rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .artPage {
+    .art-container {
+      padding: 0 16rem;
+      .art-gallery {
+        grid-template-columns: 57rem 57rem;
+        gap: 9.6rem;
+        img {
+          width: 57rem;
+          height: 62rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1700px) and (max-width: 2499px) {
+  .artPage {
+    padding: 20.8rem;
+  }
+}
+
+@media only screen and (min-width: 2500px) and (max-width: 2799px),
+  (min-width: 3000px) {
+  .artPage {
+    padding: 32rem;
+  }
+}
+
+@media only screen and (min-width: 2800px) and (max-width: 2999px) {
+  .artPage {
+    padding: 48rem;
+  }
+}
