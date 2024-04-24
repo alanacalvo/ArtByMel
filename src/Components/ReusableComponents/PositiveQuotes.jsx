@@ -1,29 +1,35 @@
-import { useCallback, useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import "./PositiveQuotes.scss";
 
-const allQuotes = [
-  "All our dreams can come true, if we have the courage to pursue them.",
-  "In order to carry a positive action we must develop here a positive vision.",
-  "Extraordinary things are always hiding in places people never think to look.",
-];
-
-const allAuthors = ["- Walt Disney", "- Dalai Lama", "- Jodi Picoul"];
-
 const PositiveQuotes = () => {
-  const [quote, setQuote] = useState(allQuotes[0].quote);
-  const [author, setAuthor] = useState(allQuotes[0].author);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const quotes = [
+    {
+      quote:
+        "All our dreams can come true, if we have the courage to pursue them.",
+      author: "- Walt Disney",
+    },
+    {
+      quote:
+        "In order to carry a positive action we must develop here a positive vision.",
+      author: "- Dalai Lama",
+    },
+    {
+      quote:
+        "Extraordinary things are always hiding in places people never think to look.",
+      author: "- Jodi Picoul",
+    },
+  ];
 
-  // utilizing the useCallback hook here to store the shuffle function between re-renders
-  const shuffle = useCallback(() => {
-    const i = Math.floor(Math.random() * allQuotes.length);
-    setQuote(allQuotes[i]);
-    setAuthor(allAuthors[i]);
-  }, []); // no dependecies for this function so the function will continue the same on every render
+  const [randomQuote, setRandomQuote] = useState(0);
 
+  // Display a different quote from the quotes array on every render
   useEffect(() => {
-    const int = setInterval(shuffle, 13000);
-    return () => clearInterval(int);
-  }, [shuffle]);
+    const randomQuote = Math.floor(Math.random() * quotes.length);
+    setRandomQuote(randomQuote);
+  }, [quotes]);
+
+  const { quote, author } = quotes[randomQuote];
 
   return (
     <div className="positive-quotes-container">
