@@ -28,10 +28,6 @@
 
 @media only screen and (max-width: 299px) {
   .sfx-container {
-    img:nth-child(5) {
-      object-position: center -15rem;
-    }
-
     img:nth-child(11),
     img:nth-child(13) {
       object-position: center top;
@@ -39,42 +35,10 @@
   }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 399px) {
+@media only screen and (max-width: 1299px) {
   .sfx-container {
     img:nth-child(5) {
-      object-position: center -24rem;
-    }
-  }
-}
-
-@media only screen and (min-width: 400px) and (max-width: 499px) {
-  .sfx-container {
-    img:nth-child(5) {
-      object-position: center -36rem;
-    }
-  }
-}
-
-@media only screen and (min-width: 500px) and (max-width: 699px) {
-  .sfx-container {
-    img:nth-child(5) {
-      object-position: center -26rem;
-    }
-  }
-}
-
-@media only screen and (min-width: 700px) and (max-width: 999px) {
-  .sfx-container {
-    img:nth-child(5) {
-      object-position: center -18rem;
-    }
-  }
-}
-
-@media only screen and (min-width: 1000px) and (max-width: 1299px) {
-  .sfx-container {
-    img:nth-child(5) {
-      object-position: center -16rem;
+      object-position: center 33%;
     }
   }
 }
