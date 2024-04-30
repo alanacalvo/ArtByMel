@@ -19,13 +19,13 @@ header {
 
 /* Media Queries */
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 250px) {
   header {
     padding: 0 24px 0 8px;
   }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 399px) {
+@media only screen and (max-width: 399px) {
   header {
     .logo {
       width: 60px;
