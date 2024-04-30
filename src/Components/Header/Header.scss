@@ -19,6 +19,12 @@ header {
 
 /* Media Queries */
 
+@media only screen and (min-width: 400px) {
+  header {
+    padding: 0 24px 0 8px;
+  }
+}
+
 @media only screen and (min-width: 400px) and (max-width: 499px) {
   header {
     .logo {
@@ -29,6 +35,20 @@ header {
     .menu-icon {
       width: 20px;
       height: 18px;
+    }
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px) {
+  header {
+    .logo {
+      width: 80px;
+      height: 80px;
+    }
+
+    .menu-icon {
+      width: 22px;
+      height: 19px;
     }
   }
 }
@@ -59,8 +79,8 @@ header {
   }
 }
 
-@media only screen and (max-width: 1049px) {
-  header {
-    padding: 0 6rem 0 2rem;
-  }
-}
+// @media only screen and (max-width: 1049px) {
+//   header {
+//     padding: 0 6rem 0 2rem;
+//   }
+// }
