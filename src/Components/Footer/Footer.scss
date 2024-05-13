@@ -83,20 +83,10 @@ footer {
 
 /* Media Queries */
 
-@media only screen and (max-width: 299px) {
-  footer {
-    height: 140px;
-  }
-}
-
-@media only screen and (min-width: 300px) and (max-width: 399px) {
-  footer {
-    height: 155px;
-  }
-}
-
 @media only screen and (max-width: 399px) {
   footer {
+    height: 200px;
+
     .footer-logo {
       width: 96px;
       height: 96px;
@@ -116,7 +106,7 @@ footer {
 
 @media only screen and (min-width: 400px) and (max-width: 499px) {
   footer {
-    height: 170px;
+    height: 220px;
 
     .footer-logo {
       width: 108px;
@@ -138,7 +128,7 @@ footer {
 @media only screen and (max-width: 499px) {
   footer {
     margin: 98px 0 26px;
-    padding: 0 24rem;
+    padding: 0;
 
     .cols {
       flex-direction: column;
