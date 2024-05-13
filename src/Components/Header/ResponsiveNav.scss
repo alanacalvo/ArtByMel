@@ -46,11 +46,79 @@
 
 /* Media Queries */
 
+@media only screen and (max-width: 299px) {
+  .responsive-container {
+    #responsive {
+      height: 130vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+  .responsive-container {
+    #responsive {
+      height: 110vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 499px) {
+  .responsive-container {
+    #responsive {
+      ul {
+        gap: 18px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  .responsive-container {
+    #responsive {
+      padding: 36px 20px 0 36px;
+
+      .close-btn {
+        width: 14px;
+        height: 14px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+  .responsive-container {
+    #responsive {
+      height: 80vw;
+      padding: 36px 20px 0 48px;
+    }
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 699px) {
+  .responsive-container {
+    #responsive {
+      .close-btn {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  .responsive-container {
+    #responsive {
+      .close-btn {
+        transform: translateY(-8px);
+      }
+    }
+  }
+}
+
 @media only screen and (min-width: 500px) {
   .responsive-container {
     #responsive {
       padding: 48px 32px 0 60px;
-      height: 75vw;
 
       ul {
         gap: 24px;
@@ -70,17 +138,6 @@
         .nav-link:visited {
           font-size: 16px;
         }
-      }
-    }
-  }
-}
-
-@media only screen and (min-width: 500px) and (max-width: 699px) {
-  .responsive-container {
-    #responsive {
-      .close-btn {
-        width: 18px;
-        height: 18px;
       }
     }
   }
