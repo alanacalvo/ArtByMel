@@ -7,7 +7,7 @@ footer {
   .footer-logo {
     height: 15rem;
     width: 15rem;
-    transform: translateX(-3rem);
+    transform: translateX(-15px);
   }
 
   .firstCol,
@@ -160,6 +160,49 @@ footer {
     .secondCol,
     .thirdCol {
       display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px) {
+  footer {
+    .firstCol {
+      p {
+        width: 62px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 799px) {
+  footer {
+    .cols {
+      gap: 80px;
+    }
+
+    .footer-logo {
+      height: 60px;
+      width: 60px;
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 699px) {
+  footer {
+    .firstCol {
+      p {
+        width: 75px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 799px) {
+  footer {
+    .firstCol {
+      p {
+        width: 85px;
+      }
     }
   }
 }
