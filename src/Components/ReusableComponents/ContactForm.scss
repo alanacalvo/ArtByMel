@@ -91,19 +91,43 @@ form {
 
 /* Media Queries */
 
-@media only screen and (max-width: 499px) {
+@media only screen and (max-width: 299px) {
   .contact-form {
-    width: 105rem;
-  }
-
-  form {
-    flex-direction: column;
-    gap: 5.6rem;
+    width: 220px;
   }
 
   .left-side,
   .right-side {
-    width: 90.5rem;
+    width: 165px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+  .contact-form {
+    width: 260px;
+  }
+
+  .left-side,
+  .right-side {
+    width: 205px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+  .contact-form {
+    width: 300px;
+  }
+
+  .left-side,
+  .right-side {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 499px) {
+  form {
+    flex-direction: column;
+    gap: 5.6rem;
   }
 
   .submit-btn {

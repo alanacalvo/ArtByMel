@@ -1,7 +1,7 @@
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
 import PageHeading from "../../Components/ReusableComponents/PageHeading";
-// import ContactForm from "../../Components/ReusableComponents/ContactForm";
+import ContactForm from "../../Components/ReusableComponents/ContactForm";
 import PositiveQuotes from "../../Components/ReusableComponents/PositiveQuotes";
 
 import "./ArtPage.scss";
@@ -37,7 +37,7 @@ const ArtPage = () => {
             />
           </div>
         </div>
-        {/* <ContactForm /> */}
+        <ContactForm />
       </div>
       <Footer />
     </div>
