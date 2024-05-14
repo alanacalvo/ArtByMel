@@ -4,6 +4,12 @@
   flex-direction: column;
   align-items: center;
 
+  .art-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   h4:not(.contact-form .section-title) {
     margin-top: 20.8rem;
   }
