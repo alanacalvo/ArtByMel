@@ -97,7 +97,8 @@ form {
   }
 
   .left-side,
-  .right-side {
+  .right-side,
+  .submit-btn {
     width: 165px;
   }
 }
@@ -108,7 +109,8 @@ form {
   }
 
   .left-side,
-  .right-side {
+  .right-side,
+  .submit-btn {
     width: 205px;
   }
 }
@@ -116,10 +118,12 @@ form {
 @media only screen and (min-width: 400px) and (max-width: 499px) {
   .contact-form {
     width: 300px;
+    padding: 26px;
   }
 
   .left-side,
-  .right-side {
+  .right-side,
+  .submit-btn {
     width: 250px;
   }
 }
@@ -127,7 +131,13 @@ form {
 @media only screen and (max-width: 499px) {
   form {
     flex-direction: column;
-    gap: 5.6rem;
+    gap: 21px;
+    margin-top: 30px;
+
+    .email-textbox,
+    .name-textbox {
+      margin-bottom: 21px;
+    }
   }
 
   .submit-btn {
