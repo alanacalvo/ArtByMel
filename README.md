@@ -76,7 +76,7 @@ For inquiries, please reach out via:
 - **Email**: melvinjr329@gmail.com
 - **Phone**: (813) 648-6822
 - **Social Media**:
-  - [Instagram](#https://www.instagram.com/makeupbymelvinn/?igshid=MzRlODBiNWFlZA%3D%3D)
-  - [Facebook](#https://www.facebook.com/melvin.abraham.5)
+  - [Instagram] makeupbymelvinn
+  - [Facebook] Melvin Abraham
 
 Thank you for visiting ArtistrybyMel. We look forward to helping you achieve your desired look with the artistry and expertise of Melvin Lozado.
