@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# ArtistrybyMel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to ArtistrybyMel, the official portfolio and booking site for Melvin Lozado, a skilled makeup and special effects artist. This README provides an overview of the website's features, structure, and usage guidelines.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+1. [Introduction](#introduction)
+2. [Website Features](#website-features)
+3. [Navigation Guide](#navigation-guide)
+4. [Booking an Appointment](#booking-an-appointment)
+5. [Technical Information](#technical-information)
+6. [Contact Information](#contact-information)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ArtistrybyMel showcases the exceptional work of Melvin Lozado, highlighting his expertise in traditional makeup, bridal makeup, and special effects artistry. Whether you're looking to explore his portfolio, learn more about his services, or book an appointment, this website offers a comprehensive and user-friendly experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Website Features
 
-### `npm test`
+- **Testimonials**: Read reviews and testimonials from satisfied clients.
+- **About Me**: Learn more about Melvin Lozado's background, experience, and artistic vision.
+- **Portfolio Gallery**: Browse high-quality images categorized by makeup style and special effects projects.
+- **Services**: Detailed descriptions of the services offered, including makeup for events, special effects makeup, and personalized consultations.
+- **Booking System**: An integrated booking system that allows users to schedule appointments directly through the website.
+- **Contact Information**: Easily accessible contact details for inquiries and further information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Navigation Guide
 
-### `npm run build`
+### Home Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The home page provides a welcoming introduction to the site. Navigation links to other sections of the site are easily accessible from the main menu.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### About Me
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The About Me section offers a detailed biography of Melvin Lozado, including his journey into makeup artistry, his training and qualifications, and his artistic philosophy.
 
-### `npm run eject`
+### Testimonials
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Read feedback from previous clients in the Testimonials section. These reviews provide insights into the quality of Melvin's work and customer satisfaction.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Portfolio
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The Portfolio is divided into four main categories:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Glam Makeup Artistry**: Showcasing traditional makeup looks for various occasions, including photo shoots and formal events.
+- **Bridal Makeup Artistry**: Presenting bridal makeup looks where Melvin transformed his brides with stunning makeup looks for their special day.
+- **Special Effects**: Highlighting Melvin's skills in creating realistic and imaginative special effects makeup for film, theater, and themed events.
+- **Art**: The art page portrays Melvin's expansive creativity beyond makeup - his beautiful paintings.
 
-## Learn More
+### Booking
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The Book page allows clients to schedule an appointment with Melvin. Users can select their desired service, choose an available date and time, and provide necessary details to confirm the booking. A confirmation email is sent upon successful booking.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Booking an Appointment
 
-### Code Splitting
+To book an appointment:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Navigate to the [Book](#booking) page.
+2. Select the type of service you need.
+3. Choose an available date and time from the calendar.
+4. Fill in the required details in the booking form.
+5. Submit the form to receive a confirmation email.
 
-### Analyzing the Bundle Size
+For any issues or questions regarding the booking process, please visit the [Contact](#contact) form for assistance.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Technical Information
 
-### Making a Progressive Web App
+- **Website Platform**: The website is built using React.
+- **Hosting**: Hosted by Netlify.
+- **Maintenance**: Regular updates and maintenance are performed to ensure optimal performance and security.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contact Information
 
-### Advanced Configuration
+For inquiries, please reach out via:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Email**: melvinjr329@gmail.com
+- **Phone**: (813) 648-6822
+- **Social Media**:
+  - [Instagram](#https://www.instagram.com/makeupbymelvinn/?igshid=MzRlODBiNWFlZA%3D%3D)
+  - [Facebook](#https://www.facebook.com/melvin.abraham.5)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for visiting ArtistrybyMel. We look forward to helping you achieve your desired look with the artistry and expertise of Melvin Lozado.
