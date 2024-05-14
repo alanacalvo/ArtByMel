@@ -3,10 +3,10 @@
 .testimonials-section {
   display: flex;
   align-items: center;
-  // justify-content: center;
+  justify-content: space-between;
   // position: relative;
   flex-direction: column;
-  height: 100vw;
+  height: 150vh;
   width: 100vw;
 
   .heading {
@@ -16,8 +16,9 @@
     // align-items: center;
     // position: absolute;
     // top: 10%;
-    width: 69%;
+    width: 70%;
     text-align: center;
+    height: 500px;
   }
   // .border-breaker {
   //   width: 70.2rem;
@@ -29,17 +30,22 @@
   //   z-index: 5;
   // }
   .slider {
-    margin-top: 300px;
+    top: 275rem;
     height: 450px;
     display: flex;
     position: absolute;
     left: 0;
-    transition: all 1s ease-out;
+    margin-top: 25px;
+    // transition: all 1s ease-out;
 
-    @media (max-width: 1000px) {
-      margin-top: 200px;
-      margin-bottom: 200px;
-    }
+    // @media (max-width: 1000px) {
+    //   margin-top: 200px;
+    //   margin-bottom: 200px;
+    // }
+    // @media (max-width: 500px) {
+    //   margin-top: 50px;
+    //   margin-bottom: 0;
+    // }
 
     // @include mobile {
     //   height: 100vh;
@@ -61,7 +67,7 @@
         gap: 8.8rem;
         color: var(--white);
         width: 90vw;
-        height: 80rem;
+        height: 85rem;
         border: 8px solid var(--bg-lightest);
         border-right: none;
         border-top: none;
@@ -69,8 +75,8 @@
         max-width: 1440px;
         padding-top: 50px;
         @media (max-width: 1000px) {
-          margin-top: 200px;
-          margin-bottom: 200px;
+          // margin-top: 200px;
+          // margin-bottom: 200px;
         }
         .border {
           position: absolute;
@@ -89,10 +95,10 @@
           // justify-content: space-between;
           flex-direction: column;
           gap: 12rem;
-          width: 69rem;
+          width: 66.5rem;
           position: relative;
           @media (max-width: 1200px) {
-            width: 100%;
+            width: 59rem;
           }
 
           .quote {
@@ -118,8 +124,14 @@
               font-size: 2.3rem;
               line-height: 154%;
               text-align: left;
+              z-index: 1;
+              // display: -webkit-box;
+              // -webkit-line-clamp: 12;
+              // -webkit-box-orient: vertical;
+              // overflow: hidden;
+              // text-overflow: ellipsis;
               @media (max-width: 1200px) {
-                width: 70vw;
+                // width: 70vw;
               }
             }
             // .left-par,
@@ -192,7 +204,7 @@
         right: 0;
 
         @media (max-width: 1200px) {
-          display: none;
+          // display: none;
         }
 
         // @include mobile {
@@ -203,13 +215,10 @@
         // }
 
         img {
-          // display: block;
-          // height: 100%;
-          // @include mobile {
-          //   height: 125px;
-          //   width: 175px;
-          //   padding-right: 0;
-          // }
+          display: block;
+          height: 100%;
+          @media (max-width: 1200px) {
+          }
         }
       }
     }
