@@ -4,7 +4,7 @@
 
 .section-title {
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
   align-items: center;
   color: #686c7e;
@@ -14,7 +14,7 @@
   margin: 3.2rem 0 1.6rem;
   color: var(--white);
   font-weight: 700;
-  font-size: 4.5rem;
+  font-size: 4rem;
   text-transform: capitalize;
 }
 

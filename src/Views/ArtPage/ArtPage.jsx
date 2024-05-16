@@ -37,7 +37,10 @@ const ArtPage = () => {
             />
           </div>
         </div>
-        <ContactForm />
+        <ContactForm
+          title={"Commissions"}
+          headline={"Request Custom Artwork"}
+        />
       </div>
       <Footer />
     </div>
