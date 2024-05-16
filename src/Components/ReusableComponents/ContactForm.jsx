@@ -1,13 +1,12 @@
-import React from "react";
 import "./ContactForm.scss";
 
-const ContactForm = () => {
+const ContactForm = (props) => {
   return (
     <>
       <div className="contact-form">
         <div className="form-title">
-          <h4 className="section-title">Commissions</h4>
-          <h2 className="headline">Request Custom Artwork</h2>
+          <h4 className="section-title">{props.title}</h4>
+          <h2 className="headline">{props.headline}</h2>
         </div>
         <form>
           <div className="left-side">

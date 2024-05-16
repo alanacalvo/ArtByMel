@@ -1,10 +1,10 @@
-import React from "react";
 import "./SchedulePage.scss";
 import { InlineWidget, PopupWidget } from "react-calendly";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
-import CustomRequestForm from "../../Components/CustomRequestForm/CustomRequestForm";
+// import CustomRequestForm from "../../Components/CustomRequestForm/CustomRequestForm";
 import { useMediaQuery } from "@mui/material";
+import ContactForm from "../../Components/ReusableComponents/ContactForm";
 
 function SchedulePage() {
   const isSmallScreen = useMediaQuery("(max-width: 768px)");
@@ -44,8 +44,11 @@ function SchedulePage() {
             </>
           )}
         </div>
-
-        <CustomRequestForm />
+        <ContactForm
+          title={"Appointments"}
+          headline={"Ask About An Unavailable Date Or Different Location"}
+        />
+        {/* <CustomRequestForm /> */}
         <Footer />
       </div>
     </>
