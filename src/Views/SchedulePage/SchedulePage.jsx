@@ -13,10 +13,10 @@ function SchedulePage() {
     <>
       <div className="book-container">
         <Header />
+        <h1 className="headline">Book An Appointment</h1>
         <div className="calendar">
           {!isSmallScreen ? (
             <>
-              <h1>Book An Appointment</h1>
               <InlineWidget
                 rootElement={document.getElementById("root")}
                 text="Click here to schedule!"
