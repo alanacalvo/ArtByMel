@@ -10,45 +10,52 @@ function TestimonialsSection() {
   const testimonials = [
     {
       id: "1",
-      name: "Sara",
-      text: "Melvin is a brilliant makeup artist with such a creative vision that is brought to life and exceeds expectations. When I sit in the makeup chair, I know I’m going to stand up feeling liberated! I can count on Melvin for having such a massive range of talent because any event, any look, any possibility comes so effortlessly from this artist. If you want just a face of makeup you could go to anyone, but if you want an experience that is genuine and authentically beautiful, every single time, Melvin’s THE one. Thankful that I have someone to plan exciting future looks with, and in the process developed one of the best friendships I will cherish forever.",
-      image: "assets/testimonial.png",
+      name: "Sterling",
+      text: "I work with Melvin a lot personally and professionally and he continues to blow me away with every single appointment. His professionalism is top tier and my favorite thing about how he works, is he gives extensive knowledge about what he’s doing to your face. The products used, the health benefits, tips, tricks, etc. In this photo here he was asked to give a post crying glam look and he absolutely blew my expectations out of the water. There’s no one else I would trust to execute an idea than Melvin.",
+      image:
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/688/original/Testimonials_3.jpeg?1715888933",
     },
     {
       id: "2",
-      name: "Anavid",
+      name: "Anavi",
       text: "What a great experience. Melvin is a fantastic artist. He asked the right questions, understood my requests and delivered beautiful makeup creations for both my wedding and most recently for my birthday. Once you meet him, he'll be your artist for life!",
-      image: "assets/testimonial.png",
+      image:
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/102/751/original/7.jpeg?1698965737",
     },
     {
       id: "3",
       name: "Gabe",
       text: "Melvin's love and passion for doing makeup starts with making sure each and every person has their own identity! He made my face fit me from the color pallets and pop of sparkle to my lips! It was a custom experience that I will forever cherish. He also taught me how to do certain looks as he did my pre trial makeup and my final look! Melvin travels y’all!💕 Oh my was it important to have an artist that was willing to go the extra mile Melvin is for your next event, you will thank me later!",
-      image: "assets/testimonial.png",
+      image:
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/689/original/Testimonials.jpeg?1715889058",
     },
     {
       id: "4",
       name: "Erica",
       text: "Melvin is so talented! Every look we have done has been amazing. His skills are unmatched! Highly recommend.",
-      image: "assets/testimonial.png",
+      image:
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/686/original/photo5.png?1715888576",
     },
     {
       id: "5",
       name: "Lorraine",
       text: "Melvin did my makeup for my tea party and my pageant! He did my makeup so good that if I could sleep with it, I would! Also, I wanted to have Marilyn Monroe inspired makeup for my pageant and he made it happen. It also stayed all night! I would say that Melvin is the best artist there is!! I’ll be sure to book him again.",
-      image: "assets/testimonial.png",
+      image:
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/687/original/Testimonials_2.jpeg?1715888756",
     },
     {
       id: "6",
-      name: "Sterling",
-      text: "I work with Melvin a lot personally and professionally and he continues to blow me away with every single appointment. His professionalism is top tier and my favorite thing about how he works, is he gives extensive knowledge about what he’s doing to your face. The products used, the health benefits, tips, tricks, etc. In this photo here he was asked to give a post crying glam look and he absolutely blew my expectations out of the water. There’s no one else I would trust to execute an idea than Melvin.",
-      image: "assets/testimonial.png",
+      name: "Sara",
+      text: "Melvin is a brilliant makeup artist with such a creative vision that is brought to life and exceeds expectations. When I sit in the makeup chair, I know I’m going to stand up feeling liberated! I can count on Melvin for having such a massive range of talent because any event, any look, any possibility comes so effortlessly from this artist. If you want just a face of makeup you could go to anyone, but if you want an experience that is genuine and authentically beautiful, every single time, Melvin’s THE one. Thankful that I have someone to plan exciting future looks with, and in the process developed one of the best friendships I will cherish forever.",
+      image:
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/683/original/sfx-makeup.jpeg?1715888188",
     },
     {
       id: "7",
       name: "Delaney",
       text: "Melvin mastered the art of not only making me look beautiful, but also feel beautiful. My favorite part about every look is how sharp, sleek, and clean it always looks, he truly perfects the face in every aspect. Melvin is truly an experience whether it be a photoshoot, a wedding, or just wanting to feel beautiful, Melvin always achieves & exceeds my expectations!",
-      image: "assets/testimonial.png",
+      image:
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/690/original/Testimonials_4.jpeg?1715889204",
     },
   ];
 
