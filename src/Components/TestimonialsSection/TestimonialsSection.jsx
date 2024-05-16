@@ -1,5 +1,5 @@
-import React from "react";
 import "./TestimonialsSection2.scss";
+import PageHeading from "../ReusableComponents/PageHeading";
 import { useState } from "react";
 
 function TestimonialsSection() {
@@ -63,14 +63,19 @@ function TestimonialsSection() {
 
   return (
     <section className="testimonials-section">
-      <div className="heading">
+      {/* <div className="heading">
         <h4 className="section-title">TESTIMONIALS</h4>
         <h2 className="headline">See What My Satisfied Clients Have To Say</h2>
         <h3 className="subtitle">
           I value my clients’ feedback and I am proud
           <br /> to showcase their kind words.
-        </h3>
-      </div>
+        </h3> */}
+      {/* </div> */}
+      <PageHeading
+        title={"Testimonials"}
+        headline={"See What My Satisfied Clients Have To Say"}
+        subtitle={`I value my clients’ feedback and I am proud to showcase their kind words.`}
+      />
       {/* <div className="border-breaker"></div> */}
       <div
         className="slider"

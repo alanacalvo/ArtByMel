@@ -1,5 +1,24 @@
-.page-heading-container {
-  align-self: flex-start;
+.bridal-container,
+.makeup-container,
+.sfx-container {
+  .page-heading-container {
+    align-self: flex-start;
+  }
+
+  .homePage {
+    .page-heading-container {
+      align-self: center;
+      text-align: center;
+    }
+  }
+}
+
+.homePage {
+  .section-title,
+  .headline,
+  .subtitle {
+    text-align: center;
+  }
 }
 
 .section-title {

@@ -50,3 +50,11 @@
   margin: 2rem 0 0 -10rem;
   transform: rotate(-10deg);
 }
+
+/* Media Queries */
+
+@media (max-width: 999px) {
+  .about-section {
+    margin-top: 25rem;
+  }
+}
