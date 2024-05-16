@@ -1,4 +1,4 @@
-import "./TestimonialsSection2.scss";
+import "./TestimonialsSection.scss";
 import PageHeading from "../ReusableComponents/PageHeading";
 import { useState } from "react";
 
@@ -63,14 +63,6 @@ function TestimonialsSection() {
 
   return (
     <section className="testimonials-section">
-      {/* <div className="heading">
-        <h4 className="section-title">TESTIMONIALS</h4>
-        <h2 className="headline">See What My Satisfied Clients Have To Say</h2>
-        <h3 className="subtitle">
-          I value my clients’ feedback and I am proud
-          <br /> to showcase their kind words.
-        </h3> */}
-      {/* </div> */}
       <PageHeading
         title={"Testimonials"}
         headline={"See What My Satisfied Clients Have To Say"}
