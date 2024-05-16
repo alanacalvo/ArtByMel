@@ -93,54 +93,60 @@ form {
 
 @media only screen and (max-width: 299px) {
   .contact-form {
-    width: 220px;
+    .left-side,
+    .right-side,
+    .submit-btn {
+      width: 76vw;
+    }
   }
 
-  .left-side,
-  .right-side,
+  input,
   .submit-btn {
-    width: 165px;
+    height: 28px;
+    font-size: 8px;
   }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 399px) {
+@media only screen and (min-width: 300px) and (max-width: 499px) {
   .contact-form {
-    width: 260px;
+    .left-side,
+    .right-side,
+    .submit-btn {
+      width: 80vw;
+    }
   }
 
-  .left-side,
-  .right-side,
+  input,
   .submit-btn {
-    width: 205px;
-  }
-}
-
-@media only screen and (min-width: 400px) and (max-width: 499px) {
-  .contact-form {
-    width: 300px;
-    padding: 26px;
-  }
-
-  .left-side,
-  .right-side,
-  .submit-btn {
-    width: 250px;
+    height: 32px;
+    font-size: 10px;
   }
 }
 
 @media only screen and (max-width: 499px) {
-  form {
-    flex-direction: column;
-    gap: 21px;
-    margin-top: 30px;
+  .contact-form {
+    background-color: var(--bg-color);
+    width: 100vw;
+    padding: 0 36px;
 
-    .email-textbox,
-    .name-textbox {
-      margin-bottom: 21px;
+    form {
+      flex-direction: column;
+      gap: 21px;
+
+      .email-textbox,
+      .name-textbox {
+        margin-bottom: 21px;
+      }
     }
-  }
 
-  .submit-btn {
-    margin-top: 6.6rem;
+    input,
+    textarea {
+      background-color: var(--bg-light);
+      border: none;
+    }
+
+    .submit-btn {
+      margin-top: 6.6rem;
+    }
   }
 }
