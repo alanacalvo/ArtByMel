@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  height: 175vh;
+  height: 100vh;
   width: 100vw;
 
   .heading {
@@ -179,8 +179,6 @@
 
 @media (max-width: 599px) {
   .testimonials-section {
-    height: 100vh;
-
     .slider {
       padding: 32rem 0;
       margin-top: 0;
@@ -226,30 +224,6 @@
         }
       }
     }
-  }
-}
-
-<<<<<<< HEAD:src/Components/TestimonialsSection/TestimonialsSection2.scss
-@media (max-width: 1200px) {
-  .testimonials-section {
-    // height: 100vh;
-=======
-@media (min-width: 600px) and (max-width: 799px) {
-  .testimonials-section {
-    height: 155vh;
-  }
-}
-
-@media (min-width: 800px) and (max-width: 1099px) {
-  .testimonials-section {
-    height: 165vh;
->>>>>>> a9091888b0a123b590fde5735db7c4eb5a34ff2e:src/Components/TestimonialsSection/TestimonialsSection.scss
-  }
-}
-
-@media (min-width: 1100px) and (max-width: 1499px) {
-  .testimonials-section {
-    height: 180vh;
   }
 }
 
