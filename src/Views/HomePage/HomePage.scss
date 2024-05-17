@@ -33,11 +33,17 @@
 
 // Media Queries
 
-@media (max-width: 999px) {
+@media (max-width: 599px) {
   .about-divider {
-    top: 33rem;
+    top: 17rem;
   }
 }
+
+// @media (max-width: 999px) {
+//   .about-divider {
+//     top: 33rem;
+//   }
+// }
 
 @media only screen and (min-width: 1700px) and (max-width: 2099px) {
   .hero-divider {

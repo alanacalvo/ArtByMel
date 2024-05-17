@@ -53,7 +53,6 @@
         }
 
         .text-side {
-          // flex: 4;
           height: 100%;
           display: flex;
           align-items: center;
@@ -64,7 +63,7 @@
 
           .quote {
             width: 90%;
-            height: 80%;
+            // height: 80%;
             display: flex;
             flex-direction: column;
             padding-left: 20px;
@@ -157,7 +156,7 @@
   }
 }
 
-@media (min-width: 400px) and (max-width: 600px) {
+@media (min-width: 400px) and (max-width: 599px) {
   .testimonials-section {
     .slider {
       .testimonial-container {
@@ -174,7 +173,7 @@
 
 @media (max-width: 599px) {
   .testimonials-section {
-    height: 100vh;
+    height: 88vh;
 
     .slider {
       padding: 32rem 0;
@@ -186,6 +185,7 @@
           display: block;
           max-width: unset;
           width: 100vw;
+          padding-top: 24px;
 
           .border {
             display: none;
@@ -194,8 +194,7 @@
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            justify-content: space-between;
-            gap: 40px;
+            gap: 24px;
             .quote {
               width: 100%;
               .testimonial-text {
@@ -224,13 +223,13 @@
   }
 }
 
-@media (min-width: 600px) and (max-width: 999px) {
+@media (min-width: 600px) and (max-width: 1099px) {
   .testimonials-section {
     .slider {
       .testimonial-container {
         .testimonial {
-          padding-top: 108px;
           .text-side {
+            width: 56rem;
             .slide-controls {
               width: 22vw;
             }
@@ -243,13 +242,13 @@
 
 @media (min-width: 600px) and (max-width: 799px) {
   .testimonials-section {
-    height: 155vh;
+    height: 125vh;
   }
 }
 
-@media (min-width: 800px) and (max-width: 1099px) {
+@media (min-width: 800px) and (max-width: 999px) {
   .testimonials-section {
-    height: 170vh;
+    height: 160vh;
   }
 }
 
