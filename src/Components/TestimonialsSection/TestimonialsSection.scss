@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  height: 175vh;
+  height: 100vh;
   width: 100vw;
 
   .heading {
@@ -158,6 +158,12 @@
 
 @media (min-width: 400px) and (max-width: 599px) {
   .testimonials-section {
+    height: 95vh;
+  }
+}
+@media (min-width: 300px) and (max-width: 600px) {
+  .testimonials-section {
+    height: 65vh;
     .slider {
       .testimonial-container {
         .testimonial {
