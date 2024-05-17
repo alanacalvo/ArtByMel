@@ -34,7 +34,7 @@ function TestimonialsSection() {
       name: "Erica",
       text: "Melvin is so talented! Every look we have done has been amazing. His skills are unmatched! Highly recommend.",
       image:
-        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/686/original/photo5.png?1715888576",
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/722/original/photo5.png?1715921541",
     },
     {
       id: 5,
@@ -55,7 +55,7 @@ function TestimonialsSection() {
       name: "Delaney",
       text: "Melvin mastered the art of not only making me look beautiful, but also feel beautiful. My favorite part about every look is how sharp, sleek, and clean it always looks, he truly perfects the face in every aspect. Melvin is truly an experience whether it be a photoshoot, a wedding, or just wanting to feel beautiful, Melvin always achieves & exceeds my expectations!",
       image:
-        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/690/original/Testimonials_4.jpeg?1715889204",
+        "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/126/721/original/Testimonials_4.jpeg?1715921186",
     },
   ];
 
