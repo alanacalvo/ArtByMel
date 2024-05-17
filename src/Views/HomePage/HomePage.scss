@@ -38,6 +38,11 @@
     top: 17rem;
   }
 }
+@media (max-width: 600px) {
+  .about-divider {
+    // top: 15rem;
+  }
+}
 
 // @media (max-width: 999px) {
 //   .about-divider {
