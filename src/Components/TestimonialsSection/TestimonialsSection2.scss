@@ -203,9 +203,14 @@
     }
   }
 }
-
-@media (min-width: 400px) and (max-width: 600px) {
+@media (max-width: 900px) {
   .testimonials-section {
+    height: 95vh;
+  }
+}
+@media (min-width: 300px) and (max-width: 600px) {
+  .testimonials-section {
+    height: 65vh;
     .slider {
       .testimonial-container {
         .testimonial {
@@ -266,15 +271,9 @@
   }
 }
 
-@media (max-width: 900px) {
-  .testimonials-section {
-    height: 90vh;
-  }
-}
-
 @media (max-width: 1200px) {
   .testimonials-section {
-    height: 100vh;
+    // height: 100vh;
   }
 }
 
