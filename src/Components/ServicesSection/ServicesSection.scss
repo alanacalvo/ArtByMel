@@ -1,52 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;300&family=Playfair+Display&display=swap");
-
-// * {
-//   border: pink 1px solid;
-// }
-
 .services-section {
   padding: 200px;
-  padding-top: 0px;
-  @media (max-width: 924px) {
-    margin: 0 50px;
-  }
-  @media (max-width: 598px) {
-    padding: 0;
-    padding-bottom: 50px;
-  }
+  // padding-top: 0px;
 }
 
 .services-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
-  @media (max-width: 598px) {
-    padding: 0;
-    margin: 0;
-    padding-top: 50px;
-  }
-}
-
-.copy {
-  font-family: "Playfair Display";
-  width: 876px;
-  text-align: center;
-  color: #fffcf2;
-  font-style: normal;
-  padding: 50px;
-  padding-bottom: 100px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  // text-wrap: wrap;
-  @media (max-width: 924px) {
-    width: 500px;
-  }
-  @media (max-width: 598px) {
-    padding: 0;
-    padding-bottom: 50px;
-    margin: 0 15px;
-  }
+  // padding: 50px;
 }
