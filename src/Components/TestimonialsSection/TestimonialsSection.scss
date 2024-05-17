@@ -224,6 +224,23 @@
   }
 }
 
+@media (min-width: 600px) and (max-width: 999px) {
+  .testimonials-section {
+    .slider {
+      .testimonial-container {
+        .testimonial {
+          padding-top: 108px;
+          .text-side {
+            .slide-controls {
+              width: 22vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (min-width: 600px) and (max-width: 799px) {
   .testimonials-section {
     height: 155vh;
@@ -232,7 +249,7 @@
 
 @media (min-width: 800px) and (max-width: 1099px) {
   .testimonials-section {
-    height: 165vh;
+    height: 170vh;
   }
 }
 
