@@ -162,8 +162,8 @@
       .testimonial-container {
         .testimonial {
           .text-side {
-            width: 90%;
-            padding-left: 56px;
+            width: 100%;
+            padding-left: 32px;
           }
         }
       }
@@ -175,7 +175,7 @@
   .testimonials-section {
     height: 450px;
     .slider {
-      padding: 128px 0;
+      padding: 80px 0 128px;
       height: fit-content;
       .testimonial-container {
         margin-top: 0;
@@ -202,7 +202,12 @@
                 font-size: 12px;
                 line-height: 20px;
               }
+              .underline {
+                margin-bottom: 24px;
+                margin-top: 8px;
+              }
             }
+
             .slide-controls {
               position: unset;
               width: 70%;
