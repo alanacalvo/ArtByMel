@@ -91,11 +91,9 @@ function TestimonialsSection() {
                 <div className="quote">
                   <div>
                     <span className="testimonial-author">{i.name}</span>
-                    <div className="underline" style={{ width: "20em" }}></div>
+                    <div className="underline" style={{ width: "74px" }}></div>
                   </div>
-                  {/* <div className="left-par">"</div> */}
                   <p className="testimonial-text">{i.text}</p>
-                  {/* <div className="right-par">"</div> */}
                 </div>
                 <div className="slide-controls">
                   <svg
