@@ -179,11 +179,12 @@
 
 @media (max-width: 599px) {
   .testimonials-section {
+    height: 450px;
     .slider {
-      padding: 32rem 0;
-      margin-top: 0;
-
+      padding: 128px 0;
+      height: fit-content;
       .testimonial-container {
+        margin-top: 0;
         .testimonial {
           border: none;
           display: block;
