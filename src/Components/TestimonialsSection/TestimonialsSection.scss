@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  height: 100vh;
+  height: 190vh;
   width: 100vw;
 
   .heading {
@@ -184,7 +184,7 @@
           display: block;
           max-width: unset;
           width: 100vw;
-
+          padding-top: 24px;
           .border {
             display: none;
           }
@@ -199,8 +199,8 @@
               width: 100%;
               .testimonial-text {
                 width: 90%;
-                font-size: 2.3rem;
-                line-height: 16px;
+                font-size: 12px;
+                line-height: 20px;
               }
             }
             .slide-controls {
