@@ -53,6 +53,7 @@
         }
 
         .text-side {
+          // flex: 4;
           height: 100%;
           display: flex;
           align-items: center;
@@ -63,7 +64,7 @@
 
           .quote {
             width: 90%;
-            // height: 80%;
+            height: 80%;
             display: flex;
             flex-direction: column;
             padding-left: 20px;
@@ -155,15 +156,14 @@
     }
   }
 }
+// @media (max-width: 900px) {
+//   .testimonials-section {
+//     height: 95vh;
+//   }
+// }
 
 @media (min-width: 400px) and (max-width: 599px) {
   .testimonials-section {
-    height: 95vh;
-  }
-}
-@media (min-width: 300px) and (max-width: 600px) {
-  .testimonials-section {
-    height: 65vh;
     .slider {
       .testimonial-container {
         .testimonial {
@@ -179,7 +179,6 @@
 
 @media (max-width: 599px) {
   .testimonials-section {
-    height: 88vh;
     .slider {
       padding: 32rem 0;
       margin-top: 0;
@@ -190,7 +189,6 @@
           display: block;
           max-width: unset;
           width: 100vw;
-          padding-top: 24px;
 
           .border {
             display: none;
@@ -199,7 +197,8 @@
             display: flex;
             flex-direction: column;
             align-items: flex-start;
-            gap: 24px;
+            justify-content: space-between;
+            gap: 40px;
             .quote {
               width: 100%;
               .testimonial-text {
@@ -225,41 +224,6 @@
         }
       }
     }
-  }
-}
-
-@media (min-width: 600px) and (max-width: 1099px) {
-  .testimonials-section {
-    .slider {
-      .testimonial-container {
-        .testimonial {
-          .text-side {
-            width: 56rem;
-            .slide-controls {
-              width: 22vw;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-@media (min-width: 600px) and (max-width: 799px) {
-  .testimonials-section {
-    height: 125vh;
-  }
-}
-
-@media (min-width: 800px) and (max-width: 999px) {
-  .testimonials-section {
-    height: 160vh;
-  }
-}
-
-@media (min-width: 1100px) and (max-width: 1499px) {
-  .testimonials-section {
-    height: 180vh;
   }
 }
 
