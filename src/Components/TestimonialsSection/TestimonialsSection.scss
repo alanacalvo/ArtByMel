@@ -173,7 +173,6 @@
 
 @media (max-width: 599px) {
   .testimonials-section {
-    height: 450px;
     .slider {
       padding: 80px 0 128px;
       .testimonial-container {
@@ -207,6 +206,7 @@
 
 @media (max-width: 799px) {
   .testimonials-section {
+    height: 450px;
     .slider {
       height: fit-content;
       .testimonial-container {
@@ -262,7 +262,6 @@
 
 @media (min-width: 600px) and (max-width: 799px) {
   .testimonials-section {
-    height: 400px;
     .slider {
       padding: 128px 0;
       .testimonial-container {
