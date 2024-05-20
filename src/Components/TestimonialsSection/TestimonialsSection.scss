@@ -204,6 +204,41 @@
   }
 }
 
+@media (min-width: 600px) and (max-width: 799px) {
+  .testimonials-section {
+    .slider {
+      padding: 128px 0;
+      .testimonial-container {
+        .testimonial {
+          .text-side {
+            width: 95%;
+            padding-left: 40px;
+
+            .quote {
+              .underline {
+                width: 104px !important;
+              }
+              .testimonial-text {
+                font-size: 14px;
+                line-height: 24px;
+              }
+            }
+
+            .slide-controls {
+              width: 75%;
+
+              svg {
+                width: 24px;
+                height: 24px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 799px) {
   .testimonials-section {
     height: 450px;
@@ -260,41 +295,6 @@
   }
 }
 
-@media (min-width: 600px) and (max-width: 799px) {
-  .testimonials-section {
-    .slider {
-      padding: 128px 0;
-      .testimonial-container {
-        .testimonial {
-          .text-side {
-            width: 95%;
-            padding-left: 40px;
-
-            .quote {
-              .underline {
-                width: 104px !important;
-              }
-              .testimonial-text {
-                font-size: 14px;
-                line-height: 24px;
-              }
-            }
-
-            .slide-controls {
-              width: 75%;
-
-              svg {
-                width: 24px;
-                height: 24px;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
 @media (min-width: 800px) {
   .testimonials-section {
     .slider {
@@ -304,7 +304,11 @@
             .quote {
               .underline {
                 width: 20rem !important;
+                margin-bottom: 40px;
               }
+            }
+            .slide-controls {
+              width: 24vw;
             }
           }
         }
@@ -313,19 +317,20 @@
   }
 }
 
-@media (min-width: 800px) and (max-width: 1399px) {
+@media (min-width: 800px) and (max-width: 999px) {
   .testimonials-section {
+    height: 720px;
     .slider {
       .testimonial-container {
         .testimonial {
+          height: 525px;
           .text-side {
-            width: 56rem;
-
-            // .quote {
-            //   .underline {
-            //     width: 125px !important;
-            //   }
-            // }
+            width: 420px;
+          }
+          .img-side {
+            img {
+              width: 55%;
+            }
           }
         }
       }
@@ -333,9 +338,50 @@
   }
 }
 
-@media (min-width: 1200px) and (max-width: 1599px) {
+// @media (min-width: 1000px) and (max-width: 1099px) {
+//   .testimonials-section {
+//     .slider {
+//       .testimonial-container {
+//         .testimonial {
+//           .text-side {
+//             width: 480px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+@media (min-width: 1000px) and (max-width: 1199px) {
   .testimonials-section {
-    height: 220vh;
+    height: 800px;
+    .slider {
+      .testimonial-container {
+        .testimonial {
+          height: 640px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1399px) {
+  .testimonials-section {
+    .slider {
+      .testimonial-container {
+        .testimonial {
+          .text-side {
+            width: 56rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1999px) {
+  .testimonials-section {
+    height: 1000px;
   }
 }
 
@@ -364,6 +410,12 @@
         }
       }
     }
+  }
+}
+
+@media (min-width: 2000px) and (max-width: 2999px) {
+  .testimonials-section {
+    height: 1300px;
   }
 }
 
