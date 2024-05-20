@@ -319,8 +319,9 @@
 
 @media (min-width: 800px) and (max-width: 999px) {
   .testimonials-section {
-    height: 720px;
+    height: 560px;
     .slider {
+      padding: 200px 0;
       .testimonial-container {
         .testimonial {
           height: 525px;
@@ -338,24 +339,11 @@
   }
 }
 
-// @media (min-width: 1000px) and (max-width: 1099px) {
-//   .testimonials-section {
-//     .slider {
-//       .testimonial-container {
-//         .testimonial {
-//           .text-side {
-//             width: 480px;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-
 @media (min-width: 1000px) and (max-width: 1199px) {
   .testimonials-section {
-    height: 800px;
+    height: 720px;
     .slider {
+      padding: 240px 0;
       .testimonial-container {
         .testimonial {
           height: 640px;
