@@ -176,6 +176,38 @@
     height: 450px;
     .slider {
       padding: 80px 0 128px;
+      .testimonial-container {
+        .testimonial {
+          .text-side {
+            width: 90%;
+            .quote {
+              .underline {
+                margin-bottom: 24px;
+                margin-top: 8px;
+              }
+              .testimonial-text {
+                font-size: 12px;
+                line-height: 20px;
+              }
+            }
+            .slide-controls {
+              width: 70%;
+
+              svg {
+                width: 20px;
+                height: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 799px) {
+  .testimonials-section {
+    .slider {
       height: fit-content;
       .testimonial-container {
         margin-top: 0;
@@ -197,11 +229,6 @@
             height: fit-content;
             .quote {
               width: 100%;
-              .testimonial-text {
-                width: 90%;
-                font-size: 12px;
-                line-height: 20px;
-              }
               .underline {
                 margin-bottom: 24px;
                 margin-top: 8px;
@@ -210,15 +237,9 @@
 
             .slide-controls {
               position: unset;
-              width: 70%;
               display: flex;
               justify-content: flex-start;
               align-items: center;
-
-              svg {
-                width: 20px;
-                height: 20px;
-              }
 
               .slidenumber {
                 margin-top: -4px;
@@ -232,6 +253,42 @@
           display: none;
           img {
             display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+  .testimonials-section {
+    height: 400px;
+    .slider {
+      padding: 128px 0;
+      .testimonial-container {
+        .testimonial {
+          .text-side {
+            width: 95%;
+            padding-left: 40px;
+
+            .quote {
+              .underline {
+                width: 104px !important;
+              }
+              .testimonial-text {
+                font-size: 14px;
+                line-height: 24px;
+              }
+            }
+
+            .slide-controls {
+              width: 75%;
+
+              svg {
+                width: 24px;
+                height: 24px;
+              }
+            }
           }
         }
       }
