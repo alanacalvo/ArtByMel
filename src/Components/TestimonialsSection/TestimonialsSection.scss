@@ -296,6 +296,20 @@
   }
 }
 
+@media (min-width: 800px) and (max-width: 1199px) {
+  .testimonials-section {
+    .slider {
+      .testimonial-container {
+        .testimonial {
+          .text-side {
+            width: 56rem;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (min-width: 1800px) and (max-width: 2599px) {
   .testimonials-section {
     .slider {
