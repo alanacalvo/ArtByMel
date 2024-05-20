@@ -296,17 +296,47 @@
   }
 }
 
-@media (min-width: 800px) and (max-width: 1199px) {
+@media (min-width: 800px) {
+  .testimonials-section {
+    .slider {
+      .testimonial-container {
+        .testimonial {
+          .text-side {
+            .quote {
+              .underline {
+                width: 20rem !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1399px) {
   .testimonials-section {
     .slider {
       .testimonial-container {
         .testimonial {
           .text-side {
             width: 56rem;
+
+            // .quote {
+            //   .underline {
+            //     width: 125px !important;
+            //   }
+            // }
           }
         }
       }
     }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .testimonials-section {
+    height: 220vh;
   }
 }
 
