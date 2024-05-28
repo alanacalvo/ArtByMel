@@ -171,6 +171,18 @@
   }
 }
 
+@media (max-width: 499px) {
+  .testimonials-section {
+    height: 450px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+  .testimonials-section {
+    height: 400px;
+  }
+}
+
 @media (max-width: 599px) {
   .testimonials-section {
     .slider {
@@ -206,6 +218,7 @@
 
 @media (min-width: 600px) and (max-width: 799px) {
   .testimonials-section {
+    height: 450px;
     .slider {
       padding: 128px 0;
       .testimonial-container {
@@ -241,7 +254,6 @@
 
 @media (max-width: 799px) {
   .testimonials-section {
-    height: 450px;
     .slider {
       height: fit-content;
       .testimonial-container {
