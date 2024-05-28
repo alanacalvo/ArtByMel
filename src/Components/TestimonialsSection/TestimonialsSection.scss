@@ -316,7 +316,6 @@
             .quote {
               .underline {
                 width: 20rem !important;
-                margin-bottom: 40px;
               }
             }
           }
@@ -343,6 +342,24 @@
           .img-side {
             img {
               width: 55%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 800px) and (max-width: 2499px) {
+  .testimonials-section {
+    .slider {
+      .testimonial-container {
+        .testimonial {
+          .text-side {
+            .quote {
+              .underline {
+                margin-bottom: 40px;
+              }
             }
           }
         }
@@ -416,6 +433,24 @@
 @media (min-width: 2000px) and (max-width: 2999px) {
   .testimonials-section {
     height: 1300px;
+  }
+}
+
+@media (min-width: 2500px) {
+  .testimonials-section {
+    .slider {
+      .testimonial-container {
+        .testimonial {
+          .text-side {
+            .quote {
+              .underline {
+                margin-bottom: 104px;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
