@@ -11,8 +11,8 @@ function SchedulePage() {
 
   return (
     <>
+      <Header />
       <div className="book-container">
-        <Header />
         <h1 className="headline">Book An Appointment</h1>
         <div className="calendar">
           {!isSmallScreen ? (
