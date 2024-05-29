@@ -5,11 +5,15 @@
   margin-top: 24rem;
 
   @media (max-width: 599px) {
-    padding: 108px 42px 16px;
+    padding: 48px 42px 16px;
   }
 
   @media (min-width: 600px) and (max-width: 699px) {
     padding: 108px 38px 16px;
+  }
+
+  @media (max-width: 799px) {
+    margin-top: 104px;
   }
 }
 
@@ -19,6 +23,9 @@
   justify-content: center;
   @media (max-width: 499px) {
     flex-direction: column;
+    align-items: center;
+  }
+  @media (min-width: 500px) {
     align-items: center;
   }
 }
@@ -36,6 +43,9 @@
   @media (max-width: 499px) {
     width: 90%;
     height: 100%;
+  }
+  @media (min-width: 500px) and (max-width: 599px) {
+    height: 320px;
   }
 }
 
@@ -82,6 +92,9 @@
   @media (max-width: 499px) {
     margin-left: 0;
   }
+  @media (min-width: 500px) and (max-width: 599px) {
+    width: 280px;
+  }
   @media (min-width: 600px) and (max-width: 699px) {
     width: 336px;
   }
@@ -106,13 +119,5 @@
   @media (min-width: 600px) and (max-width: 699px) {
     margin-left: -64px;
     margin-top: 180px;
-  }
-}
-
-/* Media Queries */
-
-@media (max-width: 799px) {
-  .about-section {
-    margin-top: 56px;
   }
 }

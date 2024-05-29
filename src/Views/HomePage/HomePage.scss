@@ -3,18 +3,30 @@
   height: 20.6rem;
   background-color: var(--bg-color);
   position: relative;
+
+  @media (max-width: 999px) {
+    display: none;
+  }
 }
 
 .hero-divider {
   transform: rotate(-5deg);
   border-top: 8px solid var(--gold);
   top: -7rem;
+
+  @media (max-width: 999px) {
+    display: none;
+  }
 }
 
 .about-divider {
   transform: rotate(5deg);
   border-bottom: 8px solid var(--gold);
   top: 32rem;
+
+  @media (max-width: 999px) {
+    display: none;
+  }
 }
 
 .homePage {
