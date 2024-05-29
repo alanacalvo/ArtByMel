@@ -20,9 +20,9 @@
 }
 
 .about-divider {
-  transform: rotate(5deg);
+  transform: rotate(4deg);
   border-bottom: 8px solid var(--gold);
-  top: 32rem;
+  top: 31rem;
 
   @media (max-width: 999px) {
     display: none;
