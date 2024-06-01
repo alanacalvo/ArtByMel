@@ -5,6 +5,7 @@ import Footer from "../../Components/Footer/Footer";
 // import CustomRequestForm from "../../Components/CustomRequestForm/CustomRequestForm";
 import { useMediaQuery } from "@mui/material";
 import ContactForm from "../../Components/ReusableComponents/ContactForm";
+import PageHeading from "../../Components/ReusableComponents/PageHeading";
 
 function SchedulePage() {
   const isSmallScreen = useMediaQuery("(max-width: 768px)");
@@ -13,7 +14,11 @@ function SchedulePage() {
     <>
       <Header />
       <div className="book-container">
-        <h1 className="headline">Book An Appointment</h1>
+        <PageHeading
+          title="book"
+          headline="Book your professional makeup appointment"
+          subtitle="with Melvin Lozado"
+        />
         <div className="calendar">
           {!isSmallScreen ? (
             <>
