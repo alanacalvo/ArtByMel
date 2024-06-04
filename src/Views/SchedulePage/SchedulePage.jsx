@@ -17,7 +17,7 @@ function SchedulePage() {
         <PageHeading
           title="book"
           headline="Book your professional makeup appointment"
-          subtitle="with Melvin Lozado"
+          subtitle="with Melvin Lozada"
         />
         <div className="calendar">
           {!isSmallScreen ? (

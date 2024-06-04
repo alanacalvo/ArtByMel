@@ -6,7 +6,7 @@ const PageHeading = (props) => {
       <h4 className="section-title">{props.title || "Gallery"}</h4>
       <h2 className="headline">{props.headline}</h2>
       <h3 className="subtitle">
-        {props.subtitle || "Created by Melvin Lozado"}
+        {props.subtitle || "Created by Melvin Lozada"}
       </h3>
     </div>
   );
