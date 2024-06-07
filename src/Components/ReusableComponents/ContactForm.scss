@@ -1,11 +1,10 @@
 .contact-form {
-  background-color: var(--bg-light);
-  width: 118rem;
-  padding: 7.2rem;
+  background-color: var(--bg-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  width: 50vw;
 }
 
 label {
@@ -15,7 +14,7 @@ label {
 
 input,
 textarea {
-  background-color: var(--bg-color);
+  background-color: var(--bg-light);
   border: none;
   font-size: 1.9rem;
   color: var(--white);
@@ -34,15 +33,16 @@ textarea {
   background-color: var(--white);
   color: #1c1e22;
   font-family: "Playfair Display", serif;
-  font-size: 2.3rem;
+  font-size: 1.9rem;
   font-weight: 600;
-  padding: 1.6rem 4rem;
-  width: 26.5rem;
+  padding: 1.3rem 4rem;
+  // width: 26.5rem;
   border: none;
   transition: var(--transition);
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: translateY(10.4rem);
 }
 
 .submit-btn:hover,
@@ -64,21 +64,16 @@ textarea {
   margin-bottom: 5.6rem;
 }
 
+.message-textbox {
+  transform: translateY(6.4rem);
+}
+
 form {
   display: flex;
-  gap: 10.4rem;
-  margin-top: 8rem;
-}
-
-.right-side {
-  display: flex;
   flex-direction: column;
-  justify-content: space-between;
-}
-
-.left-side,
-.right-side {
-  width: 46.5rem;
+  // gap: 2.4rem;
+  margin-top: 8rem;
+  width: 50vw;
 }
 
 .contact-form h4,
@@ -203,32 +198,7 @@ form {
     padding: 0 88px;
 
     form {
-      .left-side,
-      .right-side,
-      .submit-btn {
-        width: 82vw;
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 999px) {
-  .contact-form {
-    background-color: var(--bg-color);
-    width: 100vw;
-
-    form {
-      flex-direction: column;
-    }
-
-    input,
-    textarea {
-      background-color: var(--bg-light);
-      border: none;
-    }
-
-    .submit-btn {
-      margin-top: 6.6rem;
+      width: 82vw;
     }
   }
 }
