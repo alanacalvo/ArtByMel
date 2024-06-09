@@ -1,17 +1,16 @@
 import "./SchedulePage.scss";
-import { InlineWidget, PopupWidget } from "react-calendly";
+import { InlineWidget } from "react-calendly";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
-// import CustomRequestForm from "../../Components/CustomRequestForm/CustomRequestForm";
-import { useMediaQuery } from "@mui/material";
+// import { useMediaQuery } from "@mui/material";
 import ContactForm from "../../Components/ReusableComponents/ContactForm";
 import PageHeading from "../../Components/ReusableComponents/PageHeading";
 
 function SchedulePage() {
-  const isSmallScreen = useMediaQuery("(max-width: 768px)");
+  // const isSmallScreen = useMediaQuery("(max-width: 768px)");
 
   return (
-    <>
+    <main className="bookPage">
       <Header />
       <div className="book-container">
         <PageHeading
@@ -20,7 +19,14 @@ function SchedulePage() {
           subtitle="with Melvin Lozada"
         />
         <div className="calendar">
-          {!isSmallScreen ? (
+          <InlineWidget
+            url="https://calendly.com/melvinjr329"
+            styles={{
+              height: "500px",
+              width: "100vw",
+            }}
+          />
+          {/* {!isSmallScreen ? (
             <>
               <InlineWidget
                 rootElement={document.getElementById("root")}
@@ -34,7 +40,6 @@ function SchedulePage() {
             </>
           ) : (
             <>
-              <h1>Book An Appointment</h1>
               <InlineWidget
                 rootElement={document.getElementById("root")}
                 text="Click here to schedule!"
@@ -47,16 +52,15 @@ function SchedulePage() {
                 }}
               />
             </>
-          )}
+          )} */}
         </div>
         <ContactForm
           title={"Appointments"}
           headline={"Ask About An Unavailable Date Or Different Location"}
         />
-        {/* <CustomRequestForm /> */}
-        <Footer />
       </div>
-    </>
+      <Footer />
+    </main>
   );
 }
 

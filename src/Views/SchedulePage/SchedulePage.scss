@@ -8,33 +8,45 @@
   }
 }
 
-.book-container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-  padding: 20.8rem 19rem;
-
-  header {
-    position: relative;
-  }
-
-  .page-heading-container {
-    align-self: flex-start;
-    margin-bottom: 4rem;
-  }
-
-  .calendar {
-    text-align: center;
-    flex-direction: column;
+.bookPage {
+  .book-container {
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 20.8rem 12rem;
 
-    @media (max-width: 722px) {
-      padding: 0;
-      margin: 0;
+    @media (max-width: 599px) {
+      padding: 0 0 20.8rem 0;
     }
+
+    .page-heading-container {
+      align-self: flex-start;
+      margin-bottom: 4rem;
+
+      @media (max-width: 599px) {
+        display: none;
+      }
+    }
+
+    .calendar {
+      text-align: center;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 16rem;
+    }
+
+    // .contact-form {
+    //   .headline {
+    //     padding-right: 24rem;
+    //   }
+    // }
+  }
+
+  footer {
+    position: relative;
   }
 }

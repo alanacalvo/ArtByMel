@@ -9,27 +9,23 @@ const ContactForm = (props) => {
           <h2 className="headline">{props.headline}</h2>
         </div>
         <form>
-          <div className="left-side">
-            <div className="name-textbox">
-              <label>Full Name</label>
-              <input type="text" id="name" name="name" required />
-            </div>
-            <div className="email-textbox">
-              <label>Email Address</label>
-              <input type="email" id="email" name="email" required />
-            </div>
-            <div className="phone-textbox">
-              <label>Phone Number</label>
-              <input type="tel" id="phone" name="phone" required />
-            </div>
+          <div className="name-textbox">
+            <label>Full Name</label>
+            <input type="text" id="name" name="name" required />
           </div>
-          <div className="right-side">
-            <div className="message-textbox">
-              <label>Message</label>
-              <textarea id="message" name="message" rows="10" />
-            </div>
-            <button className="submit-btn">Submit Request</button>
+          <div className="email-textbox">
+            <label>Email Address</label>
+            <input type="email" id="email" name="email" required />
           </div>
+          <div className="phone-textbox">
+            <label>Phone Number</label>
+            <input type="tel" id="phone" name="phone" required />
+          </div>
+          <div className="message-textbox">
+            <label>Message</label>
+            <textarea id="message" name="message" rows="10" />
+          </div>
+          <button className="submit-btn">Submit Request</button>
         </form>
       </div>
     </>
