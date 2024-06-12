@@ -6,10 +6,10 @@
   align-items: flex-start;
   width: 50vw;
 
-  @media (max-width: 599px) {
+  @media (max-width: 699px) {
     width: 85%;
   }
-  @media (min-width: 600px) and (max-width: 999px) {
+  @media (min-width: 700px) and (max-width: 999px) {
     width: 100%;
   }
   @media only screen and (min-width: 700px) and (max-width: 899px) {
@@ -111,6 +111,19 @@
 
   .message-textbox {
     transform: translateY(6.4rem);
+
+    @media (max-width: 599px) {
+      transform: translateY(24px);
+    }
+    @media (min-width: 600px) and (max-width: 999px) {
+      transform: translateY(32px);
+    }
+    @media (min-width: 1000px) and (max-width: 1999px) {
+      transform: translateY(40px);
+    }
+    @media (min-width: 2000px) and (max-width: 2999px) {
+      transform: translateY(56px);
+    }
   }
 
   form {
