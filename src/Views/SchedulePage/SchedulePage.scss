@@ -15,19 +15,27 @@
     flex-direction: column;
     height: 100%;
     width: 100%;
-    padding: 20.8rem 12rem;
-
-    @media (max-width: 599px) {
-      padding: 0 0 20.8rem 0;
-    }
+    padding: 16rem 0;
 
     .page-heading-container {
-      align-self: flex-start;
       margin-bottom: 4rem;
 
       @media (max-width: 599px) {
         display: none;
       }
+      @media (min-width: 1000px) and (max-width: 1299px) {
+        transform: translateX(-14rem);
+      }
+      @media (min-width: 1300px) and (max-width: 1999px) {
+        transform: translateX(-11rem);
+      }
+    }
+
+    .book-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
     .calendar {
@@ -41,7 +49,7 @@
         margin: 16rem 0;
       }
       @media (min-width: 700px) {
-        margin: 8rem 0 16rem;
+        margin-bottom: 16rem;
       }
     }
 
