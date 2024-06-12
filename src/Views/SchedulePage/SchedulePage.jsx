@@ -18,15 +18,16 @@ function SchedulePage() {
           headline="Book your professional makeup appointment"
           subtitle="with Melvin Lozada"
         />
-        <div className="calendar">
-          <InlineWidget
-            url="https://calendly.com/melvinjr329"
-            styles={{
-              height: "100vh",
-              width: "100vw",
-            }}
-          />
-          {/* {!isSmallScreen ? (
+        <div className="book-body">
+          <div className="calendar">
+            <InlineWidget
+              url="https://calendly.com/melvinjr329"
+              styles={{
+                height: "1000px",
+                width: "100vw",
+              }}
+            />
+            {/* {!isSmallScreen ? (
             <>
               <InlineWidget
                 rootElement={document.getElementById("root")}
@@ -53,11 +54,12 @@ function SchedulePage() {
               />
             </>
           )} */}
+          </div>
+          <ContactForm
+            title={"Appointments"}
+            headline={"Ask About An Unavailable Date Or Different Location"}
+          />
         </div>
-        <ContactForm
-          title={"Appointments"}
-          headline={"Ask About An Unavailable Date Or Different Location"}
-        />
       </div>
       <Footer />
     </main>
