@@ -22,7 +22,7 @@ function SchedulePage() {
           <InlineWidget
             url="https://calendly.com/melvinjr329"
             styles={{
-              height: "500px",
+              height: "100vh",
               width: "100vw",
             }}
           />
