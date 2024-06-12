@@ -36,7 +36,13 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-top: 16rem;
+
+      @media (max-width: 699px) {
+        margin: 16rem 0;
+      }
+      @media (min-width: 700px) {
+        margin: 8rem 0 16rem;
+      }
     }
 
     // .contact-form {
