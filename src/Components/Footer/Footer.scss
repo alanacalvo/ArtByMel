@@ -2,7 +2,7 @@ footer {
   height: 35.2rem;
   margin: 24.7rem 13rem 6.4rem;
   border-top: 1px solid #1c1d22;
-  padding: 0 25rem;
+  // padding: 0 25rem;
 
   .footer-logo {
     height: 15rem;
@@ -104,7 +104,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 400px) and (max-width: 499px) {
+@media only screen and (min-width: 400px) and (max-width: 599px) {
   footer {
     height: 200px;
 
@@ -125,7 +125,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 499px) {
+@media only screen and (max-width: 599px) {
   footer {
     margin: 98px 0;
     display: flex;
@@ -156,17 +156,7 @@ footer {
   }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 599px) {
-  footer {
-    .firstCol {
-      p {
-        width: 62px;
-      }
-    }
-  }
-}
-
-@media only screen and (min-width: 500px) and (max-width: 799px) {
+@media only screen and (min-width: 600px) and (max-width: 799px) {
   footer {
     .cols {
       gap: 80px;

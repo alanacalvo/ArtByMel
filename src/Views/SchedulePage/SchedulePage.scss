@@ -15,7 +15,20 @@
     flex-direction: column;
     height: 100%;
     width: 100%;
-    padding: 16rem 0;
+    margin: 16rem 0;
+
+    @media (max-width: 599px) {
+      margin: 64px 0;
+    }
+    @media (min-width: 600px) and (max-width: 999px) {
+      margin: 88px 0;
+    }
+    @media (min-width: 1000px) and (max-width: 1999px) {
+      margin: 160px 0;
+    }
+    @media (min-width: 2000px) and (max-width: 2999px) {
+      margin: 208px 0;
+    }
 
     .page-heading-container {
       margin-bottom: 4rem;
@@ -24,7 +37,7 @@
         display: none;
       }
       @media (min-width: 1000px) and (max-width: 1299px) {
-        transform: translateX(-14rem);
+        transform: translateX(-104px);
       }
       @media (min-width: 1300px) and (max-width: 1999px) {
         transform: translateX(-11rem);
@@ -55,12 +68,6 @@
         margin-bottom: 16rem;
       }
     }
-
-    // .contact-form {
-    //   .headline {
-    //     padding-right: 24rem;
-    //   }
-    // }
   }
 
   footer {
