@@ -18,6 +18,9 @@
   @media only screen and (min-width: 900px) and (max-width: 999px) {
     padding: 0 88px;
   }
+  @media (min-width: 1000px) and (max-width: 1399px) {
+    width: 64rem;
+  }
 
   label {
     color: var(--white);
@@ -129,12 +132,17 @@
   form {
     display: flex;
     flex-direction: column;
-    // gap: 2.4rem;
     margin-top: 8rem;
     width: 50vw;
 
+    @media (max-width: 599px) {
+      margin-top: 32px;
+    }
     @media (max-width: 999px) {
       width: 100%;
+    }
+    @media (min-width: 1000px) and (max-width: 1399px) {
+      width: 64rem;
     }
   }
 
