@@ -2,12 +2,39 @@ footer {
   height: 35.2rem;
   margin: 24.7rem 13rem 6.4rem;
   border-top: 1px solid #1c1d22;
-  // padding: 0 25rem;
+
+  @media only screen and (max-width: 399px) {
+    height: 180px;
+  }
+  @media only screen and (min-width: 400px) and (max-width: 599px) {
+    height: 200px;
+  }
+  @media only screen and (max-width: 599px) {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
 
   .footer-logo {
     height: 15rem;
     width: 15rem;
     transform: translateX(-15px);
+
+    @media only screen and (max-width: 399px) {
+      width: 96px;
+      height: 96px;
+    }
+    @media only screen and (min-width: 400px) and (max-width: 599px) {
+      width: 108px;
+      height: 108px;
+    }
+    @media only screen and (max-width: 599px) {
+      transform: translateX(0);
+    }
+    @media only screen and (min-width: 600px) and (max-width: 799px) {
+      height: 60px;
+      width: 60px;
+    }
   }
 
   .firstCol,
@@ -22,10 +49,37 @@ footer {
   .firstCol {
     margin-top: -3.1rem;
 
+    @media only screen and (max-width: 599px) {
+      align-items: center;
+    }
+
     p {
       color: var(--white);
       font-size: 1.9rem;
       width: 15.5rem;
+
+      @media only screen and (max-width: 399px) {
+        font-size: 10px;
+      }
+      @media only screen and (min-width: 400px) and (max-width: 599px) {
+        font-size: 12px;
+      }
+      @media only screen and (max-width: 599px) {
+        width: fit-content;
+      }
+      @media only screen and (min-width: 600px) and (max-width: 699px) {
+        width: 75px;
+      }
+      @media only screen and (min-width: 700px) and (max-width: 799px) {
+        width: 85px;
+      }
+    }
+  }
+
+  .secondCol,
+  .thirdCol {
+    @media only screen and (max-width: 599px) {
+      display: none;
     }
   }
 
@@ -39,6 +93,13 @@ footer {
     font-size: 4rem;
     color: var(--white);
     transition: all ease-in-out 150ms;
+
+    @media only screen and (max-width: 399px) {
+      font-size: 18px;
+    }
+    @media only screen and (min-width: 400px) and (max-width: 599px) {
+      font-size: 20px;
+    }
   }
 
   ion-icon:hover,
@@ -59,6 +120,14 @@ footer {
     margin-top: 6.4rem;
     align-items: flex-start;
     justify-content: center;
+
+    @media only screen and (max-width: 599px) {
+      flex-direction: column;
+      gap: 0;
+    }
+    @media only screen and (min-width: 600px) and (max-width: 799px) {
+      gap: 80px;
+    }
   }
 
   .col-heading {
@@ -78,112 +147,5 @@ footer {
   .col-link a:hover,
   .col-link a:active {
     text-decoration: underline;
-  }
-}
-
-/* Media Queries */
-
-@media only screen and (max-width: 399px) {
-  footer {
-    height: 180px;
-
-    .footer-logo {
-      width: 96px;
-      height: 96px;
-    }
-
-    .firstCol {
-      p {
-        font-size: 10px;
-      }
-
-      ion-icon {
-        font-size: 18px;
-      }
-    }
-  }
-}
-
-@media only screen and (min-width: 400px) and (max-width: 599px) {
-  footer {
-    height: 200px;
-
-    .footer-logo {
-      width: 108px;
-      height: 108px;
-    }
-
-    .firstCol {
-      p {
-        font-size: 12px;
-      }
-
-      ion-icon {
-        font-size: 20px;
-      }
-    }
-  }
-}
-
-@media only screen and (max-width: 599px) {
-  footer {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-
-    .cols {
-      flex-direction: column;
-      gap: 0;
-    }
-
-    .footer-logo {
-      transform: translateX(0);
-    }
-
-    .firstCol {
-      align-items: center;
-
-      p {
-        width: fit-content;
-      }
-    }
-
-    .secondCol,
-    .thirdCol {
-      display: none;
-    }
-  }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 799px) {
-  footer {
-    .cols {
-      gap: 80px;
-    }
-
-    .footer-logo {
-      height: 60px;
-      width: 60px;
-    }
-  }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 699px) {
-  footer {
-    .firstCol {
-      p {
-        width: 75px;
-      }
-    }
-  }
-}
-
-@media only screen and (min-width: 700px) and (max-width: 799px) {
-  footer {
-    .firstCol {
-      p {
-        width: 85px;
-      }
-    }
   }
 }
