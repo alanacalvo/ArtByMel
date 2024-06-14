@@ -22,6 +22,9 @@
   @media (min-width: 600px) and (max-width: 799px) {
     height: 520px;
   }
+  @media (min-width: 800px) and (max-width: 999px) {
+    height: 760px;
+  }
   @media only screen and (min-width: 2100px) {
     height: 120rem;
   }
@@ -42,6 +45,10 @@
   @media (min-width: 600px) and (max-width: 799px) {
     padding-left: 72px;
     grid-template-rows: 185px 92px 185px;
+  }
+  @media (min-width: 800px) and (max-width: 999px) {
+    padding-left: 80px;
+    grid-template-rows: 239px 119px 239px;
   }
 }
 
@@ -106,6 +113,10 @@ h1 {
     margin-top: 40px;
     width: 160px;
     height: 36px;
+  }
+  @media (min-width: 800px) and (max-width: 999px) {
+    margin-top: 64px;
+    width: 200px;
   }
 }
 
