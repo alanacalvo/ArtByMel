@@ -2,26 +2,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2em;
+  gap: 25px;
+  // max-width: 800px;
   margin-top: 150px;
   padding-bottom: 150px;
-  @media (max-width: 598px) {
+  @media (max-width: 985px) {
     flex-direction: column;
-    gap: 4em;
+    gap: 25px;
     margin-top: 100px;
   }
 }
 
 .cards {
-  width: 38em;
-  height: 49.2em;
-  @media (max-width: 598px) {
-    width: 80em;
-    height: 100em;
+  width: 300px;
+  height: 475px;
+  @media (max-width: 985px) {
+    width: 400px;
+    height: 550px;
   }
-  @media (max-width: 400px) {
-    width: 70em;
-    height: 100em;
+  @media (max-width: 500px) {
+    width: 380px;
+    height: 500px;
+    padding: 0 30px;
   }
 }
 
