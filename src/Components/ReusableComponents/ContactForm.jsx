@@ -8,7 +8,7 @@ const ContactForm = (props) => {
           <h4 className="section-title">{props.title}</h4>
           <h2 className="headline">{props.headline}</h2>
         </div>
-        <form>
+        <form name="contact" netlify>
           <div className="name-textbox">
             <label>Full Name</label>
             <input type="text" id="name" name="name" required />
@@ -25,7 +25,9 @@ const ContactForm = (props) => {
             <label>Message</label>
             <textarea id="message" name="message" rows="10" />
           </div>
-          <button className="submit-btn">Submit Request</button>
+          <button className="submit-btn" type="submit">
+            Submit Request
+          </button>
         </form>
       </div>
     </>
