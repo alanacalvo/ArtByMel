@@ -8,7 +8,7 @@ const ContactForm = (props) => {
           <h4 className="section-title">{props.title}</h4>
           <h2 className="headline">{props.headline}</h2>
         </div>
-        <form name="form-name" method="POST" value="contact" netlify>
+        <form name="contact" method="POST">
           <div className="name-textbox">
             <label>Full Name</label>
             <input type="text" id="name" name="name" required />
