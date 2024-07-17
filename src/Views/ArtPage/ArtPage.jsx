@@ -38,7 +38,6 @@ const ArtPage = () => {
           </div>
         </div>
         <ContactForm
-          value={"art-form"}
           title={"Commissions"}
           headline={"Request Custom Artwork"}
         />
