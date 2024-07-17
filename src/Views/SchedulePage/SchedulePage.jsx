@@ -56,7 +56,7 @@ function SchedulePage() {
           )} */}
           </div>
           <ContactForm
-            formName={"book-form"}
+            value={"book-form"}
             title={"Appointments"}
             headline={"Ask About An Unavailable Date Or Different Location"}
           />
