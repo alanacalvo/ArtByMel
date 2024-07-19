@@ -8,7 +8,8 @@ const ContactForm = (props) => {
           <h4 className="section-title">{props.title}</h4>
           <h2 className="headline">{props.headline}</h2>
         </div>
-        <form name="contact" method="POST">
+        <form name="contactForm" method="POST">
+          <input type="hidden" name="form-name" value="contactForm" />
           <div className="name-textbox">
             <label>Full Name</label>
             <input type="text" id="name" name="name" required />
