@@ -21,7 +21,7 @@ function SchedulePage() {
         <div className="book-body">
           <div className="calendar">
             <InlineWidget
-              url="https://calendly.com/melvinjr329"
+              url="https://calendly.com/melvinlozada"
               styles={{
                 height: "1000px",
                 width: "100vw",
